@@ -28,6 +28,15 @@
       "limit": {
         "zh": "观察研究；不是 AI 干预模型，也不能证明变化是病因。",
         "en": "Observational atlas, not an AI intervention model or proof of disease causation."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-019-1195-2",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -57,6 +66,15 @@
       "limit": {
         "zh": "尸检横截面数据；区域差异不等于疾病真实时间轨迹。",
         "en": "Postmortem cross-sectional data; regional differences are not a measured disease timeline."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-024-07606-7",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -86,6 +104,15 @@
       "limit": {
         "zh": "统计因果解释依赖假设；伪时间不是追踪同一个人的纵向测量。",
         "en": "Causal interpretation depends on assumptions; pseudotime is not longitudinal follow-up."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-024-07871-6",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -115,6 +142,15 @@
       "limit": {
         "zh": "细胞模型机制支持，不是已验证的人体治疗；可作为 AI 候选机制验证范例。",
         "en": "Cell-model mechanism evidence, not a proven human therapy; a template for validating AI hypotheses."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-025-09486-x",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -144,6 +180,15 @@
       "limit": {
         "zh": "AI 提供线索，实验提供证据；抑制剂结果仍是临床前。",
         "en": "AI supplies a lead; experiments supply evidence. Inhibitor findings remain preclinical."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12204802/",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -173,6 +218,15 @@
       "limit": {
         "zh": "表型关联评分，不是单细胞病因标签；须按供体划分训练测试。",
         "en": "Phenotype-association scores are not causal cell labels; split evaluation by donor."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41591-025-04128-1",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -202,6 +256,15 @@
       "limit": {
         "zh": "预测/归因不等于因果；20 位供体不能按细胞数扩大有效样本量。",
         "en": "Prediction and attribution are not causality; 20 donors do not become thousands of independent patients."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13499675/",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -231,6 +294,15 @@
       "limit": {
         "zh": "组织分型不是已经验证的药物选择规则。",
         "en": "Tissue subtypes are not yet validated rules for choosing therapy."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-023-06708-y",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -260,6 +332,15 @@
       "limit": {
         "zh": "实验条件中的状态诱导，不代表患者全身长期响应。",
         "en": "State induction in an experimental context does not establish long-term patient response."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41590-023-01527-9",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -289,6 +370,15 @@
       "limit": {
         "zh": "空间共现不是细胞之间的因果作用；治疗需独立验证。",
         "en": "Spatial co-occurrence is not causal interaction; treatment implications require validation."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-026-10363-4",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -318,6 +408,15 @@
       "limit": {
         "zh": "供体、激活状态和实验读出限制外推范围。",
         "en": "Donor, activation state and measured endpoints constrain generalization."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://pubmed.ncbi.nlm.nih.gov/35113687/",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -347,6 +446,15 @@
       "limit": {
         "zh": "批次校正可能抹去真实差异；整合漂亮不代表生物结论正确。",
         "en": "Batch correction may remove true differences; attractive embeddings do not establish biology."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41592-018-0229-2",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -376,6 +484,15 @@
       "limit": {
         "zh": "潜在变化可迁移是假设；未见刺激与严重分布变化仍困难。",
         "en": "Transferable latent changes are an assumption; unseen stimuli and major shifts remain difficult."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41592-019-0494-8",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -405,6 +522,15 @@
       "limit": {
         "zh": "不要将组合外推直接等同于任意未见基因敲除预测。",
         "en": "Compositional extrapolation is not unrestricted prediction of unseen gene knockouts."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://doi.org/10.15252/msb.202211517",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -434,6 +560,15 @@
       "limit": {
         "zh": "网络先验和线性近似限制预测；不能为所有推断边提供因果证明。",
         "en": "Priors and model approximations limit predictions; inferred edges are not all causally proven."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-022-05688-9",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -463,6 +598,15 @@
       "limit": {
         "zh": "知识先验可能泄漏；必须与线性、无变化、加性基线按同一划分比较。",
         "en": "Priors may leak information; compare linear, no-change and additive baselines on identical splits."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41587-023-01905-6",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -492,6 +636,15 @@
       "limit": {
         "zh": "模型中的删除 token 不等于真实敲除；须做生物实验验证。",
         "en": "Deleting a token is not a biological knockout; experimental validation is necessary."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-023-06139-9",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -521,6 +674,15 @@
       "limit": {
         "zh": "不是完整细胞模拟器；扰动泛化优势需按新评测重新确认。",
         "en": "Not a complete cell simulator; perturbation generalization needs renewed benchmarking."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41592-024-02201-0",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -550,6 +712,15 @@
       "limit": {
         "zh": "空间表示不是细胞通信机制或因果关系。",
         "en": "Spatial representations do not establish communication mechanisms or causal relationships."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41592-025-02814-z",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -579,6 +750,15 @@
       "limit": {
         "zh": "注意力/预测关系不自动代表因果；干预是重要校验。",
         "en": "Attention or predictive relationships are not automatically causal; interventions provide key checks."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12003772/",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -608,6 +788,15 @@
       "limit": {
         "zh": "量化省显存不代表生物泛化问题已解决。",
         "en": "Lower memory use does not mean biological generalization is solved."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s43588-026-00972-4",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -637,6 +826,15 @@
       "limit": {
         "zh": "识别新状态不等于预测任意干预；需确认任务与数据重叠。",
         "en": "Recognizing new states is not arbitrary intervention prediction; check task and data overlap."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-026-10689-z",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -666,6 +864,15 @@
       "limit": {
         "zh": "不是逐个细胞的已观测反事实；代码、权重和输出有非商业使用约束。",
         "en": "Not observed individual-cell counterfactuals; code, weights and outputs have non-commercial restrictions."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://doi.org/10.1016/j.cell.2026.07.052",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -695,6 +902,15 @@
       "limit": {
         "zh": "依赖初始分割和评估代理；输出不是无条件真实标签。",
         "en": "Depends on initial segmentation and evaluation proxies; outputs are not unconditional ground truth."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41592-026-03212-9",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -724,6 +940,15 @@
       "limit": {
         "zh": "蛋白强度不是 RNA 计数；潜在不确定性不是自动校准的临床风险。",
         "en": "Protein intensity is not RNA counts; latent uncertainty is not automatically calibrated clinical risk."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41592-026-03224-5",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -753,6 +978,15 @@
       "limit": {
         "zh": "结论限定于该任务、数据和划分；不是“所有 AI 都无效”。",
         "en": "Scoped to these tasks, datasets and splits; not a claim that all AI is ineffective."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41592-025-02772-6",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -782,6 +1016,15 @@
       "limit": {
         "zh": "校准后的优势也不自动证明对未见供体/细胞类型的泛化。",
         "en": "Calibrated gains do not automatically establish generalization to unseen donors or cell types."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41587-026-03307-w",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -811,6 +1054,15 @@
       "limit": {
         "zh": "不能把随机细胞留出称作新患者或新机制泛化。",
         "en": "A random-cell holdout is not new-patient or new-mechanism generalization."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://proceedings.mlr.press/v267/wenteler25a.html",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -840,6 +1092,15 @@
       "limit": {
         "zh": "干预读出不是完整网络真值；不要与同名 LLM 基准混淆。",
         "en": "Intervention readouts are not complete network ground truth; distinct from similarly named LLM benchmarks."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s42003-025-07764-y",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -869,6 +1130,15 @@
       "limit": {
         "zh": "理论结果在已知图、线性结构等条件下成立，不是通用实验最优保证。",
         "en": "Theory relies on conditions such as known graphs and linear structures, not universal optimality."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s42256-023-00719-0",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -898,6 +1168,15 @@
       "limit": {
         "zh": "单一细胞系与筛选基因范围限制外推。",
         "en": "A single cell line and selected genes limit extrapolation."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://pmc.ncbi.nlm.nih.gov/articles/6746554/",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -927,6 +1206,15 @@
       "limit": {
         "zh": "敲低效率、应激和生长选择会影响读出。",
         "en": "Knockdown efficiency, stress and growth selection affect measured responses."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9380471/",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -956,6 +1244,15 @@
       "limit": {
         "zh": "预测变异效应不等于致病结论；组织语境与功能验证不可少。",
         "en": "Predicted variant effects are not pathogenicity conclusions; tissue context and validation matter."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-025-10014-0",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -985,6 +1282,15 @@
       "limit": {
         "zh": "序列合理性不代表细胞功能、临床安全或机制已被证明。",
         "en": "Sequence plausibility does not establish cell function, clinical safety or mechanism."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-026-10176-5",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1014,6 +1320,15 @@
       "limit": {
         "zh": "结构不是动态、结合强度或药效的完整答案。",
         "en": "A structure is not a complete answer about dynamics, affinity or drug efficacy."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-021-03819-2",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1043,6 +1358,15 @@
       "limit": {
         "zh": "预测结合姿态不是结合自由能或临床效果；遵守权重许可。",
         "en": "A predicted pose is not binding free energy or clinical efficacy; respect weight licensing."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-024-07487-w",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1072,6 +1396,15 @@
       "limit": {
         "zh": "报告亲和力读出和单位；模型分数不是药物疗效。该条对应预印本。",
         "en": "Report affinity endpoints and units; scores are not therapeutic efficacy. This entry refers to a preprint."
+      },
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://doi.org/10.1101/2025.06.14.659707",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
       }
     },
     {
@@ -1101,6 +1434,15 @@
       "limit": {
         "zh": "候选关系/排名不是临床疗效；训练关系泄漏须检查。",
         "en": "Predicted links or rankings are not clinical efficacy; check relation leakage."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41591-024-03233-x",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1130,6 +1472,15 @@
       "limit": {
         "zh": "切片特征不是机制解释；按患者划分，并检查中心/扫描仪偏差。",
         "en": "Slide features are not mechanistic explanations; split by patient and test site/scanner bias."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41591-024-02857-3",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1159,6 +1510,15 @@
       "limit": {
         "zh": "图文相似不等于正确诊断；细粒度病理与许可限制需核查。",
         "en": "Image–text similarity is not a correct diagnosis; check fine-grained limitations and licenses."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41591-024-02856-4",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1188,6 +1548,15 @@
       "limit": {
         "zh": "静态切片不能直接测动态机制；预后关联需要外部/前瞻验证。",
         "en": "Static slides do not directly measure dynamics; prognostic associations need external/prospective validation."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41591-026-04357-y",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1217,6 +1586,15 @@
       "limit": {
         "zh": "案例成功不等于所有输出可靠；完整系统并非开放源码。",
         "en": "Successful cases do not validate all outputs; the complete system is not open source."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-026-10644-y",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1246,6 +1624,15 @@
       "limit": {
         "zh": "需要人类实验团队；不是无需实验即可确认结果的系统。",
         "en": "Requires human experimental teams; not a system that verifies results without experiments."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-025-09442-9",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1275,6 +1662,15 @@
       "limit": {
         "zh": "代码跑通与科学结论正确是两种验证；敏感数据不能随意发往模型 API。",
         "en": "Successful code execution and scientific validity are separate checks; protect sensitive data from model APIs."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.science.org/doi/10.1126/science.adz4351",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1304,6 +1700,15 @@
       "limit": {
         "zh": "仍须审查统计假设、数据划分和生物解释；不是同名显微镜产品。",
         "en": "Review statistics, splits and biological interpretation; distinct from the similarly named microscope product."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41592-026-03029-6",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1333,6 +1738,15 @@
       "limit": {
         "zh": "任务成功率不是临床诊断准确率，也不是全部科学结论正确率。",
         "en": "Task success is not clinical diagnostic accuracy or universal scientific correctness."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41551-026-01634-6",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1362,6 +1776,15 @@
       "limit": {
         "zh": "需要可访问代码/数据；包装成功不代表所有论文均可完整复现。",
         "en": "Requires accessible code/data; successful packaging does not mean every paper is fully reproducible."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-026-11044-y",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -1391,6 +1814,15 @@
       "limit": {
         "zh": "公开的是 SimpleSciBuddy/RSI 实现；完整托管界面并未开源，模拟反馈不等于真实发现验证。",
         "en": "The public release is SimpleSciBuddy/RSI, not the complete hosted frontend; simulated feedback is not validation of real discoveries."
+      },
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://arxiv.org/abs/2609.17523",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
       }
     }
   ],
@@ -1417,6 +1849,16 @@
       "pitfall": {
         "zh": "申请、DUA 与用途限制；不是所有人都有全部模态。",
         "en": "Application, DUA and use restrictions; not everyone has every modality."
+      },
+      "year": 2004,
+      "yearKind": {
+        "zh": "项目启动",
+        "en": "Project launch"
+      },
+      "yearSource": "https://adni.loni.usc.edu/about/",
+      "yearNote": {
+        "zh": "项目启动",
+        "en": "Project launch"
       }
     },
     {
@@ -1441,6 +1883,16 @@
       "pitfall": {
         "zh": "需申请与遵守数据协议；对齐相对时间，不拼接错误会话。",
         "en": "Apply and follow the agreement; align relative times rather than mismatching sessions."
+      },
+      "year": 2019,
+      "yearKind": {
+        "zh": "资源论文 · 预印本",
+        "en": "Resource paper · preprint"
+      },
+      "yearSource": "https://doi.org/10.1101/2019.12.13.19014902",
+      "yearNote": {
+        "zh": "资源论文 · 预印本",
+        "en": "Resource paper · preprint"
       }
     },
     {
@@ -1465,6 +1917,16 @@
       "pitfall": {
         "zh": "2026 年政策更新后，个体级人类原始/处理/衍生数据通常受控；核对具体实体。",
         "en": "Following 2026 policy changes, individual-level human raw/processed/derived data are generally controlled; check each entity."
+      },
+      "year": 2014,
+      "yearKind": {
+        "zh": "AMP-AD 启动",
+        "en": "AMP-AD launch"
+      },
+      "yearSource": "https://www.nia.nih.gov/research/amp-ad",
+      "yearNote": {
+        "zh": "2014 为 AMP-AD 项目启动年，不是 ROSMAP 队列或每个数据文件的发布年。",
+        "en": "2014 is the AMP-AD launch year, not the start of the ROSMAP cohorts or the release year of every file."
       }
     },
     {
@@ -1489,6 +1951,16 @@
       "pitfall": {
         "zh": "公开处理资源与受控原始资源分开；不同脑区和版本不要混作同一实验。",
         "en": "Separate public processed and controlled raw resources; distinguish regions and versions."
+      },
+      "year": 2024,
+      "yearKind": {
+        "zh": "图谱论文",
+        "en": "Atlas publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41593-024-01774-5",
+      "yearNote": {
+        "zh": "图谱论文 2024；官方数据页另有 2026 年 6 月的多脑区数据更新。",
+        "en": "Atlas publication 2024; the official data page also documents a June 2026 multiregion update."
       }
     },
     {
@@ -1513,6 +1985,16 @@
       "pitfall": {
         "zh": "全资源与论文过滤子集规模不同；标签不可直接复制为细胞病因。",
         "en": "Full-resource and filtered-study sizes differ; labels are not cell-level causal truth."
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "资源论文",
+        "en": "Resource publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41591-025-04128-1",
+      "yearNote": {
+        "zh": "资源论文",
+        "en": "Resource publication"
       }
     },
     {
@@ -1537,6 +2019,16 @@
       "pitfall": {
         "zh": "配对关系与伪 bulk 汇总层级必须明确；检查仓库数据入口。",
         "en": "Document pairing and pseudobulk aggregation levels; check repository data routes."
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "资源论文",
+        "en": "Resource publication"
+      },
+      "yearSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13499675/",
+      "yearNote": {
+        "zh": "资源论文",
+        "en": "Resource publication"
       }
     },
     {
@@ -1561,6 +2053,16 @@
       "pitfall": {
         "zh": "固定 Census 版本；重复细胞、标准化标签与训练语料重叠需检查。",
         "en": "Pin Census versions; inspect duplicate cells, harmonized labels and pretraining overlap."
+      },
+      "year": 2023,
+      "yearKind": {
+        "zh": "Census 发布",
+        "en": "Census launch"
+      },
+      "yearSource": "https://chanzuckerberg.com/about/annual-letter/year-2023/",
+      "yearNote": {
+        "zh": "Census 发布",
+        "en": "Census launch"
       }
     },
     {
@@ -1585,6 +2087,16 @@
       "pitfall": {
         "zh": "项目格式、许可与模态不统一；“atlas”不是已配对的所有组学。",
         "en": "Formats, permissions and modalities vary; an atlas is not fully paired multi-omics."
+      },
+      "year": 2016,
+      "yearKind": {
+        "zh": "项目启动",
+        "en": "Project launch"
+      },
+      "yearSource": "https://www.humancellatlas.org/event/human-cell-atlas-launch-meeting/",
+      "yearNote": {
+        "zh": "项目启动",
+        "en": "Project launch"
       }
     },
     {
@@ -1609,6 +2121,16 @@
       "pitfall": {
         "zh": "44 个数据集是论文整理规模，不是永远不变的当前计数；原始与归一化值分开。",
         "en": "44 datasets describes the published collection, not a permanent live count; distinguish raw and normalized values."
+      },
+      "year": 2024,
+      "yearKind": {
+        "zh": "资源论文",
+        "en": "Resource publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41592-023-02144-y",
+      "yearNote": {
+        "zh": "资源论文",
+        "en": "Resource publication"
       }
     },
     {
@@ -1633,6 +2155,16 @@
       "pitfall": {
         "zh": "敲低并非完全敲除；按基因/条件留出，避免同条件细胞泄漏。",
         "en": "Knockdown is not full knockout; hold out genes/conditions to avoid same-condition leakage."
+      },
+      "year": 2022,
+      "yearKind": {
+        "zh": "数据论文",
+        "en": "Dataset publication"
+      },
+      "yearSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9380471/",
+      "yearNote": {
+        "zh": "数据论文",
+        "en": "Dataset publication"
       }
     },
     {
@@ -1657,6 +2189,16 @@
       "pitfall": {
         "zh": "不同预处理版本分数不可直接比；加性基线很重要。",
         "en": "Scores across preprocessing versions are not directly comparable; additive baselines matter."
+      },
+      "year": 2019,
+      "yearKind": {
+        "zh": "数据论文",
+        "en": "Dataset publication"
+      },
+      "yearSource": "https://pmc.ncbi.nlm.nih.gov/articles/6746554/",
+      "yearNote": {
+        "zh": "数据论文",
+        "en": "Dataset publication"
       }
     },
     {
@@ -1681,6 +2223,16 @@
       "pitfall": {
         "zh": "Parquet 不是 H5AD；先流式抽子集，细胞系不代表患者人群。",
         "en": "Parquet is not H5AD; stream a subset first. Cell lines do not represent patient populations."
+      },
+      "year": 2025,
+      "yearKind": {
+        "zh": "公开数据发布",
+        "en": "Public dataset release"
+      },
+      "yearSource": "https://huggingface.co/datasets/tahoebio/Tahoe-100M/blame/main/README.md",
+      "yearNote": {
+        "zh": "公开数据发布",
+        "en": "Public dataset release"
       }
     },
     {
@@ -1705,6 +2257,16 @@
       "pitfall": {
         "zh": "978 个基因为直接测量，其余含推断值；处理层级与重复汇总要分清。",
         "en": "978 genes are directly measured; additional values include inference. Track processing and replicate aggregation."
+      },
+      "year": 2017,
+      "yearKind": {
+        "zh": "L1000 资源论文",
+        "en": "L1000 resource publication"
+      },
+      "yearSource": "https://pubmed.ncbi.nlm.nih.gov/29195078/",
+      "yearNote": {
+        "zh": "L1000 资源论文",
+        "en": "L1000 resource publication"
       }
     },
     {
@@ -1729,6 +2291,16 @@
       "pitfall": {
         "zh": "同板、同孔与重复药物泄漏；图像 TB 级资源先选子集。",
         "en": "Plate, well and replicate leakage; subset before downloading terabyte-scale images."
+      },
+      "year": 2023,
+      "yearKind": {
+        "zh": "数据论文 · 预印本",
+        "en": "Dataset paper · preprint"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.1101/2023.03.23.534023v1",
+      "yearNote": {
+        "zh": "数据论文 · 预印本",
+        "en": "Dataset paper · preprint"
       }
     },
     {
@@ -1753,6 +2325,16 @@
       "pitfall": {
         "zh": "公开处理数据与受控数据分开；一个患者多张切片不可跨训练测试。",
         "en": "Separate open processed and controlled files; keep all slides from one patient in one split."
+      },
+      "year": 2016,
+      "yearKind": {
+        "zh": "GDC 平台启动",
+        "en": "GDC platform launch"
+      },
+      "yearSource": "https://www.cancer.gov/news-events/press-releases/2016/genomic-data-commons-launch",
+      "yearNote": {
+        "zh": "2016 指 GDC 平台启动；TCGA 项目及各癌种论文、数据版本有各自年份。",
+        "en": "2016 refers to the GDC launch; TCGA, cancer-specific papers and data versions have their own dates."
       }
     },
     {
@@ -1777,6 +2359,16 @@
       "pitfall": {
         "zh": "依赖分数不是临床药物效果；版本、组织来源和培养条件重要。",
         "en": "Dependency scores are not clinical drug effects; version, tissue origin and culture conditions matter."
+      },
+      "year": 2017,
+      "yearKind": {
+        "zh": "首版依赖图谱论文",
+        "en": "Initial dependency-map publication"
+      },
+      "yearSource": "https://depmap.org/rnai/",
+      "yearNote": {
+        "zh": "首版依赖图谱论文",
+        "en": "Initial dependency-map publication"
       }
     },
     {
@@ -1801,6 +2393,16 @@
       "pitfall": {
         "zh": "个体基因型受控；bulk 信号混合多种细胞，eQTL 不直接证明病因。",
         "en": "Individual genotypes are controlled; bulk signals mix cells, and eQTLs do not directly prove disease causation."
+      },
+      "year": 2010,
+      "yearKind": {
+        "zh": "项目启动",
+        "en": "Project launch"
+      },
+      "yearSource": "https://www.nimh.nih.gov/news/science-updates/2010/nih-launches-genotype-tissue-expression-project",
+      "yearNote": {
+        "zh": "项目启动",
+        "en": "Project launch"
       }
     },
     {
@@ -1825,6 +2427,16 @@
       "pitfall": {
         "zh": "参考基因组、坐标约定与实验质量必须一致。",
         "en": "Match reference genome, coordinate conventions and assay quality."
+      },
+      "year": 2003,
+      "yearKind": {
+        "zh": "项目启动",
+        "en": "Project launch"
+      },
+      "yearSource": "https://www.genome.gov/12513456/encode-project-background",
+      "yearNote": {
+        "zh": "项目启动",
+        "en": "Project launch"
       }
     },
     {
@@ -1849,6 +2461,16 @@
       "pitfall": {
         "zh": "汇总分数不是因果概率；查看证据来源与重复证据。",
         "en": "Aggregate scores are not causal probabilities; inspect provenance and duplicate evidence."
+      },
+      "year": 2015,
+      "yearKind": {
+        "zh": "平台启动",
+        "en": "Platform launch"
+      },
+      "yearSource": "https://opentargets.org/history",
+      "yearNote": {
+        "zh": "平台启动",
+        "en": "Platform launch"
       }
     },
     {
@@ -1873,6 +2495,16 @@
       "pitfall": {
         "zh": "关联位点未必是致病变异；需 LD、精细定位与功能验证。",
         "en": "Associated loci may not be causal variants; use LD, fine-mapping and functional tests."
+      },
+      "year": 2008,
+      "yearKind": {
+        "zh": "数据库建立",
+        "en": "Catalog established"
+      },
+      "yearSource": "https://www.ebi.ac.uk/gwas/docs/about/",
+      "yearNote": {
+        "zh": "数据库建立",
+        "en": "Catalog established"
       }
     },
     {
@@ -1897,6 +2529,16 @@
       "pitfall": {
         "zh": "实验结构和预测结构分开；缺失区域与不同构象不可忽略。",
         "en": "Separate experimental from predicted structures; consider missing regions and conformations."
+      },
+      "year": 1971,
+      "yearKind": {
+        "zh": "PDB 档案建立",
+        "en": "PDB archive established"
+      },
+      "yearSource": "https://www4.rcsb.org/pages/about-us/history",
+      "yearNote": {
+        "zh": "1971 指 PDB 档案建立，不是当前 RCSB 网站或每条结构的发布年。",
+        "en": "1971 refers to the PDB archive, not the current RCSB website or the release year of each structure."
       }
     },
     {
@@ -1921,6 +2563,16 @@
       "pitfall": {
         "zh": "IC50、Kd 等不可直接混合；“>”与“<”是删失信息，单位必须统一。",
         "en": "Do not freely mix IC50 and Kd; inequality signs encode censoring, and units must match."
+      },
+      "year": 2010,
+      "yearKind": {
+        "zh": "公开发布",
+        "en": "Public launch"
+      },
+      "yearSource": "https://www.ebi.ac.uk/sites/ebi.ac.uk/files/groups/external_relations/Documents/Annual_Scientific_Report_low_res.pdf",
+      "yearNote": {
+        "zh": "公开发布",
+        "en": "Public launch"
       }
     },
     {
@@ -1945,6 +2597,16 @@
       "pitfall": {
         "zh": "需资质、培训与 DUA；衍生资源仍敏感；医院数据不是随机治疗试验。",
         "en": "Credentialing, training and DUA required; derivatives remain sensitive, and records are not randomized treatment trials."
+      },
+      "year": 2024,
+      "yearKind": {
+        "zh": "v3.1 发布",
+        "en": "v3.1 release"
+      },
+      "yearSource": "https://physionet.org/content/mimiciv/3.1/",
+      "yearNote": {
+        "zh": "v3.1 发布",
+        "en": "v3.1 release"
       }
     },
     {
@@ -1969,6 +2631,16 @@
       "pitfall": {
         "zh": "输出格式随平台/版本变化；基因 panel、坐标单位和分割质量影响解释。",
         "en": "Formats vary by platform/version; gene panels, units and segmentation affect interpretation."
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "目录核查",
+        "en": "Catalog reviewed"
+      },
+      "yearSource": "https://www.10xgenomics.com/datasets",
+      "yearNote": {
+        "zh": "这是持续更新的示范数据目录，不是一个单独数据集。2026 为核查年；具体数据集的发布日期以各自页面为准。",
+        "en": "This is a changing demonstration-data catalog, not a single dataset. 2026 is the review year; individual dataset pages give their release dates."
       }
     }
   ],
@@ -1992,7 +2664,19 @@
       "limit": {
         "zh": "官方 RSI 配置 8×A100；不代表使用托管助手也要 8 卡。检查外部任务模型与资产。",
         "en": "Official RSI uses 8×A100; hosted usage does not imply eight GPUs. Check external task models/assets."
-      }
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://arxiv.org/abs/2609.17523",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "repositoryYear": 2026,
+      "repositoryYearSource": "https://api.github.com/repos/Gen-Verse/ScienceBuddy"
     },
     {
       "name": "Biomni",
@@ -2013,7 +2697,19 @@
       "limit": {
         "zh": "先做小任务；审查代码与证据，不把答案当医疗建议。",
         "en": "Start with a small task; audit code/evidence and do not treat answers as medical advice."
-      }
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.science.org/doi/10.1126/science.adz4351",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "repositoryYear": 2025,
+      "repositoryYearSource": "https://api.github.com/repos/snap-stanford/Biomni"
     },
     {
       "name": "CellVoyager",
@@ -2034,7 +2730,19 @@
       "limit": {
         "zh": "看每一步是否合理，而非仅看最终图是否漂亮。",
         "en": "Inspect each analytical step, not just whether the final plot looks convincing."
-      }
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41592-026-03029-6",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "repositoryYear": 2025,
+      "repositoryYearSource": "https://api.github.com/repos/zou-group/CellVoyager"
     },
     {
       "name": "BioMedAgent",
@@ -2055,7 +2763,19 @@
       "limit": {
         "zh": "BioMedAQA 成功率不是诊断准确率。",
         "en": "BioMedAQA success is not diagnostic accuracy."
-      }
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41551-026-01634-6",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "repositoryYear": 2024,
+      "repositoryYearSource": "https://api.github.com/repos/BOBQWERA/BioMedAgent"
     },
     {
       "name": "Paper2Agent",
@@ -2076,7 +2796,19 @@
       "limit": {
         "zh": "数据不可访问或依赖失效时，论文不能自动完整复现。",
         "en": "Inaccessible data or broken dependencies prevent automatic full reproduction."
-      }
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-026-11044-y",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "repositoryYear": 2025,
+      "repositoryYearSource": "https://api.github.com/repos/jmiao24/Paper2Agent"
     },
     {
       "name": "AI co-scientist",
@@ -2097,6 +2829,16 @@
       "limit": {
         "zh": "需要领域专家与实验验证；案例结果不可外推到全部假设。",
         "en": "Requires domain expertise and experiments; case results do not validate all hypotheses."
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-026-10644-y",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
       }
     },
     {
@@ -2118,7 +2860,19 @@
       "limit": {
         "zh": "实验执行不由语言模型独立完成。",
         "en": "Language models do not independently execute the wet-lab experiments."
-      }
+      },
+      "year": 2025,
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-025-09442-9",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "repositoryYear": 2024,
+      "repositoryYearSource": "https://api.github.com/repos/zou-group/virtual-lab"
     },
     {
       "name": "BioDiscoveryAgent",
@@ -2139,7 +2893,19 @@
       "limit": {
         "zh": "是实验设计助手，不是实验机器人。",
         "en": "An experiment-design assistant, not a laboratory robot."
-      }
+      },
+      "year": 2024,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/snap-stanford/BioDiscoveryAgent",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "repositoryYear": 2024,
+      "repositoryYearSource": "https://api.github.com/repos/snap-stanford/BioDiscoveryAgent"
     },
     {
       "name": "PaperQA / PaperQA2",
@@ -2160,7 +2926,19 @@
       "limit": {
         "zh": "引用存在不代表引用支持结论；核对段落。",
         "en": "An existing citation does not prove support; inspect the cited passage."
-      }
+      },
+      "year": 2023,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/Future-House/paper-qa",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "repositoryYear": 2023,
+      "repositoryYearSource": "https://api.github.com/repos/Future-House/paper-qa"
     },
     {
       "name": "TxAgent",
@@ -2181,7 +2959,19 @@
       "limit": {
         "zh": "本地推荐 H100 级大显存；不是临床处方系统。",
         "en": "Local setup recommends H100-class large memory; not a clinical prescribing system."
-      }
+      },
+      "year": 2025,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/mims-harvard/TxAgent",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "repositoryYear": 2025,
+      "repositoryYearSource": "https://api.github.com/repos/mims-harvard/TxAgent"
     },
     {
       "name": "ToolUniverse",
@@ -2202,7 +2992,19 @@
       "limit": {
         "zh": "工具库不是推理模型；记录参数、版本与失败状态。",
         "en": "A tool registry is not a reasoning model; record parameters, versions and failures."
-      }
+      },
+      "year": 2025,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/mims-harvard/ToolUniverse",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "repositoryYear": 2025,
+      "repositoryYearSource": "https://api.github.com/repos/mims-harvard/ToolUniverse"
     },
     {
       "name": "MedAgentGym",
@@ -2223,7 +3025,19 @@
       "limit": {
         "zh": "报告 72,413 个实例、129 类任务、12 场景；不是临床诊断评测。",
         "en": "Reports 72,413 instances, 129 categories and 12 scenarios; not clinical diagnosis evaluation."
-      }
+      },
+      "year": 2025,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/wshi83/MedAgentGym",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "repositoryYear": 2025,
+      "repositoryYearSource": "https://api.github.com/repos/wshi83/MedAgentGym"
     },
     {
       "name": "Scanpy + AnnData",
@@ -2244,6 +3058,16 @@
       "limit": {
         "zh": "先学 counts / normalization / obs；默认参数不是统计保证。",
         "en": "Learn counts, normalization and obs first; defaults are not statistical guarantees."
+      },
+      "year": 2018,
+      "yearKind": {
+        "zh": "Scanpy 论文",
+        "en": "Scanpy publication"
+      },
+      "yearSource": "https://doi.org/10.1186/s13059-017-1382-0",
+      "yearNote": {
+        "zh": "Scanpy 论文",
+        "en": "Scanpy publication"
       }
     },
     {
@@ -2265,6 +3089,16 @@
       "limit": {
         "zh": "模型选择须匹配测量分布；不要把归一化值当原始计数。",
         "en": "Match models to measurement distributions; normalized values are not raw counts."
+      },
+      "year": 2022,
+      "yearKind": {
+        "zh": "工具论文",
+        "en": "Toolkit publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41587-021-01206-w",
+      "yearNote": {
+        "zh": "工具论文",
+        "en": "Toolkit publication"
       }
     },
     {
@@ -2286,6 +3120,16 @@
       "limit": {
         "zh": "算法和任务匹配；小样本先跑基线。",
         "en": "Match algorithms to tasks; start with baselines on small samples."
+      },
+      "year": 2025,
+      "yearKind": {
+        "zh": "在线发表",
+        "en": "Online publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41592-025-02909-7",
+      "yearNote": {
+        "zh": "2025 年 12 月 31 日在线发表；期刊卷期为 2026。",
+        "en": "Published online 31 December 2025; the journal volume/issue is dated 2026."
       }
     },
     {
@@ -2307,7 +3151,19 @@
       "limit": {
         "zh": "固定模型与数据版本，检查商业用途；不要默认所有开源都可商用。",
         "en": "Pin model/data versions and check commercial use; public availability does not imply unrestricted use."
-      }
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://doi.org/10.1016/j.cell.2026.07.052",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "repositoryYear": 2025,
+      "repositoryYearSource": "https://api.github.com/repos/ArcInstitute/state"
     },
     {
       "name": "AlphaGenome",
@@ -2328,7 +3184,19 @@
       "limit": {
         "zh": "固定参考基因组与组织，不把模型分数当确诊。",
         "en": "Pin genome build and tissue; model scores are not diagnoses."
-      }
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-025-10014-0",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "repositoryYear": 2024,
+      "repositoryYearSource": "https://api.github.com/repos/google-deepmind/alphagenome"
     },
     {
       "name": "Evo 2",
@@ -2349,7 +3217,19 @@
       "limit": {
         "zh": "7B / 40B 权重与长序列运行开销不同。",
         "en": "7B/40B weights and long-sequence runtime have different resource costs."
-      }
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-026-10176-5",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "repositoryYear": 2025,
+      "repositoryYearSource": "https://api.github.com/repos/ArcInstitute/evo2"
     },
     {
       "name": "AlphaFold 3",
@@ -2370,7 +3250,19 @@
       "limit": {
         "zh": "数据库搜索、预处理与推理分开预算。",
         "en": "Budget database search, preprocessing and inference separately."
-      }
+      },
+      "year": 2024,
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://www.nature.com/articles/s41586-024-07487-w",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "repositoryYear": 2024,
+      "repositoryYearSource": "https://api.github.com/repos/google-deepmind/alphafold3"
     },
     {
       "name": "Boltz",
@@ -2391,7 +3283,19 @@
       "limit": {
         "zh": "结合概率和 IC50 型预测不是同一种读出。",
         "en": "Binding probability and IC50-type predictions are different endpoints."
-      }
+      },
+      "year": 2024,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/jwohlwend/boltz",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "repositoryYear": 2024,
+      "repositoryYearSource": "https://api.github.com/repos/jwohlwend/boltz"
     },
     {
       "name": "MONAI",
@@ -2412,6 +3316,16 @@
       "limit": {
         "zh": "框架不提供临床有效性保证；避免患者泄漏。",
         "en": "The framework does not guarantee clinical validity; prevent patient leakage."
+      },
+      "year": 2020,
+      "yearKind": {
+        "zh": "公开 alpha 发布",
+        "en": "Public alpha release"
+      },
+      "yearSource": "https://github.com/Project-MONAI/MONAI/blob/dev/CHANGELOG.md",
+      "yearNote": {
+        "zh": "公开 alpha 发布",
+        "en": "Public alpha release"
       }
     },
     {
@@ -2433,6 +3347,16 @@
       "limit": {
         "zh": "检查分割质量、通道和批次；形态变化不是机制证明。",
         "en": "Check segmentation, channels and batches; morphological change is not proof of mechanism."
+      },
+      "year": 2006,
+      "yearKind": {
+        "zh": "工具论文",
+        "en": "Toolkit publication"
+      },
+      "yearSource": "https://cellprofiler.org/citations",
+      "yearNote": {
+        "zh": "工具论文",
+        "en": "Toolkit publication"
       }
     }
   ],
@@ -2444,6 +3368,16 @@
       "desc": {
         "zh": "最接近“论文 + 数据 + 工具”的单细胞入口，含扰动、评测与基础设施。",
         "en": "The closest single-cell entry point for papers, data and tools, including perturbations, evaluation and infrastructure."
+      },
+      "year": 2023,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/OmicsML/awesome-foundation-model-single-cell-papers",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
       }
     },
     {
@@ -2453,6 +3387,16 @@
       "desc": {
         "zh": "虚拟细胞方向的模型、数据、基准与社区；不是完整临床数据目录。",
         "en": "Virtual-cell models, data, benchmarks and community; not a complete clinical-data catalog."
+      },
+      "year": 2025,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/Boom5426/Awesome-Virtual-Cell",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
       }
     },
     {
@@ -2462,6 +3406,16 @@
       "desc": {
         "zh": "跨学科资源，适合拓宽视野；生物医学部分需再按任务筛选。",
         "en": "Cross-disciplinary resources for broader discovery; filter biomedical entries by task."
+      },
+      "year": 2025,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/ai4s-research/awesome-ai-for-science",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
       }
     },
     {
@@ -2471,6 +3425,16 @@
       "desc": {
         "zh": "科学代理论文、工具与双语导读，适合进一步研究代理机制。",
         "en": "Scientific-agent papers, tools and bilingual guides for deeper agent-mechanism reading."
+      },
+      "year": 2024,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/zoedsy/awesome-science-agents",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
       }
     },
     {
@@ -2480,6 +3444,16 @@
       "desc": {
         "zh": "从科研自动化到自主发现的综述组织方式。",
         "en": "A survey-oriented map from research automation to autonomous discovery."
+      },
+      "year": 2025,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/HKUST-KnowComp/Awesome-LLM-Scientific-Discovery",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
       }
     },
     {
@@ -2489,6 +3463,16 @@
       "desc": {
         "zh": "单细胞分析的广泛工具与资源导航。",
         "en": "Broad navigation across single-cell tools and resources."
+      },
+      "year": 2016,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/seandavi/awesome-single-cell",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
       }
     },
     {
@@ -2498,6 +3482,16 @@
       "desc": {
         "zh": "可按任务查工具；工具收录并不代表最佳性能。",
         "en": "Find tools by task; inclusion is not proof of superior performance."
+      },
+      "year": 2018,
+      "yearKind": {
+        "zh": "资源论文",
+        "en": "Resource publication"
+      },
+      "yearSource": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006245",
+      "yearNote": {
+        "zh": "资源论文",
+        "en": "Resource publication"
       }
     }
   ],
@@ -3210,8 +4204,8 @@
     "paths": [
       {
         "title": {
-          "zh": "我是第一次接触这个领域",
-          "en": "I am new to this field"
+          "zh": "研究导览",
+          "en": "Research overview"
         },
         "time": {
           "zh": "约 30 分钟",

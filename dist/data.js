@@ -140,4 +140,58 @@ const glossary=[
 ['MCP / agent','工具接口 / 代理','MCP 连接工具；代理规划并调用工具。二者都不保证科学结论正确。','MCP connects tools; agents plan and call them. Neither guarantees scientific correctness.'],
 ['DUA','数据使用协议','规定谁能用数据、可用于什么、能否分享或发送到外部服务。','Defines who may use data, permitted purposes, sharing and external-service restrictions.']
 ];
+// Year labels distinguish publications, resource releases, project launches and
+// repository creation. Repository creation is not a public-release date.
+const dated=(year,zh,en,source,noteZh='',noteEn='')=>({year,yearKind:b(zh,en),yearSource:source,yearNote:b(noteZh||zh,noteEn||en)});
+const datasetDates={
+adni:dated(2004,'项目启动','Project launch','https://adni.loni.usc.edu/about/'),
+oasis:dated(2019,'资源论文 · 预印本','Resource paper · preprint','https://doi.org/10.1101/2019.12.13.19014902'),
+ampad:dated(2014,'AMP-AD 启动','AMP-AD launch','https://www.nia.nih.gov/research/amp-ad','2014 为 AMP-AD 项目启动年，不是 ROSMAP 队列或每个数据文件的发布年。','2014 is the AMP-AD launch year, not the start of the ROSMAP cohorts or the release year of every file.'),
+seaad:dated(2024,'图谱论文','Atlas publication','https://www.nature.com/articles/s41593-024-01774-5','图谱论文 2024；官方数据页另有 2026 年 6 月的多脑区数据更新。','Atlas publication 2024; the official data page also documents a June 2026 multiregion update.'),
+psychad:dated(2026,'资源论文','Resource publication','https://www.nature.com/articles/s41591-025-04128-1'),
+gage:dated(2026,'资源论文','Resource publication',research.find(r=>r.id==='hicformer').link),
+census:dated(2023,'Census 发布','Census launch','https://chanzuckerberg.com/about/annual-letter/year-2023/'),
+hca:dated(2016,'项目启动','Project launch','https://www.humancellatlas.org/event/human-cell-atlas-launch-meeting/'),
+scperturb:dated(2024,'资源论文','Resource publication','https://www.nature.com/articles/s41592-023-02144-y'),
+'replogle-data':dated(2022,'数据论文','Dataset publication',research.find(r=>r.id==='replogle').link),
+'norman-data':dated(2019,'数据论文','Dataset publication',research.find(r=>r.id==='norman').link),
+tahoe:dated(2025,'公开数据发布','Public dataset release','https://huggingface.co/datasets/tahoebio/Tahoe-100M/blame/main/README.md'),
+lincs:dated(2017,'L1000 资源论文','L1000 resource publication','https://pubmed.ncbi.nlm.nih.gov/29195078/'),
+jump:dated(2023,'数据论文 · 预印本','Dataset paper · preprint','https://www.biorxiv.org/content/10.1101/2023.03.23.534023v1'),
+gdc:dated(2016,'GDC 平台启动','GDC platform launch','https://www.cancer.gov/news-events/press-releases/2016/genomic-data-commons-launch','2016 指 GDC 平台启动；TCGA 项目及各癌种论文、数据版本有各自年份。','2016 refers to the GDC launch; TCGA, cancer-specific papers and data versions have their own dates.'),
+depmap:dated(2017,'首版依赖图谱论文','Initial dependency-map publication','https://depmap.org/rnai/'),
+gtex:dated(2010,'项目启动','Project launch','https://www.nimh.nih.gov/news/science-updates/2010/nih-launches-genotype-tissue-expression-project'),
+encode:dated(2003,'项目启动','Project launch','https://www.genome.gov/12513456/encode-project-background'),
+opentargets:dated(2015,'平台启动','Platform launch','https://opentargets.org/history'),
+gwas:dated(2008,'数据库建立','Catalog established','https://www.ebi.ac.uk/gwas/docs/about/'),
+pdb:dated(1971,'PDB 档案建立','PDB archive established','https://www4.rcsb.org/pages/about-us/history','1971 指 PDB 档案建立，不是当前 RCSB 网站或每条结构的发布年。','1971 refers to the PDB archive, not the current RCSB website or the release year of each structure.'),
+chembl:dated(2010,'公开发布','Public launch','https://www.ebi.ac.uk/sites/ebi.ac.uk/files/groups/external_relations/Documents/Annual_Scientific_Report_low_res.pdf'),
+mimic:dated(2024,'v3.1 发布','v3.1 release','https://physionet.org/content/mimiciv/3.1/'),
+xenium:dated(2026,'目录核查','Catalog reviewed','https://www.10xgenomics.com/datasets','这是持续更新的示范数据目录，不是一个单独数据集。2026 为核查年；具体数据集的发布日期以各自页面为准。','This is a changing demonstration-data catalog, not a single dataset. 2026 is the review year; individual dataset pages give their release dates.')
+};
+const repositoryYears={
+'ScienceBuddy':2026,'Biomni':2025,'CellVoyager':2025,'BioMedAgent':2024,'Paper2Agent':2025,
+'Virtual Lab':2024,'BioDiscoveryAgent':2024,'PaperQA / PaperQA2':2023,'TxAgent':2025,
+'ToolUniverse':2025,'MedAgentGym':2025,'State + CellEval':2025,'AlphaGenome':2024,
+'Evo 2':2025,'AlphaFold 3':2024,'Boltz':2024,
+'OmicsML · Single-cell foundation models':2023,'Awesome Virtual Cell':2025,
+'Awesome AI for Science':2025,'Awesome Science Agents':2024,
+'LLMs for Scientific Discovery':2025,'Awesome Single Cell':2016
+};
+const toolPaperIds={'ScienceBuddy':'sciencebuddy','Biomni':'biomni','CellVoyager':'cellvoyager','BioMedAgent':'biomedagent','Paper2Agent':'paper2agent','AI co-scientist':'coscientist','Virtual Lab':'virtuallab','State + CellEval':'state','AlphaGenome':'alphagenome','Evo 2':'evo2','AlphaFold 3':'af3'};
+const otherToolDates={
+'Scanpy + AnnData':dated(2018,'Scanpy 论文','Scanpy publication','https://doi.org/10.1186/s13059-017-1382-0'),
+'scvi-tools':dated(2022,'工具论文','Toolkit publication','https://www.nature.com/articles/s41587-021-01206-w'),
+'pertpy':dated(2025,'在线发表','Online publication','https://www.nature.com/articles/s41592-025-02909-7','2025 年 12 月 31 日在线发表；期刊卷期为 2026。','Published online 31 December 2025; the journal volume/issue is dated 2026.'),
+'MONAI':dated(2020,'公开 alpha 发布','Public alpha release','https://github.com/Project-MONAI/MONAI/blob/dev/CHANGELOG.md'),
+'CellProfiler':dated(2006,'工具论文','Toolkit publication','https://cellprofiler.org/citations')
+};
+for(const r of research)Object.assign(r,/preprint/i.test(r.venue)?dated(r.year,'预印本','Preprint',r.link):dated(r.year,'论文发表','Paper publication',r.link));
+for(const d of datasets)Object.assign(d,datasetDates[d.id]);
+for(const t of tools){
+ const p=research.find(r=>r.id===toolPaperIds[t.name]);
+ Object.assign(t,p?dated(p.year,p.yearKind.zh,p.yearKind.en,p.link):otherToolDates[t.name]||dated(repositoryYears[t.name],'仓库创建','Repository created','https://api.github.com/repos/'+t.link.split('github.com/')[1]));
+ if(repositoryYears[t.name]){t.repositoryYear=repositoryYears[t.name];t.repositoryYearSource='https://api.github.com/repos/'+t.link.split('github.com/')[1];}
+}
+for(const c of collections)Object.assign(c,c.name==='scRNA-tools'?dated(2018,'资源论文','Resource publication','https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006245'):dated(repositoryYears[c.name],'仓库创建','Repository created','https://api.github.com/repos/'+c.url.split('github.com/')[1]));
 window.ATLAS={updated:'2026-10-08',research,datasets,tools,collections,domains,glossary,b};

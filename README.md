@@ -1,8 +1,6 @@
 # Awesome AI Health & Science
 
-An evidence-first, bilingual atlas for people entering biomedical AI research.
-
-面向非领域读者的中英双语研究地图：把疾病问题、数据、方法、证据和资源连接起来。
+An evidence-first, bilingual atlas of biomedical AI research.
 
 **[Open the interactive atlas / 打开网站](https://ai-health-science-atlas.saxoe.chatgpt.site)** · **[Read the full catalog / 完整目录](CATALOG.md)** · [Structured data](dist/catalog.json)
 
@@ -18,11 +16,15 @@ Snapshot: **2026-10-08**. This is a curated research snapshot, not an exhaustive
 | Data / 数据 | Formats, observation units, join fields, access and leakage risks |
 | Tools & agents / 工具代理 | ScienceBuddy, Biomni, CellVoyager, Paper2Agent and complementary toolchains |
 | Compute / 算力 | Official reports separated from starting-budget estimates |
-| Starting routes / 入门 | Plain-language explanations, glossary and reading paths |
+| Reading routes / 阅读路线 | Plain-language explanations, glossary and reading paths |
 
 The website has bilingual switching, keyword search, domain/access/evidence filters, expandable technical detail and a dense-matrix memory calculator. All editorial content is local; there is no analytics, tracking, login or external model call.
 
 ## Evidence rules / 证据规则
+
+All 101 papers, datasets, tools and collections carry a year and a primary-source link for that date. Labels distinguish publication, preprint, dataset version, project/platform launch, repository creation and catalog review. A repository creation date is not a public-release date. Continuously updated catalogs do not have one dataset-wide release year.
+
+全部 101 项论文、数据集、工具和资源合集均标注年份及其来源，区分正式论文、预印本、数据版本、项目/平台启动、仓库创建与目录核查。仓库创建不等于公开发布；持续更新的目录不具有统一的数据发布年。
 
 - Cells are not independent patients. / 细胞不是独立患者。
 - Association and attribution are not causal mechanism. / 关联与归因不是因果机制。
@@ -53,7 +55,7 @@ Open `http://127.0.0.1:4173/`. Stop with Ctrl+C. Any static web host can serve `
 - [CONTRIBUTING.md](CONTRIBUTING.md): verification and update policy.
 - [CHANGELOG.md](CHANGELOG.md): snapshot history.
 
-Updates are manual unless a separate recurring workflow is explicitly configured. Do not claim that links, licenses or model outputs are permanently current. Add primary citations and preserve caveats when editing.
+A recurring update task is enabled every 15 days at 09:00 Australia/Sydney, starting on 2026-10-23. Each run checks primary sources and synchronizes substantive updates to this repository and the published atlas. Do not claim that links, licenses or model outputs are permanently current. Add primary citations and preserve caveats when editing.
 
 ## Licensing
 

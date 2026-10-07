@@ -12,6 +12,7 @@ bilingual(A,'ATLAS');bilingual(G,'GUIDES');
 for(const key of ['research','datasets']){const ids=A[key].map(x=>x.id);assert.equal(new Set(ids).size,ids.length,'duplicate IDs: '+key);for(const r of A[key])assert.ok(A.domains[r.domain],'unknown domain '+r.id)}
 for(const list of [A.research,A.datasets,A.tools,A.collections,G.compute,G.formats])for(const r of list){const url=r.link||r.url;assert.equal(new URL(url).protocol,'https:');}
 for(const r of A.research)assert.ok(r.year<=2026&&r.year>=2010,'invalid year');
+for(const group of ['research','datasets','tools','collections'])for(const r of A[group]){assert.ok(Number.isInteger(r.year)&&r.year>=1900&&r.year<=2026,'missing/invalid year: '+r.name);assert.ok(r.yearKind?.zh&&r.yearKind?.en,'missing year type: '+r.name);assert.equal(new URL(r.yearSource).protocol,'https:');}
 for(const r of [...G.routes,...G.paths])for(const id of r.ids)assert.ok(A.research.some(x=>x.id===id),'broken research reference '+id);
 assert.equal(G.routes.length,8);assert.ok(A.research.length>=40);assert.ok(A.datasets.length>=20);assert.ok(A.tools.length>=20);
 for(const file of ['index.html','style.css','favicon.svg'])assert.ok((await readFile(new URL(file,dir),'utf8')).length>0);

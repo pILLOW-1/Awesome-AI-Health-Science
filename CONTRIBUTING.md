@@ -10,6 +10,8 @@
 6. Record official access and licensing routes. Public code, product availability, weights, outputs and data can have different permissions.
 7. For compute, cite reported hardware or label estimates. Include assumptions; do not state guessed minimums or prices.
 8. Do not upload private attachments, participant data, credentials, API keys or controlled-data derivatives.
+9. Every paper, dataset, tool and collection must carry a year, a bilingual date-type label and a primary-source date URL. Distinguish publication/preprint, dataset-version release, project launch, repository creation and catalog review. Do not treat a repository creation date as a public launch. For changing portals, label the review year explicitly rather than inventing one release year.
+10. Keep explanations clear without labeling the audience by experience level. Preserve this neutral wording in both languages.
 
 ## Update checklist
 

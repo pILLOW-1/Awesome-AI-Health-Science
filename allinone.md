@@ -42,7 +42,7 @@ Few donors, postmortem snapshots, treatment/age/batch confounding.
 
 Triangulate genetic, spatial and intervention evidence; validate in human-derived cells and multiple donors.
 
-Studies: Single-cell AD atlas · Mathys; Multiregion AD atlas · Mathys; BEYOND · Cellular communities; PICALM · Microglial mechanism; PHGDH · Non-enzymatic AD mechanism; PASCode; GAGE-seq / Hicformer; Rheumatoid arthritis synovial atlas; Spatial diabetic kidney atlas
+Studies: Single-cell AD atlas · Mathys (2019); Multiregion AD atlas · Mathys (2024); BEYOND · Cellular communities (2024); PICALM · Microglial mechanism (2025); PHGDH · Non-enzymatic AD mechanism (2025); PASCode (2026); GAGE-seq / Hicformer (2026); Rheumatoid arthritis synovial atlas (2023); Spatial diabetic kidney atlas (2026)
 
 ### 02 预测干预后的细胞变化 / Predict cellular responses to interventions
 
@@ -76,7 +76,7 @@ Many interventions, limited conditions, combinatorial explosion; metrics can rew
 
 Establish mean/linear/additive baselines before larger models; independently hold out donors, targets or cell types.
 
-Studies: Combinatorial Perturb-seq · Norman; Genome-scale Perturb-seq · Replogle; scGen; CPA; GEARS; State; Do foundation models beat simple baselines?; Calibrated perturbation benchmarking; PertEval-scFM
+Studies: Combinatorial Perturb-seq · Norman (2019); Genome-scale Perturb-seq · Replogle (2022); scGen (2019); CPA (2023); GEARS (2023); State (2026); Do foundation models beat simple baselines? (2025); Calibrated perturbation benchmarking (2026); PertEval-scFM (2025)
 
 ### 03 推断因果与选择下一个实验 / Infer causality and choose the next experiment
 
@@ -110,7 +110,7 @@ Unobserved confounding, feedback, imperfect interventions and incomplete ground-
 
 State causal assumptions; validate on held-out interventions, quantify uncertainty and measure experimental utility.
 
-Studies: CellOracle; scPRINT; CausalBench; Causal active learning; CRISPR activation / inhibition in T cells
+Studies: CellOracle (2023); scPRINT (2025); CausalBench (2025); Causal active learning (2023); CRISPR activation / inhibition in T cells (2022)
 
 ### 04 把细胞放回组织空间 / Put cells back into tissue context
 
@@ -144,7 +144,7 @@ Molecule misassignment, varying resolution, spatial autocorrelation and batches.
 
 Model measurement error explicitly; test communication hypotheses using blocking or co-culture experiments.
 
-Studies: Nicheformer; ResolVI; Spatial diabetic kidney atlas; SPARK
+Studies: Nicheformer (2025); ResolVI (2026); Spatial diabetic kidney atlas (2026); SPARK (2026)
 
 ### 05 从 DNA 变异走到功能机制 / Move from DNA variants to function
 
@@ -178,7 +178,7 @@ Linkage disequilibrium, pleiotropy, tissue mismatch and genome coordinates.
 
 Fine-map, prioritize with sequence models, then validate with CRISPR/reporter assays—not just scores.
 
-Studies: AlphaGenome; Evo 2; GAGE-seq / Hicformer; PICALM · Microglial mechanism; Paper2Agent
+Studies: AlphaGenome (2026); Evo 2 (2026); GAGE-seq / Hicformer (2026); PICALM · Microglial mechanism (2025); Paper2Agent (2026)
 
 ### 06 发现靶点与药物候选 / Discover targets and drug candidates
 
@@ -212,7 +212,7 @@ Different activity units, negative-example bias and the cell-line-to-patient gap
 
 Report evidence chains and failures; use external validation, target-trial emulation or prospective experiments.
 
-Studies: TxGNN; AlphaFold 2; AlphaFold 3; Boltz-2; AI co-scientist; Virtual Lab
+Studies: TxGNN (2024); AlphaFold 2 (2021); AlphaFold 3 (2024); Boltz-2 (2025); AI co-scientist (2026); Virtual Lab (2025)
 
 ### 07 从病理图像提取可解释信息 / Extract interpretable information from pathology
 
@@ -246,7 +246,7 @@ Large-file I/O, site bias, weak labels and unstable explanations.
 
 Hold out patients/sites, test interpretable features and connect spatial or molecular validation.
 
-Studies: UNI; CONCH; SPARK
+Studies: UNI (2024); CONCH (2024); SPARK (2026)
 
 ### 08 让科研助手可执行、可审计 / Make scientific assistants executable and auditable
 
@@ -280,13 +280,17 @@ Unsupported citations, silent code errors, verifier bias and sensitive data.
 
 Preserve execution traces and versions; validate tasks and actions; scope permissions and sandbox code.
 
-Studies: Biomni; CellVoyager; BioMedAgent; Paper2Agent; ScienceBuddy
+Studies: Biomni (2026); CellVoyager (2026); BioMedAgent (2026); Paper2Agent (2026); ScienceBuddy (2026)
 
 ## Papers / 论文
 
 ### Single-cell AD atlas · Mathys (2019)
 
 Nature · association
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-019-1195-2)
 
 **Question / 问题**
 
@@ -324,6 +328,10 @@ Observational atlas, not an AI intervention model or proof of disease causation.
 
 Nature · association
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-024-07606-7)
+
 **Question / 问题**
 
 为什么同一个脑内有些区域更容易受损？
@@ -359,6 +367,10 @@ Postmortem cross-sectional data; regional differences are not a measured disease
 ### BEYOND · Cellular communities (2024)
 
 Nature · association
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-024-07871-6)
 
 **Question / 问题**
 
@@ -396,6 +408,10 @@ Causal interpretation depends on assumptions; pseudotime is not longitudinal fol
 
 Nature · experiment
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-025-09486-x)
+
 **Question / 问题**
 
 一个 AD 风险变异怎样影响脑内免疫细胞？
@@ -431,6 +447,10 @@ Cell-model mechanism evidence, not a proven human therapy; a template for valida
 ### PHGDH · Non-enzymatic AD mechanism (2025)
 
 Cell · experiment
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC12204802/)
 
 **Question / 问题**
 
@@ -468,6 +488,10 @@ AI supplies a lead; experiments supply evidence. Inhibitor findings remain precl
 
 Nature Medicine · Sep 23 · association
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41591-025-04128-1)
+
 **Question / 问题**
 
 哪些脑细胞更能反映疾病和认知状态？
@@ -503,6 +527,10 @@ Phenotype-association scores are not causal cell labels; split evaluation by don
 ### GAGE-seq / Hicformer (2026)
 
 Science · Jul 23 · prediction
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC13499675/)
 
 **Question / 问题**
 
@@ -540,6 +568,10 @@ Prediction and attribution are not causality; 20 donors do not become thousands 
 
 Nature · association
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-023-06708-y)
+
 **Question / 问题**
 
 关节炎患者的免疫细胞和组织细胞是否有不同组合？
@@ -575,6 +607,10 @@ Tissue subtypes are not yet validated rules for choosing therapy.
 ### Cytokine-driven fibroblast states (2023)
 
 Nature Immunology · experiment
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41590-023-01527-9)
 
 **Question / 问题**
 
@@ -612,6 +648,10 @@ State induction in an experimental context does not establish long-term patient 
 
 Nature · association
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-026-10363-4)
+
 **Question / 问题**
 
 糖尿病肾病中，细胞位置怎样反映损伤？
@@ -647,6 +687,10 @@ Spatial co-occurrence is not causal interaction; treatment implications require 
 ### CRISPR activation / inhibition in T cells (2022)
 
 Science · experiment
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://pubmed.ncbi.nlm.nih.gov/35113687/)
 
 **Question / 问题**
 
@@ -684,6 +728,10 @@ Donor, activation state and measured endpoints constrain generalization.
 
 Nature Methods · prediction
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41592-018-0229-2)
+
 **Question / 问题**
 
 怎样比较不同批次测到的细胞？
@@ -719,6 +767,10 @@ Batch correction may remove true differences; attractive embeddings do not estab
 ### scGen (2019)
 
 Nature Methods · prediction
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41592-019-0494-8)
 
 **Question / 问题**
 
@@ -756,6 +808,10 @@ Transferable latent changes are an assumption; unseen stimuli and major shifts r
 
 Molecular Systems Biology · prediction
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://doi.org/10.15252/msb.202211517)
+
 **Question / 问题**
 
 药物、剂量和细胞类型组合怎样改变细胞？
@@ -791,6 +847,10 @@ Compositional extrapolation is not unrestricted prediction of unseen gene knocko
 ### CellOracle (2023)
 
 Nature · prediction
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-022-05688-9)
 
 **Question / 问题**
 
@@ -828,6 +888,10 @@ Priors and model approximations limit predictions; inferred edges are not all ca
 
 Nature Biotechnology · prediction
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41587-023-01905-6)
+
 **Question / 问题**
 
 能否预测没有直接测过的基因组合干预？
@@ -863,6 +927,10 @@ Priors may leak information; compare linear, no-change and additive baselines on
 ### Geneformer (2023)
 
 Nature · prediction
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-023-06139-9)
 
 **Question / 问题**
 
@@ -900,6 +968,10 @@ Deleting a token is not a biological knockout; experimental validation is necess
 
 Nature Methods · prediction
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41592-024-02201-0)
+
 **Question / 问题**
 
 把单细胞数据作为可迁移学习的基础。
@@ -935,6 +1007,10 @@ Not a complete cell simulator; perturbation generalization needs renewed benchma
 ### Nicheformer (2025)
 
 Nature Methods · prediction
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41592-025-02814-z)
 
 **Question / 问题**
 
@@ -972,6 +1048,10 @@ Spatial representations do not establish communication mechanisms or causal rela
 
 Nature Communications · prediction
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC12003772/)
+
 **Question / 问题**
 
 能否从大量细胞提取候选基因调控网络？
@@ -1007,6 +1087,10 @@ Attention or predictive relationships are not automatically causal; intervention
 ### Geneformer · Scaling & quantization (2026)
 
 Nature Computational Science · prediction
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s43588-026-00972-4)
 
 **Question / 问题**
 
@@ -1044,6 +1128,10 @@ Lower memory use does not mean biological generalization is solved.
 
 Nature · Jul 8 · prediction
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-026-10689-z)
+
 **Question / 问题**
 
 把不同物种的细胞放在可比较的表示空间。
@@ -1079,6 +1167,10 @@ Recognizing new states is not arbitrary intervention prediction; check task and 
 ### State (2026)
 
 Cell · Aug 31 online · prediction
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://doi.org/10.1016/j.cell.2026.07.052)
 
 **Question / 问题**
 
@@ -1116,6 +1208,10 @@ Not observed individual-cell counterfactuals; code, weights and outputs have non
 
 Nature Methods · Sep 24 · prediction
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41592-026-03212-9)
+
 **Question / 问题**
 
 空间测序中，被分错到邻居细胞的分子怎么办？
@@ -1151,6 +1247,10 @@ Depends on initial segmentation and evaluation proxies; outputs are not uncondit
 ### CytoVI (2026)
 
 Nature Methods · Sep 30 · prediction
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41592-026-03224-5)
 
 **Question / 问题**
 
@@ -1188,6 +1288,10 @@ Protein intensity is not RNA counts; latent uncertainty is not automatically cal
 
 Nature Methods · benchmark
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41592-025-02772-6)
+
 **Question / 问题**
 
 大模型是否真的比简单方法更会预测干预？
@@ -1223,6 +1327,10 @@ Scoped to these tasks, datasets and splits; not a claim that all AI is ineffecti
 ### Calibrated perturbation benchmarking (2026)
 
 Nature Biotechnology · Oct 1 · benchmark
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41587-026-03307-w)
 
 **Question / 问题**
 
@@ -1260,6 +1368,10 @@ Calibrated gains do not automatically establish generalization to unseen donors 
 
 ICML · benchmark
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://proceedings.mlr.press/v267/wenteler25a.html)
+
 **Question / 问题**
 
 在统一条件下检查单细胞基础模型的扰动能力。
@@ -1295,6 +1407,10 @@ A random-cell holdout is not new-patient or new-mechanism generalization.
 ### CausalBench (2025)
 
 Communications Biology · benchmark
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s42003-025-07764-y)
 
 **Question / 问题**
 
@@ -1332,6 +1448,10 @@ Intervention readouts are not complete network ground truth; distinct from simil
 
 Nature Machine Intelligence · prediction
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s42256-023-00719-0)
+
 **Question / 问题**
 
 预算有限时，下一个实验应该做什么？
@@ -1367,6 +1487,10 @@ Theory relies on conditions such as known graphs and linear structures, not univ
 ### Combinatorial Perturb-seq · Norman (2019)
 
 Science · experiment
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://pmc.ncbi.nlm.nih.gov/articles/6746554/)
 
 **Question / 问题**
 
@@ -1404,6 +1528,10 @@ A single cell line and selected genes limit extrapolation.
 
 Cell · experiment
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC9380471/)
+
 **Question / 问题**
 
 大范围改变基因后，细胞表达如何变化？
@@ -1439,6 +1567,10 @@ Knockdown efficiency, stress and growth selection affect measured responses.
 ### AlphaGenome (2026)
 
 Nature · Jan 28 · prediction
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-025-10014-0)
 
 **Question / 问题**
 
@@ -1476,6 +1608,10 @@ Predicted variant effects are not pathogenicity conclusions; tissue context and 
 
 Nature · Mar 4 · prediction
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-026-10176-5)
+
 **Question / 问题**
 
 从大规模 DNA 学习规律，辅助变异分析与设计。
@@ -1511,6 +1647,10 @@ Sequence plausibility does not establish cell function, clinical safety or mecha
 ### AlphaFold 2 (2021)
 
 Nature · prediction
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-021-03819-2)
 
 **Question / 问题**
 
@@ -1548,6 +1688,10 @@ A structure is not a complete answer about dynamics, affinity or drug efficacy.
 
 Nature · prediction
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-024-07487-w)
+
 **Question / 问题**
 
 蛋白、核酸和小分子一起形成什么结构？
@@ -1583,6 +1727,10 @@ A predicted pose is not binding free energy or clinical efficacy; respect weight
 ### Boltz-2 (2025)
 
 bioRxiv · Preprint · prediction
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://doi.org/10.1101/2025.06.14.659707)
 
 **Question / 问题**
 
@@ -1620,6 +1768,10 @@ Report affinity endpoints and units; scores are not therapeutic efficacy. This e
 
 Nature Medicine · prediction
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41591-024-03233-x)
+
 **Question / 问题**
 
 数据少的疾病，能否找到已有药物的候选新用途？
@@ -1655,6 +1807,10 @@ Predicted links or rankings are not clinical efficacy; check relation leakage.
 ### UNI (2024)
 
 Nature Medicine · prediction
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41591-024-02857-3)
 
 **Question / 问题**
 
@@ -1692,6 +1848,10 @@ Slide features are not mechanistic explanations; split by patient and test site/
 
 Nature Medicine · prediction
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41591-024-02856-4)
+
 **Question / 问题**
 
 让病理图像与文字描述进入同一个空间。
@@ -1727,6 +1887,10 @@ Image–text similarity is not a correct diagnosis; check fine-grained limitatio
 ### SPARK (2026)
 
 Nature Medicine · Apr 29 · association
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41591-026-04357-y)
 
 **Question / 问题**
 
@@ -1764,6 +1928,10 @@ Static slides do not directly measure dynamics; prognostic associations need ext
 
 Nature · May 19 online · experiment
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-026-10644-y)
+
 **Question / 问题**
 
 多个 AI 协作提出并筛选可实验检验的科学假设。
@@ -1799,6 +1967,10 @@ Successful cases do not validate all outputs; the complete system is not open so
 ### Virtual Lab (2025)
 
 Nature · experiment
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-025-09442-9)
 
 **Question / 问题**
 
@@ -1836,6 +2008,10 @@ Requires human experimental teams; not a system that verifies results without ex
 
 Science · workflow
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.science.org/doi/10.1126/science.adz4351)
+
 **Question / 问题**
 
 让一个助手协调多种生物医学数据分析工具。
@@ -1871,6 +2047,10 @@ Successful code execution and scientific validity are separate checks; protect s
 ### CellVoyager (2026)
 
 Nature Methods · workflow
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41592-026-03029-6)
 
 **Question / 问题**
 
@@ -1908,6 +2088,10 @@ Review statistics, splits and biological interpretation; distinct from the simil
 
 Nature Biomedical Engineering · workflow
 
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41551-026-01634-6)
+
 **Question / 问题**
 
 能否自动完成一组真实生物医学分析任务？
@@ -1943,6 +2127,10 @@ Task success is not clinical diagnostic accuracy or universal scientific correct
 ### Paper2Agent (2026)
 
 Nature · Sep 16 · workflow
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-026-11044-y)
 
 **Question / 问题**
 
@@ -1980,6 +2168,10 @@ Requires accessible code/data; successful packaging does not mean every paper is
 
 arXiv · Sep 16 · Preprint · workflow
 
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://arxiv.org/abs/2609.17523)
+
 **Question / 问题**
 
 整合科研工具，并研究助手怎样从反馈中改进。
@@ -2014,9 +2206,13 @@ The public release is SimpleSciBuddy/RSI, not the complete hosted frontend; simu
 
 ## Datasets / 数据集
 
-### ADNI
+### ADNI (2004)
 
 DICOM · NIfTI · CSV · controlled
+
+Year type / 年份类型: 项目启动 / Project launch
+
+[Year source / 年份来源](https://adni.loni.usc.edu/about/)
 
 **Purpose / 用途**
 
@@ -2044,9 +2240,13 @@ Application, DUA and use restrictions; not everyone has every modality.
 
 [Official data / 官方入口](https://adni.loni.usc.edu/data-samples/adni-data/)
 
-### OASIS-3
+### OASIS-3 (2019)
 
 NIfTI · JSON · CSV · MGZ · controlled
+
+Year type / 年份类型: 资源论文 · 预印本 / Resource paper · preprint
+
+[Year source / 年份来源](https://doi.org/10.1101/2019.12.13.19014902)
 
 **Purpose / 用途**
 
@@ -2074,9 +2274,19 @@ Apply and follow the agreement; align relative times rather than mismatching ses
 
 [Official data / 官方入口](https://www.oasis-brains.org/)
 
-### ROSMAP / AMP-AD
+### ROSMAP / AMP-AD (2014)
 
 FASTQ · TSV · multi-omics · controlled
+
+Year type / 年份类型: AMP-AD 启动 / AMP-AD launch
+
+**Year context / 年份说明**
+
+2014 为 AMP-AD 项目启动年，不是 ROSMAP 队列或每个数据文件的发布年。
+
+2014 is the AMP-AD launch year, not the start of the ROSMAP cohorts or the release year of every file.
+
+[Year source / 年份来源](https://www.nia.nih.gov/research/amp-ad)
 
 **Purpose / 用途**
 
@@ -2104,9 +2314,19 @@ Following 2026 policy changes, individual-level human raw/processed/derived data
 
 [Official data / 官方入口](https://help.adknowledgeportal.org/apd/access-data)
 
-### SEA-AD
+### SEA-AD (2024)
 
 H5AD · XLSX · spatial · mixed
+
+Year type / 年份类型: 图谱论文 / Atlas publication
+
+**Year context / 年份说明**
+
+图谱论文 2024；官方数据页另有 2026 年 6 月的多脑区数据更新。
+
+Atlas publication 2024; the official data page also documents a June 2026 multiregion update.
+
+[Year source / 年份来源](https://www.nature.com/articles/s41593-024-01774-5)
 
 **Purpose / 用途**
 
@@ -2134,9 +2354,13 @@ Separate public processed and controlled raw resources; distinguish regions and 
 
 [Official data / 官方入口](https://brain-map.org/consortia/sea-ad/our-data)
 
-### PsychAD / PASCode resource
+### PsychAD / PASCode resource (2026)
 
 single-nucleus matrices · metadata · mixed
+
+Year type / 年份类型: 资源论文 / Resource publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41591-025-04128-1)
 
 **Purpose / 用途**
 
@@ -2164,9 +2388,13 @@ Full-resource and filtered-study sizes differ; labels are not cell-level causal 
 
 [Official data / 官方入口](https://www.nature.com/articles/s41591-025-04128-1)
 
-### AD GAGE-seq multiome
+### AD GAGE-seq multiome (2026)
 
 RNA matrix · Hi-C contacts · mixed
+
+Year type / 年份类型: 资源论文 / Resource publication
+
+[Year source / 年份来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC13499675/)
 
 **Purpose / 用途**
 
@@ -2194,9 +2422,13 @@ Document pairing and pseudobulk aggregation levels; check repository data routes
 
 [Official data / 官方入口](https://github.com/ma-compbio/AD-multiome)
 
-### CELLxGENE Census
+### CELLxGENE Census (2023)
 
 TileDB-SOMA · source H5AD · open
+
+Year type / 年份类型: Census 发布 / Census launch
+
+[Year source / 年份来源](https://chanzuckerberg.com/about/annual-letter/year-2023/)
 
 **Purpose / 用途**
 
@@ -2224,9 +2456,13 @@ Pin Census versions; inspect duplicate cells, harmonized labels and pretraining 
 
 [Official data / 官方入口](https://chanzuckerberg.github.io/cellxgene-census/cellxgene_census_aws_open_data.html)
 
-### Human Cell Atlas
+### Human Cell Atlas (2016)
 
 FASTQ · MTX · H5AD · manifests · mixed
+
+Year type / 年份类型: 项目启动 / Project launch
+
+[Year source / 年份来源](https://www.humancellatlas.org/event/human-cell-atlas-launch-meeting/)
 
 **Purpose / 用途**
 
@@ -2254,9 +2490,13 @@ Formats, permissions and modalities vary; an atlas is not fully paired multi-omi
 
 [Official data / 官方入口](https://data.humancellatlas.org/)
 
-### scPerturb
+### scPerturb (2024)
 
 H5AD · open
+
+Year type / 年份类型: 资源论文 / Resource publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41592-023-02144-y)
 
 **Purpose / 用途**
 
@@ -2284,9 +2524,13 @@ obs condition fields and controls; retain original studies and versions.
 
 [Official data / 官方入口](https://github.com/sanderlab/scPerturb)
 
-### Replogle Perturb-seq
+### Replogle Perturb-seq (2022)
 
 expression matrices · guide metadata · open
+
+Year type / 年份类型: 数据论文 / Dataset publication
+
+[Year source / 年份来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC9380471/)
 
 **Purpose / 用途**
 
@@ -2314,9 +2558,13 @@ Knockdown is not full knockout; hold out genes/conditions to avoid same-conditio
 
 [Official data / 官方入口](https://pmc.ncbi.nlm.nih.gov/articles/PMC9380471/)
 
-### Norman combination screen
+### Norman combination screen (2019)
 
 expression matrices · perturbation labels · open
+
+Year type / 年份类型: 数据论文 / Dataset publication
+
+[Year source / 年份来源](https://pmc.ncbi.nlm.nih.gov/articles/6746554/)
 
 **Purpose / 用途**
 
@@ -2344,9 +2592,13 @@ Scores across preprocessing versions are not directly comparable; additive basel
 
 [Official data / 官方入口](https://pmc.ncbi.nlm.nih.gov/articles/6746554/)
 
-### Tahoe-100M
+### Tahoe-100M (2025)
 
 Parquet · Hugging Face · open
+
+Year type / 年份类型: 公开数据发布 / Public dataset release
+
+[Year source / 年份来源](https://huggingface.co/datasets/tahoebio/Tahoe-100M/blame/main/README.md)
 
 **Purpose / 用途**
 
@@ -2374,9 +2626,13 @@ Parquet is not H5AD; stream a subset first. Cell lines do not represent patient 
 
 [Official data / 官方入口](https://huggingface.co/datasets/tahoebio/Tahoe-100M)
 
-### LINCS L1000
+### LINCS L1000 (2017)
 
 GCT · GCTX / HDF5 · open
+
+Year type / 年份类型: L1000 资源论文 / L1000 resource publication
+
+[Year source / 年份来源](https://pubmed.ncbi.nlm.nih.gov/29195078/)
 
 **Purpose / 用途**
 
@@ -2404,9 +2660,13 @@ pert_id, cell_id, dose, time and signature ID.
 
 [Official data / 官方入口](https://clue.io/connectopedia/guide_to_geo_l1000_data)
 
-### JUMP Cell Painting
+### JUMP Cell Painting (2023)
 
 multichannel TIFF · CSV · Parquet · open
+
+Year type / 年份类型: 数据论文 · 预印本 / Dataset paper · preprint
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.1101/2023.03.23.534023v1)
 
 **Purpose / 用途**
 
@@ -2434,9 +2694,19 @@ Plate, well and replicate leakage; subset before downloading terabyte-scale imag
 
 [Official data / 官方入口](https://broadinstitute.github.io/jump_hub/explanations/data_description.html)
 
-### TCGA / GDC
+### TCGA / GDC (2016)
 
 SVS · TSV · VCF/MAF · BAM · JSON · mixed
+
+Year type / 年份类型: GDC 平台启动 / GDC platform launch
+
+**Year context / 年份说明**
+
+2016 指 GDC 平台启动；TCGA 项目及各癌种论文、数据版本有各自年份。
+
+2016 refers to the GDC launch; TCGA, cancer-specific papers and data versions have their own dates.
+
+[Year source / 年份来源](https://www.cancer.gov/news-events/press-releases/2016/genomic-data-commons-launch)
 
 **Purpose / 用途**
 
@@ -2464,9 +2734,13 @@ Separate open processed and controlled files; keep all slides from one patient i
 
 [Official data / 官方入口](https://gdc.cancer.gov/about-data/data-types-and-file-formats)
 
-### DepMap
+### DepMap (2017)
 
 CSV · portal tables · open
+
+Year type / 年份类型: 首版依赖图谱论文 / Initial dependency-map publication
+
+[Year source / 年份来源](https://depmap.org/rnai/)
 
 **Purpose / 用途**
 
@@ -2494,9 +2768,13 @@ Dependency scores are not clinical drug effects; version, tissue origin and cult
 
 [Official data / 官方入口](https://depmap.org/portal/)
 
-### GTEx
+### GTEx (2010)
 
 GCT · TSV · BED · mixed
+
+Year type / 年份类型: 项目启动 / Project launch
+
+[Year source / 年份来源](https://www.nimh.nih.gov/news/science-updates/2010/nih-launches-genotype-tissue-expression-project)
 
 **Purpose / 用途**
 
@@ -2524,9 +2802,13 @@ Individual genotypes are controlled; bulk signals mix cells, and eQTLs do not di
 
 [Official data / 官方入口](https://gtexportal.org/home/datasets)
 
-### ENCODE
+### ENCODE (2003)
 
 FASTQ · BAM · BED · bigWig · open
+
+Year type / 年份类型: 项目启动 / Project launch
+
+[Year source / 年份来源](https://www.genome.gov/12513456/encode-project-background)
 
 **Purpose / 用途**
 
@@ -2554,9 +2836,13 @@ Match reference genome, coordinate conventions and assay quality.
 
 [Official data / 官方入口](https://www.encodeproject.org/help/getting-started/)
 
-### Open Targets
+### Open Targets (2015)
 
 Parquet · JSON · API · open
+
+Year type / 年份类型: 平台启动 / Platform launch
+
+[Year source / 年份来源](https://opentargets.org/history)
 
 **Purpose / 用途**
 
@@ -2584,9 +2870,13 @@ Aggregate scores are not causal probabilities; inspect provenance and duplicate 
 
 [Official data / 官方入口](https://platform.opentargets.org/downloads)
 
-### GWAS Catalog
+### GWAS Catalog (2008)
 
 TSV · summary statistics · open
+
+Year type / 年份类型: 数据库建立 / Catalog established
+
+[Year source / 年份来源](https://www.ebi.ac.uk/gwas/docs/about/)
 
 **Purpose / 用途**
 
@@ -2614,9 +2904,19 @@ Associated loci may not be causal variants; use LD, fine-mapping and functional 
 
 [Official data / 官方入口](https://www.ebi.ac.uk/gwas/docs/file-downloads)
 
-### RCSB PDB
+### RCSB PDB (1971)
 
 mmCIF · PDB · FASTA · open
+
+Year type / 年份类型: PDB 档案建立 / PDB archive established
+
+**Year context / 年份说明**
+
+1971 指 PDB 档案建立，不是当前 RCSB 网站或每条结构的发布年。
+
+1971 refers to the PDB archive, not the current RCSB website or the release year of each structure.
+
+[Year source / 年份来源](https://www4.rcsb.org/pages/about-us/history)
 
 **Purpose / 用途**
 
@@ -2644,9 +2944,13 @@ Separate experimental from predicted structures; consider missing regions and co
 
 [Official data / 官方入口](https://www.rcsb.org/docs/general-help/file-download-services)
 
-### ChEMBL
+### ChEMBL (2010)
 
 SQLite · SDF · activity tables · open
+
+Year type / 年份类型: 公开发布 / Public launch
+
+[Year source / 年份来源](https://www.ebi.ac.uk/sites/ebi.ac.uk/files/groups/external_relations/Documents/Annual_Scientific_Report_low_res.pdf)
 
 **Purpose / 用途**
 
@@ -2674,9 +2978,13 @@ Do not freely mix IC50 and Kd; inequality signs encode censoring, and units must
 
 [Official data / 官方入口](https://chembl.gitbook.io/chembl-interface-documentation/downloads)
 
-### MIMIC-IV · v3.1
+### MIMIC-IV · v3.1 (2024)
 
 CSV.gz · relational tables · controlled
+
+Year type / 年份类型: v3.1 发布 / v3.1 release
+
+[Year source / 年份来源](https://physionet.org/content/mimiciv/3.1/)
 
 **Purpose / 用途**
 
@@ -2704,9 +3012,19 @@ Credentialing, training and DUA required; derivatives remain sensitive, and reco
 
 [Official data / 官方入口](https://physionet.org/content/mimiciv/3.1/)
 
-### 10x spatial demonstration datasets
+### 10x spatial demonstration datasets (2026)
 
 H5/MTX · Parquet · Zarr · TIFF · open
+
+Year type / 年份类型: 目录核查 / Catalog reviewed
+
+**Year context / 年份说明**
+
+这是持续更新的示范数据目录，不是一个单独数据集。2026 为核查年；具体数据集的发布日期以各自页面为准。
+
+This is a changing demonstration-data catalog, not a single dataset. 2026 is the review year; individual dataset pages give their release dates.
+
+[Year source / 年份来源](https://www.10xgenomics.com/datasets)
 
 **Purpose / 用途**
 
@@ -2924,7 +3242,13 @@ Check time leakage, duplicate events, missingness versus zero, units and censori
 
 ## Tools & agents / 工具与代理
 
-### ScienceBuddy · agent
+### ScienceBuddy (2026) · agent
+
+Year type / 年份类型: 预印本 / Preprint
+
+Repository created / 仓库创建: 2026 (not a public-release date / 不等于公开发布年)
+
+[Year source / 年份来源](https://arxiv.org/abs/2609.17523)
 
 **Input / 输入**
 
@@ -2952,7 +3276,13 @@ Official RSI uses 8×A100; hosted usage does not imply eight GPUs. Check externa
 
 [Official project](https://github.com/Gen-Verse/ScienceBuddy)
 
-### Biomni · agent
+### Biomni (2026) · agent
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+Repository created / 仓库创建: 2025 (not a public-release date / 不等于公开发布年)
+
+[Year source / 年份来源](https://www.science.org/doi/10.1126/science.adz4351)
 
 **Input / 输入**
 
@@ -2980,7 +3310,13 @@ Start with a small task; audit code/evidence and do not treat answers as medical
 
 [Official project](https://github.com/snap-stanford/Biomni)
 
-### CellVoyager · agent
+### CellVoyager (2026) · agent
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+Repository created / 仓库创建: 2025 (not a public-release date / 不等于公开发布年)
+
+[Year source / 年份来源](https://www.nature.com/articles/s41592-026-03029-6)
 
 **Input / 输入**
 
@@ -3008,7 +3344,13 @@ Inspect each analytical step, not just whether the final plot looks convincing.
 
 [Official project](https://github.com/zou-group/CellVoyager)
 
-### BioMedAgent · agent
+### BioMedAgent (2026) · agent
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+Repository created / 仓库创建: 2024 (not a public-release date / 不等于公开发布年)
+
+[Year source / 年份来源](https://www.nature.com/articles/s41551-026-01634-6)
 
 **Input / 输入**
 
@@ -3036,7 +3378,13 @@ BioMedAQA success is not diagnostic accuracy.
 
 [Official project](https://github.com/BOBQWERA/BioMedAgent)
 
-### Paper2Agent · agent
+### Paper2Agent (2026) · agent
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+Repository created / 仓库创建: 2025 (not a public-release date / 不等于公开发布年)
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-026-11044-y)
 
 **Input / 输入**
 
@@ -3064,7 +3412,11 @@ Inaccessible data or broken dependencies prevent automatic full reproduction.
 
 [Official project](https://github.com/jmiao24/Paper2Agent)
 
-### AI co-scientist · agent
+### AI co-scientist (2026) · agent
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-026-10644-y)
 
 **Input / 输入**
 
@@ -3092,7 +3444,13 @@ Requires domain expertise and experiments; case results do not validate all hypo
 
 [Official project](https://www.nature.com/articles/s41586-026-10644-y)
 
-### Virtual Lab · agent
+### Virtual Lab (2025) · agent
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+Repository created / 仓库创建: 2024 (not a public-release date / 不等于公开发布年)
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-025-09442-9)
 
 **Input / 输入**
 
@@ -3120,7 +3478,11 @@ Language models do not independently execute the wet-lab experiments.
 
 [Official project](https://github.com/zou-group/virtual-lab)
 
-### BioDiscoveryAgent · agent
+### BioDiscoveryAgent (2024) · agent
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/snap-stanford/BioDiscoveryAgent)
 
 **Input / 输入**
 
@@ -3148,7 +3510,11 @@ An experiment-design assistant, not a laboratory robot.
 
 [Official project](https://github.com/snap-stanford/BioDiscoveryAgent)
 
-### PaperQA / PaperQA2 · agent
+### PaperQA / PaperQA2 (2023) · agent
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/Future-House/paper-qa)
 
 **Input / 输入**
 
@@ -3176,7 +3542,11 @@ An existing citation does not prove support; inspect the cited passage.
 
 [Official project](https://github.com/Future-House/paper-qa)
 
-### TxAgent · agent
+### TxAgent (2025) · agent
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/mims-harvard/TxAgent)
 
 **Input / 输入**
 
@@ -3204,7 +3574,11 @@ Local setup recommends H100-class large memory; not a clinical prescribing syste
 
 [Official project](https://github.com/mims-harvard/TxAgent)
 
-### ToolUniverse · registry
+### ToolUniverse (2025) · registry
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/mims-harvard/ToolUniverse)
 
 **Input / 输入**
 
@@ -3232,7 +3606,11 @@ A tool registry is not a reasoning model; record parameters, versions and failur
 
 [Official project](https://github.com/mims-harvard/ToolUniverse)
 
-### MedAgentGym · benchmark
+### MedAgentGym (2025) · benchmark
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/wshi83/MedAgentGym)
 
 **Input / 输入**
 
@@ -3260,7 +3638,11 @@ Reports 72,413 instances, 129 categories and 12 scenarios; not clinical diagnosi
 
 [Official project](https://github.com/wshi83/MedAgentGym)
 
-### Scanpy + AnnData · analysis
+### Scanpy + AnnData (2018) · analysis
+
+Year type / 年份类型: Scanpy 论文 / Scanpy publication
+
+[Year source / 年份来源](https://doi.org/10.1186/s13059-017-1382-0)
 
 **Input / 输入**
 
@@ -3288,7 +3670,11 @@ Learn counts, normalization and obs first; defaults are not statistical guarante
 
 [Official project](https://scanpy.readthedocs.io/)
 
-### scvi-tools · analysis
+### scvi-tools (2022) · analysis
+
+Year type / 年份类型: 工具论文 / Toolkit publication
+
+[Year source / 年份来源](https://www.nature.com/articles/s41587-021-01206-w)
 
 **Input / 输入**
 
@@ -3316,7 +3702,17 @@ Match models to measurement distributions; normalized values are not raw counts.
 
 [Official project](https://scvi-tools.org/)
 
-### pertpy · analysis
+### pertpy (2025) · analysis
+
+Year type / 年份类型: 在线发表 / Online publication
+
+**Year context / 年份说明**
+
+2025 年 12 月 31 日在线发表；期刊卷期为 2026。
+
+Published online 31 December 2025; the journal volume/issue is dated 2026.
+
+[Year source / 年份来源](https://www.nature.com/articles/s41592-025-02909-7)
 
 **Input / 输入**
 
@@ -3344,7 +3740,13 @@ Match algorithms to tasks; start with baselines on small samples.
 
 [Official project](https://pertpy.readthedocs.io/)
 
-### State + CellEval · model
+### State + CellEval (2026) · model
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+Repository created / 仓库创建: 2025 (not a public-release date / 不等于公开发布年)
+
+[Year source / 年份来源](https://doi.org/10.1016/j.cell.2026.07.052)
 
 **Input / 输入**
 
@@ -3372,7 +3774,13 @@ Pin model/data versions and check commercial use; public availability does not i
 
 [Official project](https://github.com/ArcInstitute/state)
 
-### AlphaGenome · model
+### AlphaGenome (2026) · model
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+Repository created / 仓库创建: 2024 (not a public-release date / 不等于公开发布年)
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-025-10014-0)
 
 **Input / 输入**
 
@@ -3400,7 +3808,13 @@ Pin genome build and tissue; model scores are not diagnoses.
 
 [Official project](https://github.com/google-deepmind/alphagenome)
 
-### Evo 2 · model
+### Evo 2 (2026) · model
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+Repository created / 仓库创建: 2025 (not a public-release date / 不等于公开发布年)
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-026-10176-5)
 
 **Input / 输入**
 
@@ -3428,7 +3842,13 @@ Public code/model access; follow safety and licensing requirements.
 
 [Official project](https://github.com/ArcInstitute/evo2)
 
-### AlphaFold 3 · model
+### AlphaFold 3 (2024) · model
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+Repository created / 仓库创建: 2024 (not a public-release date / 不等于公开发布年)
+
+[Year source / 年份来源](https://www.nature.com/articles/s41586-024-07487-w)
 
 **Input / 输入**
 
@@ -3456,7 +3876,11 @@ Budget database search, preprocessing and inference separately.
 
 [Official project](https://github.com/google-deepmind/alphafold3)
 
-### Boltz · model
+### Boltz (2024) · model
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/jwohlwend/boltz)
 
 **Input / 输入**
 
@@ -3484,7 +3908,11 @@ Binding probability and IC50-type predictions are different endpoints.
 
 [Official project](https://github.com/jwohlwend/boltz)
 
-### MONAI · analysis
+### MONAI (2020) · analysis
+
+Year type / 年份类型: 公开 alpha 发布 / Public alpha release
+
+[Year source / 年份来源](https://github.com/Project-MONAI/MONAI/blob/dev/CHANGELOG.md)
 
 **Input / 输入**
 
@@ -3512,7 +3940,11 @@ The framework does not guarantee clinical validity; prevent patient leakage.
 
 [Official project](https://monai.io/)
 
-### CellProfiler · analysis
+### CellProfiler (2006) · analysis
+
+Year type / 年份类型: 工具论文 / Toolkit publication
+
+[Year source / 年份来源](https://cellprofiler.org/citations)
 
 **Input / 输入**
 
@@ -3654,7 +4086,11 @@ Repository recommends H100/>80GB memory; a recommended configuration is not the 
 
 ## Collections / 资源合集
 
-### [OmicsML · Single-cell foundation models](https://github.com/OmicsML/awesome-foundation-model-single-cell-papers)
+### [OmicsML · Single-cell foundation models (2023)](https://github.com/OmicsML/awesome-foundation-model-single-cell-papers)
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/OmicsML/awesome-foundation-model-single-cell-papers)
 
 Coverage: papers + data + tools
 
@@ -3664,7 +4100,11 @@ Coverage: papers + data + tools
 
 The closest single-cell entry point for papers, data and tools, including perturbations, evaluation and infrastructure.
 
-### [Awesome Virtual Cell](https://github.com/Boom5426/Awesome-Virtual-Cell)
+### [Awesome Virtual Cell (2025)](https://github.com/Boom5426/Awesome-Virtual-Cell)
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/Boom5426/Awesome-Virtual-Cell)
 
 Coverage: papers + data + benchmarks
 
@@ -3674,7 +4114,11 @@ Coverage: papers + data + benchmarks
 
 Virtual-cell models, data, benchmarks and community; not a complete clinical-data catalog.
 
-### [Awesome AI for Science](https://github.com/ai4s-research/awesome-ai-for-science)
+### [Awesome AI for Science (2025)](https://github.com/ai4s-research/awesome-ai-for-science)
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/ai4s-research/awesome-ai-for-science)
 
 Coverage: papers + data + tools
 
@@ -3684,7 +4128,11 @@ Coverage: papers + data + tools
 
 Cross-disciplinary resources for broader discovery; filter biomedical entries by task.
 
-### [Awesome Science Agents](https://github.com/zoedsy/awesome-science-agents)
+### [Awesome Science Agents (2024)](https://github.com/zoedsy/awesome-science-agents)
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/zoedsy/awesome-science-agents)
 
 Coverage: papers + tools
 
@@ -3694,7 +4142,11 @@ Coverage: papers + tools
 
 Scientific-agent papers, tools and bilingual guides for deeper agent-mechanism reading.
 
-### [LLMs for Scientific Discovery](https://github.com/HKUST-KnowComp/Awesome-LLM-Scientific-Discovery)
+### [LLMs for Scientific Discovery (2025)](https://github.com/HKUST-KnowComp/Awesome-LLM-Scientific-Discovery)
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/HKUST-KnowComp/Awesome-LLM-Scientific-Discovery)
 
 Coverage: papers + survey
 
@@ -3704,7 +4156,11 @@ Coverage: papers + survey
 
 A survey-oriented map from research automation to autonomous discovery.
 
-### [Awesome Single Cell](https://github.com/seandavi/awesome-single-cell)
+### [Awesome Single Cell (2016)](https://github.com/seandavi/awesome-single-cell)
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/seandavi/awesome-single-cell)
 
 Coverage: tools + resources
 
@@ -3714,7 +4170,11 @@ Coverage: tools + resources
 
 Broad navigation across single-cell tools and resources.
 
-### [scRNA-tools](https://www.scrna-tools.org/)
+### [scRNA-tools (2018)](https://www.scrna-tools.org/)
+
+Year type / 年份类型: 资源论文 / Resource publication
+
+[Year source / 年份来源](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006245)
 
 Coverage: tools catalog
 
