@@ -1,0 +1,3476 @@
+{
+  "updated": "2026-10-08",
+  "research": [
+    {
+      "id": "mathys19",
+      "name": "Single-cell AD atlas · Mathys",
+      "year": 2019,
+      "domain": "neuro",
+      "evidence": "association",
+      "venue": "Nature",
+      "link": "https://www.nature.com/articles/s41586-019-1195-2",
+      "plain": {
+        "zh": "阿尔兹海默病中，不同脑细胞发生了哪些变化？",
+        "en": "Which brain cells change in Alzheimer’s disease?"
+      },
+      "data": {
+        "zh": "48 位供体、80,660 个细胞核；脑组织单核 RNA 测序。",
+        "en": "48 donors; 80,660 nuclei; brain single-nucleus RNA sequencing."
+      },
+      "method": {
+        "zh": "按细胞类型比较基因表达与病理程度。",
+        "en": "Compare gene expression and pathology within cell types."
+      },
+      "result": {
+        "zh": "早期变化更具细胞类型特异性，后期出现共同应激反应。",
+        "en": "Early changes are more cell-type-specific; later changes share stress responses."
+      },
+      "limit": {
+        "zh": "观察研究；不是 AI 干预模型，也不能证明变化是病因。",
+        "en": "Observational atlas, not an AI intervention model or proof of disease causation."
+      }
+    },
+    {
+      "id": "mathys24",
+      "name": "Multiregion AD atlas · Mathys",
+      "year": 2024,
+      "domain": "neuro",
+      "evidence": "association",
+      "venue": "Nature",
+      "link": "https://www.nature.com/articles/s41586-024-07606-7",
+      "plain": {
+        "zh": "为什么同一个脑内有些区域更容易受损？",
+        "en": "Why are some brain regions more vulnerable than others?"
+      },
+      "data": {
+        "zh": "48 位供体、6 个脑区、约 130 万个细胞核。",
+        "en": "48 donors, six regions, approximately 1.3 million nuclei."
+      },
+      "method": {
+        "zh": "多脑区细胞状态比较，结合病理与认知信息。",
+        "en": "Compare regional cell states with pathology and cognition."
+      },
+      "result": {
+        "zh": "定位易损细胞及与认知韧性相关的星形胶质细胞程序。",
+        "en": "Identifies vulnerable cells and astrocyte programs associated with cognitive resilience."
+      },
+      "limit": {
+        "zh": "尸检横截面数据；区域差异不等于疾病真实时间轨迹。",
+        "en": "Postmortem cross-sectional data; regional differences are not a measured disease timeline."
+      }
+    },
+    {
+      "id": "beyond",
+      "name": "BEYOND · Cellular communities",
+      "year": 2024,
+      "domain": "neuro",
+      "evidence": "association",
+      "venue": "Nature",
+      "link": "https://www.nature.com/articles/s41586-024-07871-6",
+      "plain": {
+        "zh": "把单个细胞的变化连接成疾病中的“细胞群落”。",
+        "en": "Connect individual cell changes into disease-associated cellular communities."
+      },
+      "data": {
+        "zh": "437 位供体、约 165 万个细胞核；另有 bulk 数据验证。",
+        "en": "437 donors and approximately 1.65 million nuclei; additional bulk-data replication."
+      },
+      "method": {
+        "zh": "细胞群落、疾病进程模型和统计中介分析。",
+        "en": "Cellular communities, disease-progression modeling and statistical mediation."
+      },
+      "result": {
+        "zh": "提出衰老、AD 病理与细胞群落之间的联系。",
+        "en": "Links aging, AD pathology and cellular communities."
+      },
+      "limit": {
+        "zh": "统计因果解释依赖假设；伪时间不是追踪同一个人的纵向测量。",
+        "en": "Causal interpretation depends on assumptions; pseudotime is not longitudinal follow-up."
+      }
+    },
+    {
+      "id": "picalm",
+      "name": "PICALM · Microglial mechanism",
+      "year": 2025,
+      "domain": "neuro",
+      "evidence": "experiment",
+      "venue": "Nature",
+      "link": "https://www.nature.com/articles/s41586-025-09486-x",
+      "plain": {
+        "zh": "一个 AD 风险变异怎样影响脑内免疫细胞？",
+        "en": "How does an AD risk variant affect brain immune cells?"
+      },
+      "data": {
+        "zh": "人源 iPSC 微胶质细胞、风险变异与功能实验。",
+        "en": "Human iPSC-derived microglia, risk variants and functional experiments."
+      },
+      "method": {
+        "zh": "基因编辑、调控结合与遗传/药理干预；以实验为主。",
+        "en": "Gene editing, regulatory binding and genetic/pharmacological perturbations; primarily experimental."
+      },
+      "result": {
+        "zh": "风险变异降低 PICALM，关联脂滴增加与吞噬受损，并提供机制支持。",
+        "en": "Supports a chain from reduced PICALM to lipid accumulation and impaired phagocytosis."
+      },
+      "limit": {
+        "zh": "细胞模型机制支持，不是已验证的人体治疗；可作为 AI 候选机制验证范例。",
+        "en": "Cell-model mechanism evidence, not a proven human therapy; a template for validating AI hypotheses."
+      }
+    },
+    {
+      "id": "phgdh",
+      "name": "PHGDH · Non-enzymatic AD mechanism",
+      "year": 2025,
+      "domain": "neuro",
+      "evidence": "experiment",
+      "venue": "Cell",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12204802/",
+      "plain": {
+        "zh": "蛋白除了已知酶功能，是否还能推动 AD 病理？",
+        "en": "Can a protein drive AD pathology beyond its known enzyme function?"
+      },
+      "data": {
+        "zh": "分子实验、脑类器官和小鼠模型；转录组 GSE261164。",
+        "en": "Molecular assays, brain organoids and mouse models; transcriptomics GSE261164."
+      },
+      "method": {
+        "zh": "结构预测辅助提出 DNA 结合线索，再做突变与功能验证。",
+        "en": "Structure prediction motivates a DNA-binding hypothesis, followed by mutation and functional tests."
+      },
+      "result": {
+        "zh": "提出 PHGDH 非酶性转录调控、自噬与淀粉样病理的联系。",
+        "en": "Supports non-enzymatic PHGDH transcriptional regulation linked to autophagy and amyloid pathology."
+      },
+      "limit": {
+        "zh": "AI 提供线索，实验提供证据；抑制剂结果仍是临床前。",
+        "en": "AI supplies a lead; experiments supply evidence. Inhibitor findings remain preclinical."
+      }
+    },
+    {
+      "id": "pascode",
+      "name": "PASCode",
+      "year": 2026,
+      "domain": "neuro",
+      "evidence": "association",
+      "venue": "Nature Medicine · Sep 23",
+      "link": "https://www.nature.com/articles/s41591-025-04128-1",
+      "plain": {
+        "zh": "哪些脑细胞更能反映疾病和认知状态？",
+        "en": "Which brain cells best reflect disease and cognitive status?"
+      },
+      "data": {
+        "zh": "PsychAD 全资源 1,494 位供体、630 万细胞核；论文 AD 聚焦分析为子集。",
+        "en": "PsychAD resource: 1,494 donors and 6.3 million nuclei; AD-focused analyses use a subset."
+      },
+      "method": {
+        "zh": "图注意力模型将细胞与供体表型关联，生成细胞评分。",
+        "en": "A graph-attention model associates cells with donor phenotypes and produces cell scores."
+      },
+      "result": {
+        "zh": "定位与神经退行性病理和认知相关的细胞状态。",
+        "en": "Localizes cell states associated with neurodegenerative pathology and cognition."
+      },
+      "limit": {
+        "zh": "表型关联评分，不是单细胞病因标签；须按供体划分训练测试。",
+        "en": "Phenotype-association scores are not causal cell labels; split evaluation by donor."
+      }
+    },
+    {
+      "id": "hicformer",
+      "name": "GAGE-seq / Hicformer",
+      "year": 2026,
+      "domain": "neuro",
+      "evidence": "prediction",
+      "venue": "Science · Jul 23",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13499675/",
+      "plain": {
+        "zh": "把 DNA 的三维折叠与脑细胞基因活动联系起来。",
+        "en": "Connect 3D DNA folding with gene activity in brain cells."
+      },
+      "data": {
+        "zh": "20 位供体（10 AD / 10 对照）、23,825 个细胞核，联合 RNA 与 Hi-C。",
+        "en": "20 donors (10 AD / 10 controls), 23,825 nuclei, joint RNA and Hi-C."
+      },
+      "method": {
+        "zh": "序列与三维接触驱动的表达预测；使用细胞类型汇总信号。",
+        "en": "Sequence and 3D-contact-based expression prediction using cell-type pseudobulk signals."
+      },
+      "result": {
+        "zh": "帮助解释不同细胞类型的调控与 AD 相关改变。",
+        "en": "Helps interpret cell-type-specific regulation and AD-associated changes."
+      },
+      "limit": {
+        "zh": "预测/归因不等于因果；20 位供体不能按细胞数扩大有效样本量。",
+        "en": "Prediction and attribution are not causality; 20 donors do not become thousands of independent patients."
+      }
+    },
+    {
+      "id": "ra-atlas",
+      "name": "Rheumatoid arthritis synovial atlas",
+      "year": 2023,
+      "domain": "immune",
+      "evidence": "association",
+      "venue": "Nature",
+      "link": "https://www.nature.com/articles/s41586-023-06708-y",
+      "plain": {
+        "zh": "关节炎患者的免疫细胞和组织细胞是否有不同组合？",
+        "en": "Do arthritis patients have distinct immune and tissue-cell compositions?"
+      },
+      "data": {
+        "zh": "类风湿关节炎滑膜组织、多模态单细胞数据。",
+        "en": "Rheumatoid arthritis synovial tissue with multimodal single-cell data."
+      },
+      "method": {
+        "zh": "细胞聚类、状态识别与患者组织分型。",
+        "en": "Cell clustering, state identification and tissue-based patient stratification."
+      },
+      "result": {
+        "zh": "显示不同炎症细胞组合，为机制与分层研究提供地图。",
+        "en": "Maps distinct inflammatory cell combinations for mechanism and stratification research."
+      },
+      "limit": {
+        "zh": "组织分型不是已经验证的药物选择规则。",
+        "en": "Tissue subtypes are not yet validated rules for choosing therapy."
+      }
+    },
+    {
+      "id": "ra-fibro",
+      "name": "Cytokine-driven fibroblast states",
+      "year": 2023,
+      "domain": "immune",
+      "evidence": "experiment",
+      "venue": "Nature Immunology",
+      "link": "https://www.nature.com/articles/s41590-023-01527-9",
+      "plain": {
+        "zh": "炎症信号如何改变关节中的成纤维细胞？",
+        "en": "How do inflammatory signals change joint fibroblasts?"
+      },
+      "data": {
+        "zh": "滑膜细胞、单细胞数据及细胞因子暴露实验。",
+        "en": "Synovial cells, single-cell data and cytokine-exposure experiments."
+      },
+      "method": {
+        "zh": "用 TNF、IFNγ、IL-1β 等干预检验细胞状态来源。",
+        "en": "Perturb cytokine signaling to test the origins of fibroblast states."
+      },
+      "result": {
+        "zh": "连接炎症微环境与不同成纤维细胞程序。",
+        "en": "Connects the inflammatory environment to distinct fibroblast programs."
+      },
+      "limit": {
+        "zh": "实验条件中的状态诱导，不代表患者全身长期响应。",
+        "en": "State induction in an experimental context does not establish long-term patient response."
+      }
+    },
+    {
+      "id": "dkd",
+      "name": "Spatial diabetic kidney atlas",
+      "year": 2026,
+      "domain": "immune",
+      "evidence": "association",
+      "venue": "Nature",
+      "link": "https://www.nature.com/articles/s41586-026-10363-4",
+      "plain": {
+        "zh": "糖尿病肾病中，细胞位置怎样反映损伤？",
+        "en": "How do cell locations reflect injury in diabetic kidney disease?"
+      },
+      "data": {
+        "zh": "肾组织单核 RNA、Xenium / CosMx 空间数据及临床信息。",
+        "en": "Kidney single-nucleus RNA, Xenium/CosMx spatial data and clinical information."
+      },
+      "method": {
+        "zh": "整合细胞类型、空间邻域与疾病表型。",
+        "en": "Integrate cell types, spatial neighborhoods and disease phenotypes."
+      },
+      "result": {
+        "zh": "描绘损伤组织结构及 B 细胞富集等疾病亚群。",
+        "en": "Maps injured tissue architecture and disease subgroups including B-cell-rich patterns."
+      },
+      "limit": {
+        "zh": "空间共现不是细胞之间的因果作用；治疗需独立验证。",
+        "en": "Spatial co-occurrence is not causal interaction; treatment implications require validation."
+      }
+    },
+    {
+      "id": "tcell",
+      "name": "CRISPR activation / inhibition in T cells",
+      "year": 2022,
+      "domain": "immune",
+      "evidence": "experiment",
+      "venue": "Science",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35113687/",
+      "plain": {
+        "zh": "哪些基因真正改变 T 细胞的免疫反应？",
+        "en": "Which genes actually alter T-cell immune responses?"
+      },
+      "data": {
+        "zh": "原代 T 细胞、全基因组 CRISPRa/i 筛选与单细胞读出。",
+        "en": "Primary T cells, genome-wide CRISPRa/i screens and single-cell readouts."
+      },
+      "method": {
+        "zh": "干预基因后测量 IL-2 / IFNγ 等反应。",
+        "en": "Perturb genes and measure responses such as IL-2 and IFNγ."
+      },
+      "result": {
+        "zh": "提供可用于建模的干预数据和免疫调控候选。",
+        "en": "Provides intervention data and immune-regulatory candidates for modeling."
+      },
+      "limit": {
+        "zh": "供体、激活状态和实验读出限制外推范围。",
+        "en": "Donor, activation state and measured endpoints constrain generalization."
+      }
+    },
+    {
+      "id": "scvi",
+      "name": "scVI",
+      "year": 2018,
+      "domain": "cell",
+      "evidence": "prediction",
+      "venue": "Nature Methods",
+      "link": "https://www.nature.com/articles/s41592-018-0229-2",
+      "plain": {
+        "zh": "怎样比较不同批次测到的细胞？",
+        "en": "How can cells measured in different batches be compared?"
+      },
+      "data": {
+        "zh": "单细胞 RNA 原始计数和批次标签。",
+        "en": "Single-cell RNA counts and batch labels."
+      },
+      "method": {
+        "zh": "概率生成模型学习细胞低维表示并建模测量噪声。",
+        "en": "A probabilistic generative model learns cell representations and measurement noise."
+      },
+      "result": {
+        "zh": "成为数据整合、降维与下游分析的常用基线。",
+        "en": "A widely used baseline for integration, representation and downstream analysis."
+      },
+      "limit": {
+        "zh": "批次校正可能抹去真实差异；整合漂亮不代表生物结论正确。",
+        "en": "Batch correction may remove true differences; attractive embeddings do not establish biology."
+      }
+    },
+    {
+      "id": "scgen",
+      "name": "scGen",
+      "year": 2019,
+      "domain": "perturb",
+      "evidence": "prediction",
+      "venue": "Nature Methods",
+      "link": "https://www.nature.com/articles/s41592-019-0494-8",
+      "plain": {
+        "zh": "能否预测未测过的细胞对刺激的反应？",
+        "en": "Can we predict how unmeasured cells respond to a stimulus?"
+      },
+      "data": {
+        "zh": "刺激前后单细胞表达与细胞类型标签。",
+        "en": "Single-cell expression before/after stimulation with cell-type labels."
+      },
+      "method": {
+        "zh": "在潜在空间中转移条件变化。",
+        "en": "Transfer condition differences in a latent representation."
+      },
+      "result": {
+        "zh": "展示跨细胞类型预测刺激反应的思路。",
+        "en": "Demonstrates a strategy for transferring stimulus-response predictions across cell types."
+      },
+      "limit": {
+        "zh": "潜在变化可迁移是假设；未见刺激与严重分布变化仍困难。",
+        "en": "Transferable latent changes are an assumption; unseen stimuli and major shifts remain difficult."
+      }
+    },
+    {
+      "id": "cpa",
+      "name": "CPA",
+      "year": 2023,
+      "domain": "perturb",
+      "evidence": "prediction",
+      "venue": "Molecular Systems Biology",
+      "link": "https://doi.org/10.15252/msb.202211517",
+      "plain": {
+        "zh": "药物、剂量和细胞类型组合怎样改变细胞？",
+        "en": "How do drug, dose and cell-type combinations change cells?"
+      },
+      "data": {
+        "zh": "带药物、剂量、细胞类型等条件的表达矩阵。",
+        "en": "Expression matrices annotated with drug, dose and cell type."
+      },
+      "method": {
+        "zh": "分解细胞状态与条件，再组合预测。",
+        "en": "Disentangle cell state and conditions, then compose predictions."
+      },
+      "result": {
+        "zh": "支持药物条件及组合响应建模。",
+        "en": "Supports modeling drug conditions and combinations."
+      },
+      "limit": {
+        "zh": "不要将组合外推直接等同于任意未见基因敲除预测。",
+        "en": "Compositional extrapolation is not unrestricted prediction of unseen gene knockouts."
+      }
+    },
+    {
+      "id": "celloracle",
+      "name": "CellOracle",
+      "year": 2023,
+      "domain": "causal",
+      "evidence": "prediction",
+      "venue": "Nature",
+      "link": "https://www.nature.com/articles/s41586-022-05688-9",
+      "plain": {
+        "zh": "关闭一个转录因子，细胞可能走向哪种状态？",
+        "en": "Where might a cell go if a transcription factor is switched off?"
+      },
+      "data": {
+        "zh": "RNA 表达；ATAC 或调控先验信息。",
+        "en": "RNA expression with ATAC or regulatory priors."
+      },
+      "method": {
+        "zh": "建立细胞类型相关基因调控网络并模拟扰动。",
+        "en": "Build cell-type-specific gene-regulatory networks and simulate perturbations."
+      },
+      "result": {
+        "zh": "提供调控候选及细胞状态变化预测；部分系统有实验验证。",
+        "en": "Produces regulatory candidates and state-change predictions with validation in selected systems."
+      },
+      "limit": {
+        "zh": "网络先验和线性近似限制预测；不能为所有推断边提供因果证明。",
+        "en": "Priors and model approximations limit predictions; inferred edges are not all causally proven."
+      }
+    },
+    {
+      "id": "gears",
+      "name": "GEARS",
+      "year": 2023,
+      "domain": "perturb",
+      "evidence": "prediction",
+      "venue": "Nature Biotechnology",
+      "link": "https://www.nature.com/articles/s41587-023-01905-6",
+      "plain": {
+        "zh": "能否预测没有直接测过的基因组合干预？",
+        "en": "Can we predict gene combinations that were not directly measured?"
+      },
+      "data": {
+        "zh": "Perturb-seq 表达、干预标签和基因知识图。",
+        "en": "Perturb-seq expression, perturbation labels and a gene knowledge graph."
+      },
+      "method": {
+        "zh": "用图神经网络共享基因关系，预测单/双基因干预。",
+        "en": "A graph neural network shares gene relationships to predict single/double perturbations."
+      },
+      "result": {
+        "zh": "为未见组合提供模型化外推。",
+        "en": "Provides model-based extrapolation to unseen combinations."
+      },
+      "limit": {
+        "zh": "知识先验可能泄漏；必须与线性、无变化、加性基线按同一划分比较。",
+        "en": "Priors may leak information; compare linear, no-change and additive baselines on identical splits."
+      }
+    },
+    {
+      "id": "geneformer",
+      "name": "Geneformer",
+      "year": 2023,
+      "domain": "cell",
+      "evidence": "prediction",
+      "venue": "Nature",
+      "link": "https://www.nature.com/articles/s41586-023-06139-9",
+      "plain": {
+        "zh": "从大量细胞学习基因语境，再寻找疾病候选靶点。",
+        "en": "Learn gene context from many cells, then identify candidate disease targets."
+      },
+      "data": {
+        "zh": "约 3,000 万细胞预训练；基因表达排序 token。",
+        "en": "Approximately 30 million pretraining cells; ranked gene-expression tokens."
+      },
+      "method": {
+        "zh": "Transformer 预训练与任务适配、计算扰动。",
+        "en": "Transformer pretraining, task adaptation and computational perturbation."
+      },
+      "result": {
+        "zh": "支持细胞任务与心脏疾病相关网络候选验证。",
+        "en": "Supports cell tasks and selected validation of cardiac disease-network candidates."
+      },
+      "limit": {
+        "zh": "模型中的删除 token 不等于真实敲除；须做生物实验验证。",
+        "en": "Deleting a token is not a biological knockout; experimental validation is necessary."
+      }
+    },
+    {
+      "id": "scgpt",
+      "name": "scGPT",
+      "year": 2024,
+      "domain": "cell",
+      "evidence": "prediction",
+      "venue": "Nature Methods",
+      "link": "https://www.nature.com/articles/s41592-024-02201-0",
+      "plain": {
+        "zh": "把单细胞数据作为可迁移学习的基础。",
+        "en": "Use single-cell data as a foundation for transferable learning."
+      },
+      "data": {
+        "zh": "超过 3,300 万细胞；基因与表达信息。",
+        "en": "More than 33 million cells with gene and expression information."
+      },
+      "method": {
+        "zh": "生成式预训练，适配注释、整合与扰动任务。",
+        "en": "Generative pretraining adapted to annotation, integration and perturbation tasks."
+      },
+      "result": {
+        "zh": "展示通用单细胞模型在多个任务中的应用。",
+        "en": "Demonstrates general single-cell modeling across multiple tasks."
+      },
+      "limit": {
+        "zh": "不是完整细胞模拟器；扰动泛化优势需按新评测重新确认。",
+        "en": "Not a complete cell simulator; perturbation generalization needs renewed benchmarking."
+      }
+    },
+    {
+      "id": "nicheformer",
+      "name": "Nicheformer",
+      "year": 2025,
+      "domain": "spatial",
+      "evidence": "prediction",
+      "venue": "Nature Methods",
+      "link": "https://www.nature.com/articles/s41592-025-02814-z",
+      "plain": {
+        "zh": "单个细胞处在怎样的组织环境中？",
+        "en": "What tissue environment does a cell belong to?"
+      },
+      "data": {
+        "zh": "空间与解离单细胞表达数据。",
+        "en": "Spatial and dissociated single-cell expression data."
+      },
+      "method": {
+        "zh": "联合预训练学习细胞及组织邻域表示。",
+        "en": "Joint pretraining learns cell and tissue-neighborhood representations."
+      },
+      "result": {
+        "zh": "支持细胞环境与空间任务预测。",
+        "en": "Supports cellular-context and spatial prediction tasks."
+      },
+      "limit": {
+        "zh": "空间表示不是细胞通信机制或因果关系。",
+        "en": "Spatial representations do not establish communication mechanisms or causal relationships."
+      }
+    },
+    {
+      "id": "scprint",
+      "name": "scPRINT",
+      "year": 2025,
+      "domain": "causal",
+      "evidence": "prediction",
+      "venue": "Nature Communications",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12003772/",
+      "plain": {
+        "zh": "能否从大量细胞提取候选基因调控网络？",
+        "en": "Can large cell collections reveal candidate regulatory networks?"
+      },
+      "data": {
+        "zh": "约 5,000 万细胞的预训练资源。",
+        "en": "A pretraining resource of approximately 50 million cells."
+      },
+      "method": {
+        "zh": "表达建模及网络推断。",
+        "en": "Expression modeling and regulatory-network inference."
+      },
+      "result": {
+        "zh": "提供细胞相关调控网络候选。",
+        "en": "Provides cell-context-dependent candidate regulatory networks."
+      },
+      "limit": {
+        "zh": "注意力/预测关系不自动代表因果；干预是重要校验。",
+        "en": "Attention or predictive relationships are not automatically causal; interventions provide key checks."
+      }
+    },
+    {
+      "id": "geneformer26",
+      "name": "Geneformer · Scaling & quantization",
+      "year": 2026,
+      "domain": "cell",
+      "evidence": "prediction",
+      "venue": "Nature Computational Science",
+      "link": "https://www.nature.com/articles/s43588-026-00972-4",
+      "plain": {
+        "zh": "更大模型能否在可承受资源下使用？",
+        "en": "Can larger cell models be used with manageable resources?"
+      },
+      "data": {
+        "zh": "超过 1 亿细胞语料；104M / 316M 参数模型。",
+        "en": "A corpus exceeding 100 million cells; 104M/316M-parameter models."
+      },
+      "method": {
+        "zh": "扩展预训练并研究量化效率。",
+        "en": "Scale pretraining and investigate quantization efficiency."
+      },
+      "result": {
+        "zh": "连接模型规模、性能与资源效率。",
+        "en": "Connects model scale, performance and resource efficiency."
+      },
+      "limit": {
+        "zh": "量化省显存不代表生物泛化问题已解决。",
+        "en": "Lower memory use does not mean biological generalization is solved."
+      }
+    },
+    {
+      "id": "uce",
+      "name": "Universal Cell Embeddings · UCE",
+      "year": 2026,
+      "domain": "cell",
+      "evidence": "prediction",
+      "venue": "Nature · Jul 8",
+      "link": "https://www.nature.com/articles/s41586-026-10689-z",
+      "plain": {
+        "zh": "把不同物种的细胞放在可比较的表示空间。",
+        "en": "Place cells from different species in a comparable representation space."
+      },
+      "data": {
+        "zh": "约 3,600 万细胞、8 个物种。",
+        "en": "Approximately 36 million cells across eight species."
+      },
+      "method": {
+        "zh": "通用细胞表示，支持未见细胞状态的零样本分析。",
+        "en": "Universal representations support zero-shot analysis of unseen cell states."
+      },
+      "result": {
+        "zh": "跨物种与细胞类型的表示迁移。",
+        "en": "Representation transfer across species and cell types."
+      },
+      "limit": {
+        "zh": "识别新状态不等于预测任意干预；需确认任务与数据重叠。",
+        "en": "Recognizing new states is not arbitrary intervention prediction; check task and data overlap."
+      }
+    },
+    {
+      "id": "state",
+      "name": "State",
+      "year": 2026,
+      "domain": "perturb",
+      "evidence": "prediction",
+      "venue": "Cell · Aug 31 online",
+      "link": "https://doi.org/10.1016/j.cell.2026.07.052",
+      "plain": {
+        "zh": "用细胞上下文预测一组细胞的干预响应。",
+        "en": "Use cellular context to predict a population’s perturbation response."
+      },
+      "data": {
+        "zh": "大规模单细胞扰动数据与细胞上下文集合。",
+        "en": "Large single-cell perturbation datasets and contextual cell sets."
+      },
+      "method": {
+        "zh": "上下文驱动的细胞状态预测；CellEval 评估。",
+        "en": "Context-conditioned state prediction evaluated with CellEval."
+      },
+      "result": {
+        "zh": "面向跨条件响应预测的模型与开放工具。",
+        "en": "A model and tools for response prediction across conditions."
+      },
+      "limit": {
+        "zh": "不是逐个细胞的已观测反事实；代码、权重和输出有非商业使用约束。",
+        "en": "Not observed individual-cell counterfactuals; code, weights and outputs have non-commercial restrictions."
+      }
+    },
+    {
+      "id": "resolvi",
+      "name": "ResolVI",
+      "year": 2026,
+      "domain": "spatial",
+      "evidence": "prediction",
+      "venue": "Nature Methods · Sep 24",
+      "link": "https://www.nature.com/articles/s41592-026-03212-9",
+      "plain": {
+        "zh": "空间测序中，被分错到邻居细胞的分子怎么办？",
+        "en": "What if spatial molecules are assigned to the wrong neighboring cell?"
+      },
+      "data": {
+        "zh": "空间表达、分子位置和已有细胞分割。",
+        "en": "Spatial expression, molecule locations and existing cell segmentation."
+      },
+      "method": {
+        "zh": "概率模型校正分子归属与技术变化。",
+        "en": "A probabilistic model corrects molecule assignments and technical variation."
+      },
+      "result": {
+        "zh": "提高空间数据用于细胞分析的可靠性。",
+        "en": "Improves the reliability of spatial data for cell analysis."
+      },
+      "limit": {
+        "zh": "依赖初始分割和评估代理；输出不是无条件真实标签。",
+        "en": "Depends on initial segmentation and evaluation proxies; outputs are not unconditional ground truth."
+      }
+    },
+    {
+      "id": "cytovi",
+      "name": "CytoVI",
+      "year": 2026,
+      "domain": "cell",
+      "evidence": "prediction",
+      "venue": "Nature Methods · Sep 30",
+      "link": "https://www.nature.com/articles/s41592-026-03224-5",
+      "plain": {
+        "zh": "不同蛋白检测面板和批次如何一起分析？",
+        "en": "How can different protein panels and batches be analyzed together?"
+      },
+      "data": {
+        "zh": "流式/质谱流式及 CITE 蛋白测量。",
+        "en": "Flow/mass cytometry and CITE protein measurements."
+      },
+      "method": {
+        "zh": "概率生成模型整合蛋白检测数据。",
+        "en": "A probabilistic generative model integrates protein measurements."
+      },
+      "result": {
+        "zh": "支持蛋白层面的细胞表示与跨数据集分析。",
+        "en": "Supports protein-level cell representations and cross-dataset analysis."
+      },
+      "limit": {
+        "zh": "蛋白强度不是 RNA 计数；潜在不确定性不是自动校准的临床风险。",
+        "en": "Protein intensity is not RNA counts; latent uncertainty is not automatically calibrated clinical risk."
+      }
+    },
+    {
+      "id": "linear25",
+      "name": "Do foundation models beat simple baselines?",
+      "year": 2025,
+      "domain": "evaluation",
+      "evidence": "benchmark",
+      "venue": "Nature Methods",
+      "link": "https://www.nature.com/articles/s41592-025-02772-6",
+      "plain": {
+        "zh": "大模型是否真的比简单方法更会预测干预？",
+        "en": "Do large models really predict perturbations better than simple methods?"
+      },
+      "data": {
+        "zh": "多个癌细胞系的遗传扰动数据。",
+        "en": "Genetic perturbation datasets from several cancer cell lines."
+      },
+      "method": {
+        "zh": "统一比较深度模型、均值/线性与加性基线。",
+        "en": "Compare deep models with mean, linear and additive baselines."
+      },
+      "result": {
+        "zh": "测试设置中，复杂方法没有稳定胜过简单基线。",
+        "en": "Complex methods did not consistently outperform simple baselines in the tested settings."
+      },
+      "limit": {
+        "zh": "结论限定于该任务、数据和划分；不是“所有 AI 都无效”。",
+        "en": "Scoped to these tasks, datasets and splits; not a claim that all AI is ineffective."
+      }
+    },
+    {
+      "id": "calibration26",
+      "name": "Calibrated perturbation benchmarking",
+      "year": 2026,
+      "domain": "evaluation",
+      "evidence": "benchmark",
+      "venue": "Nature Biotechnology · Oct 1",
+      "link": "https://www.nature.com/articles/s41587-026-03307-w",
+      "plain": {
+        "zh": "评测分数高，是因为模型好，还是指标太容易？",
+        "en": "Is a high score due to a good model or an insensitive metric?"
+      },
+      "data": {
+        "zh": "14 个数据集、18 个指标。",
+        "en": "14 datasets and 18 metrics."
+      },
+      "method": {
+        "zh": "用阳性对照校准指标，检查无信息基线。",
+        "en": "Calibrate metrics using positive controls and examine uninformative baselines."
+      },
+      "result": {
+        "zh": "常见指标可能掩盖响应差异；需同时检验指标是否有效。",
+        "en": "Common metrics can obscure response differences; metric validity itself must be tested."
+      },
+      "limit": {
+        "zh": "校准后的优势也不自动证明对未见供体/细胞类型的泛化。",
+        "en": "Calibrated gains do not automatically establish generalization to unseen donors or cell types."
+      }
+    },
+    {
+      "id": "perteval",
+      "name": "PertEval-scFM",
+      "year": 2025,
+      "domain": "evaluation",
+      "evidence": "benchmark",
+      "venue": "ICML",
+      "link": "https://proceedings.mlr.press/v267/wenteler25a.html",
+      "plain": {
+        "zh": "在统一条件下检查单细胞基础模型的扰动能力。",
+        "en": "Evaluate perturbation capability under a consistent protocol."
+      },
+      "data": {
+        "zh": "单细胞扰动数据与明确的留出划分。",
+        "en": "Single-cell perturbation data with defined holdout splits."
+      },
+      "method": {
+        "zh": "统一微调与比较，评估基础模型优势。",
+        "en": "Consistent adaptation and comparison of foundation models."
+      },
+      "result": {
+        "zh": "强调任务匹配、基线和数据划分的重要性。",
+        "en": "Highlights task matching, baselines and data-split design."
+      },
+      "limit": {
+        "zh": "不能把随机细胞留出称作新患者或新机制泛化。",
+        "en": "A random-cell holdout is not new-patient or new-mechanism generalization."
+      }
+    },
+    {
+      "id": "causalbench",
+      "name": "CausalBench",
+      "year": 2025,
+      "domain": "causal",
+      "evidence": "benchmark",
+      "venue": "Communications Biology",
+      "link": "https://www.nature.com/articles/s42003-025-07764-y",
+      "plain": {
+        "zh": "推断出的基因因果网络，经得住干预数据检查吗？",
+        "en": "Do inferred causal gene networks survive checks against interventions?"
+      },
+      "data": {
+        "zh": "超过 20 万干预数据点，来自两个细胞系。",
+        "en": "More than 200,000 interventional observations from two cell lines."
+      },
+      "method": {
+        "zh": "用大规模 Perturb-seq 评测因果网络推断。",
+        "en": "Benchmark causal network inference using large-scale Perturb-seq."
+      },
+      "result": {
+        "zh": "提供更接近干预证据的网络评估框架。",
+        "en": "Provides a network-evaluation framework closer to intervention evidence."
+      },
+      "limit": {
+        "zh": "干预读出不是完整网络真值；不要与同名 LLM 基准混淆。",
+        "en": "Intervention readouts are not complete network ground truth; distinct from similarly named LLM benchmarks."
+      }
+    },
+    {
+      "id": "active",
+      "name": "Causal active learning",
+      "year": 2023,
+      "domain": "causal",
+      "evidence": "prediction",
+      "venue": "Nature Machine Intelligence",
+      "link": "https://www.nature.com/articles/s42256-023-00719-0",
+      "plain": {
+        "zh": "预算有限时，下一个实验应该做什么？",
+        "en": "With limited budget, which experiment should be next?"
+      },
+      "data": {
+        "zh": "干预实验与可用的因果模型信息。",
+        "en": "Intervention experiments and available causal-model information."
+      },
+      "method": {
+        "zh": "基于因果模型选择最有信息的干预。",
+        "en": "Select informative interventions using causal models."
+      },
+      "result": {
+        "zh": "将实验设计与因果学习连接，减少盲目筛选。",
+        "en": "Connects experimental design and causal learning to reduce unguided screening."
+      },
+      "limit": {
+        "zh": "理论结果在已知图、线性结构等条件下成立，不是通用实验最优保证。",
+        "en": "Theory relies on conditions such as known graphs and linear structures, not universal optimality."
+      }
+    },
+    {
+      "id": "norman",
+      "name": "Combinatorial Perturb-seq · Norman",
+      "year": 2019,
+      "domain": "perturb",
+      "evidence": "experiment",
+      "venue": "Science",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/6746554/",
+      "plain": {
+        "zh": "两个基因一起改变，会出现单独干预没有的效果吗？",
+        "en": "Can two genes together produce effects absent from single perturbations?"
+      },
+      "data": {
+        "zh": "K562 细胞、单/双基因干预、单细胞转录组。",
+        "en": "K562 cells, single/double genetic perturbations and single-cell transcriptomics."
+      },
+      "method": {
+        "zh": "比较组合与单干预的细胞表型。",
+        "en": "Compare combination phenotypes with individual perturbations."
+      },
+      "result": {
+        "zh": "描述遗传互作结构，是组合预测常用实验基准。",
+        "en": "Maps genetic-interaction structure; a widely used combination-prediction dataset."
+      },
+      "limit": {
+        "zh": "单一细胞系与筛选基因范围限制外推。",
+        "en": "A single cell line and selected genes limit extrapolation."
+      }
+    },
+    {
+      "id": "replogle",
+      "name": "Genome-scale Perturb-seq · Replogle",
+      "year": 2022,
+      "domain": "perturb",
+      "evidence": "experiment",
+      "venue": "Cell",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9380471/",
+      "plain": {
+        "zh": "大范围改变基因后，细胞表达如何变化？",
+        "en": "How does cell expression change after large-scale gene perturbation?"
+      },
+      "data": {
+        "zh": "K562 / RPE1 等细胞系的 CRISPRi 与单细胞表达。",
+        "en": "CRISPRi and single-cell expression in cell lines including K562/RPE1."
+      },
+      "method": {
+        "zh": "大规模基因干预，测量多维转录表型。",
+        "en": "Large-scale gene interventions with multidimensional transcriptional readouts."
+      },
+      "result": {
+        "zh": "为基因功能、调控网络与扰动预测提供实验资源。",
+        "en": "Provides experimental resources for gene function, networks and response prediction."
+      },
+      "limit": {
+        "zh": "敲低效率、应激和生长选择会影响读出。",
+        "en": "Knockdown efficiency, stress and growth selection affect measured responses."
+      }
+    },
+    {
+      "id": "alphagenome",
+      "name": "AlphaGenome",
+      "year": 2026,
+      "domain": "genome",
+      "evidence": "prediction",
+      "venue": "Nature · Jan 28",
+      "link": "https://www.nature.com/articles/s41586-025-10014-0",
+      "plain": {
+        "zh": "一个非编码 DNA 变异可能影响哪些基因调控过程？",
+        "en": "Which regulatory processes might a non-coding DNA variant affect?"
+      },
+      "data": {
+        "zh": "约 1 Mb DNA 上下文；表达、剪接与染色质等训练信号。",
+        "en": "Approximately 1 Mb DNA context; expression, splicing and chromatin training signals."
+      },
+      "method": {
+        "zh": "多模态序列模型预测调控读出及变异影响。",
+        "en": "A multimodal sequence model predicts regulatory readouts and variant effects."
+      },
+      "result": {
+        "zh": "帮助优先筛选需要实验验证的调控变异。",
+        "en": "Helps prioritize regulatory variants for experimental testing."
+      },
+      "limit": {
+        "zh": "预测变异效应不等于致病结论；组织语境与功能验证不可少。",
+        "en": "Predicted variant effects are not pathogenicity conclusions; tissue context and validation matter."
+      }
+    },
+    {
+      "id": "evo2",
+      "name": "Evo 2",
+      "year": 2026,
+      "domain": "genome",
+      "evidence": "prediction",
+      "venue": "Nature · Mar 4",
+      "link": "https://www.nature.com/articles/s41586-026-10176-5",
+      "plain": {
+        "zh": "从大规模 DNA 学习规律，辅助变异分析与设计。",
+        "en": "Learn large-scale DNA patterns for variant analysis and design."
+      },
+      "data": {
+        "zh": "约 9 万亿 DNA 碱基；7B / 40B 参数模型。",
+        "en": "Approximately nine trillion DNA bases; 7B/40B-parameter models."
+      },
+      "method": {
+        "zh": "长序列生成式基因组建模。",
+        "en": "Long-context generative genome modeling."
+      },
+      "result": {
+        "zh": "扩展序列建模的跨物种与设计能力。",
+        "en": "Extends sequence modeling across species and design tasks."
+      },
+      "limit": {
+        "zh": "序列合理性不代表细胞功能、临床安全或机制已被证明。",
+        "en": "Sequence plausibility does not establish cell function, clinical safety or mechanism."
+      }
+    },
+    {
+      "id": "af2",
+      "name": "AlphaFold 2",
+      "year": 2021,
+      "domain": "protein",
+      "evidence": "prediction",
+      "venue": "Nature",
+      "link": "https://www.nature.com/articles/s41586-021-03819-2",
+      "plain": {
+        "zh": "能否从蛋白序列推测三维结构？",
+        "en": "Can a protein sequence reveal its three-dimensional structure?"
+      },
+      "data": {
+        "zh": "蛋白序列、多序列比对和实验结构。",
+        "en": "Protein sequences, multiple-sequence alignments and experimental structures."
+      },
+      "method": {
+        "zh": "深度学习预测结构并给出置信度。",
+        "en": "Deep learning predicts structures with confidence estimates."
+      },
+      "result": {
+        "zh": "改变结构研究的可及性，支持机制假设。",
+        "en": "Broadens access to structural analysis and mechanism hypotheses."
+      },
+      "limit": {
+        "zh": "结构不是动态、结合强度或药效的完整答案。",
+        "en": "A structure is not a complete answer about dynamics, affinity or drug efficacy."
+      }
+    },
+    {
+      "id": "af3",
+      "name": "AlphaFold 3",
+      "year": 2024,
+      "domain": "protein",
+      "evidence": "prediction",
+      "venue": "Nature",
+      "link": "https://www.nature.com/articles/s41586-024-07487-w",
+      "plain": {
+        "zh": "蛋白、核酸和小分子一起形成什么结构？",
+        "en": "What structures form when proteins, nucleic acids and small molecules interact?"
+      },
+      "data": {
+        "zh": "多种生物分子及其复合物结构。",
+        "en": "Multiple biomolecular types and complex structures."
+      },
+      "method": {
+        "zh": "扩散模型预测复合物原子结构。",
+        "en": "A diffusion model predicts complex atomic structures."
+      },
+      "result": {
+        "zh": "扩展到蛋白–DNA/RNA–配体等相互作用。",
+        "en": "Extends prediction to interactions involving proteins, DNA/RNA and ligands."
+      },
+      "limit": {
+        "zh": "预测结合姿态不是结合自由能或临床效果；遵守权重许可。",
+        "en": "A predicted pose is not binding free energy or clinical efficacy; respect weight licensing."
+      }
+    },
+    {
+      "id": "boltz2",
+      "name": "Boltz-2",
+      "year": 2025,
+      "domain": "protein",
+      "evidence": "prediction",
+      "venue": "bioRxiv · Preprint",
+      "link": "https://doi.org/10.1101/2025.06.14.659707",
+      "plain": {
+        "zh": "同时估计分子复合物结构和结合相关信号。",
+        "en": "Estimate complex structure and binding-related signals together."
+      },
+      "data": {
+        "zh": "生物分子序列、SMILES、结构与亲和力训练资源。",
+        "en": "Biomolecular sequences, SMILES, structures and affinity training resources."
+      },
+      "method": {
+        "zh": "联合结构与亲和力预测。",
+        "en": "Joint structure and affinity prediction."
+      },
+      "result": {
+        "zh": "开放工具可辅助化合物优先级排序。",
+        "en": "Open tooling supports compound prioritization."
+      },
+      "limit": {
+        "zh": "报告亲和力读出和单位；模型分数不是药物疗效。该条对应预印本。",
+        "en": "Report affinity endpoints and units; scores are not therapeutic efficacy. This entry refers to a preprint."
+      }
+    },
+    {
+      "id": "txgnn",
+      "name": "TxGNN",
+      "year": 2024,
+      "domain": "drug",
+      "evidence": "prediction",
+      "venue": "Nature Medicine",
+      "link": "https://www.nature.com/articles/s41591-024-03233-x",
+      "plain": {
+        "zh": "数据少的疾病，能否找到已有药物的候选新用途？",
+        "en": "Can existing drugs gain candidate uses for data-poor diseases?"
+      },
+      "data": {
+        "zh": "药物、疾病、基因等生物医学知识图。",
+        "en": "A biomedical knowledge graph linking drugs, diseases and genes."
+      },
+      "method": {
+        "zh": "图模型进行疾病–药物关系预测。",
+        "en": "A graph model predicts disease–drug relationships."
+      },
+      "result": {
+        "zh": "支持低数据疾病的药物再利用候选筛选。",
+        "en": "Supports repurposing candidate selection for low-data diseases."
+      },
+      "limit": {
+        "zh": "候选关系/排名不是临床疗效；训练关系泄漏须检查。",
+        "en": "Predicted links or rankings are not clinical efficacy; check relation leakage."
+      }
+    },
+    {
+      "id": "uni",
+      "name": "UNI",
+      "year": 2024,
+      "domain": "pathology",
+      "evidence": "prediction",
+      "venue": "Nature Medicine",
+      "link": "https://www.nature.com/articles/s41591-024-02857-3",
+      "plain": {
+        "zh": "如何从病理切片提取可复用的组织特征？",
+        "en": "How can pathology slides yield reusable tissue features?"
+      },
+      "data": {
+        "zh": "全切片图像切出的高分辨率图像块。",
+        "en": "High-resolution image patches sampled from whole-slide images."
+      },
+      "method": {
+        "zh": "自监督预训练图像编码器。",
+        "en": "A self-supervised image encoder."
+      },
+      "result": {
+        "zh": "提供病理下游任务的通用图像表示。",
+        "en": "Provides reusable representations for downstream pathology tasks."
+      },
+      "limit": {
+        "zh": "切片特征不是机制解释；按患者划分，并检查中心/扫描仪偏差。",
+        "en": "Slide features are not mechanistic explanations; split by patient and test site/scanner bias."
+      }
+    },
+    {
+      "id": "conch",
+      "name": "CONCH",
+      "year": 2024,
+      "domain": "pathology",
+      "evidence": "prediction",
+      "venue": "Nature Medicine",
+      "link": "https://www.nature.com/articles/s41591-024-02856-4",
+      "plain": {
+        "zh": "让病理图像与文字描述进入同一个空间。",
+        "en": "Connect pathology images and textual descriptions."
+      },
+      "data": {
+        "zh": "约 117 万图像–描述配对。",
+        "en": "Approximately 1.17 million image–caption pairs."
+      },
+      "method": {
+        "zh": "视觉–语言预训练，支持检索与分类。",
+        "en": "Vision–language pretraining for retrieval and classification."
+      },
+      "result": {
+        "zh": "降低部分病理任务对任务专用标注的依赖。",
+        "en": "Reduces dependence on task-specific annotations in selected pathology tasks."
+      },
+      "limit": {
+        "zh": "图文相似不等于正确诊断；细粒度病理与许可限制需核查。",
+        "en": "Image–text similarity is not a correct diagnosis; check fine-grained limitations and licenses."
+      }
+    },
+    {
+      "id": "spark",
+      "name": "SPARK",
+      "year": 2026,
+      "domain": "pathology",
+      "evidence": "association",
+      "venue": "Nature Medicine · Apr 29",
+      "link": "https://www.nature.com/articles/s41591-026-04357-y",
+      "plain": {
+        "zh": "把可解释的肿瘤微环境假设变成可测量图像特征。",
+        "en": "Turn interpretable tumor-microenvironment hypotheses into measurable image features."
+      },
+      "data": {
+        "zh": "多癌种、多个队列的数字病理与结局信息。",
+        "en": "Digital pathology and outcomes across multiple cancer cohorts."
+      },
+      "method": {
+        "zh": "LLM 辅助提出假设，计算组织特征，检验结局关联。",
+        "en": "LLM-assisted hypotheses become computable tissue features tested against outcomes."
+      },
+      "result": {
+        "zh": "连接科学假设、图像分析与预后研究。",
+        "en": "Connects scientific hypotheses, image analysis and prognosis research."
+      },
+      "limit": {
+        "zh": "静态切片不能直接测动态机制；预后关联需要外部/前瞻验证。",
+        "en": "Static slides do not directly measure dynamics; prognostic associations need external/prospective validation."
+      }
+    },
+    {
+      "id": "coscientist",
+      "name": "AI co-scientist",
+      "year": 2026,
+      "domain": "agent",
+      "evidence": "experiment",
+      "venue": "Nature · May 19 online",
+      "link": "https://www.nature.com/articles/s41586-026-10644-y",
+      "plain": {
+        "zh": "多个 AI 协作提出并筛选可实验检验的科学假设。",
+        "en": "Multiple AI agents propose and refine experimentally testable hypotheses."
+      },
+      "data": {
+        "zh": "文献、研究问题和实验反馈。",
+        "en": "Literature, research questions and experimental feedback."
+      },
+      "method": {
+        "zh": "生成、辩论、排序与迭代假设。",
+        "en": "Generate, debate, rank and iteratively refine hypotheses."
+      },
+      "result": {
+        "zh": "选定的药物再利用、靶点与耐药案例获得实验检验。",
+        "en": "Selected repurposing, target and resistance cases receive experimental tests."
+      },
+      "limit": {
+        "zh": "案例成功不等于所有输出可靠；完整系统并非开放源码。",
+        "en": "Successful cases do not validate all outputs; the complete system is not open source."
+      }
+    },
+    {
+      "id": "virtuallab",
+      "name": "Virtual Lab",
+      "year": 2025,
+      "domain": "agent",
+      "evidence": "experiment",
+      "venue": "Nature",
+      "link": "https://www.nature.com/articles/s41586-025-09442-9",
+      "plain": {
+        "zh": "让 AI 科学家协同设计，再由真实实验检查。",
+        "en": "Let AI scientist teams design candidates, then test them experimentally."
+      },
+      "data": {
+        "zh": "科学文献、蛋白建模工具与纳米抗体实验。",
+        "en": "Scientific literature, protein-modeling tools and nanobody experiments."
+      },
+      "method": {
+        "zh": "多角色讨论与工具调用生成设计。",
+        "en": "Role-based discussions and tool use produce candidate designs."
+      },
+      "result": {
+        "zh": "展示 AI 设计与湿实验结合的科研工作流。",
+        "en": "Demonstrates a workflow combining AI design with wet-lab experiments."
+      },
+      "limit": {
+        "zh": "需要人类实验团队；不是无需实验即可确认结果的系统。",
+        "en": "Requires human experimental teams; not a system that verifies results without experiments."
+      }
+    },
+    {
+      "id": "biomni",
+      "name": "Biomni",
+      "year": 2026,
+      "domain": "agent",
+      "evidence": "workflow",
+      "venue": "Science",
+      "link": "https://www.science.org/doi/10.1126/science.adz4351",
+      "plain": {
+        "zh": "让一个助手协调多种生物医学数据分析工具。",
+        "en": "Let one assistant coordinate many biomedical analysis tools."
+      },
+      "data": {
+        "zh": "用户问题、领域工具、数据与执行环境。",
+        "en": "User questions, domain tools, data and an execution environment."
+      },
+      "method": {
+        "zh": "LLM 规划、检索和执行分析。",
+        "en": "LLM planning, retrieval and analysis execution."
+      },
+      "result": {
+        "zh": "支持跨生物医学任务的通用代理工作流。",
+        "en": "Supports general agent workflows across biomedical tasks."
+      },
+      "limit": {
+        "zh": "代码跑通与科学结论正确是两种验证；敏感数据不能随意发往模型 API。",
+        "en": "Successful code execution and scientific validity are separate checks; protect sensitive data from model APIs."
+      }
+    },
+    {
+      "id": "cellvoyager",
+      "name": "CellVoyager",
+      "year": 2026,
+      "domain": "agent",
+      "evidence": "workflow",
+      "venue": "Nature Methods",
+      "link": "https://www.nature.com/articles/s41592-026-03029-6",
+      "plain": {
+        "zh": "从单细胞数据与问题出发，生成可检查的分析笔记本。",
+        "en": "Turn single-cell data and questions into inspectable analysis notebooks."
+      },
+      "data": {
+        "zh": "H5AD、数据介绍、已有分析和研究问题。",
+        "en": "H5AD files, dataset context, prior analyses and a research question."
+      },
+      "method": {
+        "zh": "代理生成并执行分析，再整理结果。",
+        "en": "An agent generates and executes analyses, then organizes results."
+      },
+      "result": {
+        "zh": "降低探索单细胞数据的编程负担。",
+        "en": "Reduces programming overhead for single-cell exploration."
+      },
+      "limit": {
+        "zh": "仍须审查统计假设、数据划分和生物解释；不是同名显微镜产品。",
+        "en": "Review statistics, splits and biological interpretation; distinct from the similarly named microscope product."
+      }
+    },
+    {
+      "id": "biomedagent",
+      "name": "BioMedAgent",
+      "year": 2026,
+      "domain": "agent",
+      "evidence": "workflow",
+      "venue": "Nature Biomedical Engineering",
+      "link": "https://www.nature.com/articles/s41551-026-01634-6",
+      "plain": {
+        "zh": "能否自动完成一组真实生物医学分析任务？",
+        "en": "Can agents complete realistic biomedical analysis tasks?"
+      },
+      "data": {
+        "zh": "BioMedAQA 的 327 个任务。",
+        "en": "327 BioMedAQA tasks."
+      },
+      "method": {
+        "zh": "规划、工具调用和分析执行。",
+        "en": "Planning, tool use and analysis execution."
+      },
+      "result": {
+        "zh": "论文报告约 77% 任务成功率。",
+        "en": "The paper reports approximately 77% task success."
+      },
+      "limit": {
+        "zh": "任务成功率不是临床诊断准确率，也不是全部科学结论正确率。",
+        "en": "Task success is not clinical diagnostic accuracy or universal scientific correctness."
+      }
+    },
+    {
+      "id": "paper2agent",
+      "name": "Paper2Agent",
+      "year": 2026,
+      "domain": "agent",
+      "evidence": "workflow",
+      "venue": "Nature · Sep 16",
+      "link": "https://www.nature.com/articles/s41586-026-11044-y",
+      "plain": {
+        "zh": "把论文、代码和数据变成可以调用的研究工具。",
+        "en": "Turn papers, code and data into callable research tools."
+      },
+      "data": {
+        "zh": "论文、关联代码与数据。",
+        "en": "Papers with associated code and data."
+      },
+      "method": {
+        "zh": "重建执行环境、测试并包装为 MCP 工具。",
+        "en": "Reconstruct execution environments, test and package tools via MCP."
+      },
+      "result": {
+        "zh": "将静态论文连接到可执行研究流程；2025 年已有预印本。",
+        "en": "Connects static papers to executable workflows; a preprint appeared in 2025."
+      },
+      "limit": {
+        "zh": "需要可访问代码/数据；包装成功不代表所有论文均可完整复现。",
+        "en": "Requires accessible code/data; successful packaging does not mean every paper is fully reproducible."
+      }
+    },
+    {
+      "id": "sciencebuddy",
+      "name": "ScienceBuddy",
+      "year": 2026,
+      "domain": "agent",
+      "evidence": "workflow",
+      "venue": "arXiv · Sep 16 · Preprint",
+      "link": "https://arxiv.org/abs/2609.17523",
+      "plain": {
+        "zh": "整合科研工具，并研究助手怎样从反馈中改进。",
+        "en": "Integrate scientific tools and study how assistants improve from feedback."
+      },
+      "data": {
+        "zh": "报告中的 224 个工具、22 个模块与反馈任务。",
+        "en": "224 tools in 22 modules and feedback tasks in the report."
+      },
+      "method": {
+        "zh": "工具工作区与代码/模型分离的递归改进实验。",
+        "en": "A tool workspace with separate code- and model-improvement experiments."
+      },
+      "result": {
+        "zh": "提供科研代理与自改进实验路线。",
+        "en": "Provides a scientific-agent and self-improvement research direction."
+      },
+      "limit": {
+        "zh": "公开的是 SimpleSciBuddy/RSI 实现；完整托管界面并未开源，模拟反馈不等于真实发现验证。",
+        "en": "The public release is SimpleSciBuddy/RSI, not the complete hosted frontend; simulated feedback is not validation of real discoveries."
+      }
+    }
+  ],
+  "datasets": [
+    {
+      "id": "adni",
+      "name": "ADNI",
+      "domain": "neuro",
+      "format": "DICOM · NIfTI · CSV",
+      "access": "controlled",
+      "link": "https://adni.loni.usc.edu/data-samples/adni-data/",
+      "plain": {
+        "zh": "追踪认知衰退，连接影像、生物标志物与认知测量。",
+        "en": "Follow cognitive decline using imaging, biomarkers and cognition."
+      },
+      "unit": {
+        "zh": "人 → 就诊 → 测量/影像。",
+        "en": "Participant → visit → measurement/image."
+      },
+      "join": {
+        "zh": "RID、VISCODE、日期、影像 ID；先核对字典。",
+        "en": "RID, VISCODE, dates and image IDs; consult dictionaries."
+      },
+      "pitfall": {
+        "zh": "申请、DUA 与用途限制；不是所有人都有全部模态。",
+        "en": "Application, DUA and use restrictions; not everyone has every modality."
+      }
+    },
+    {
+      "id": "oasis",
+      "name": "OASIS-3",
+      "domain": "neuro",
+      "format": "NIfTI · JSON · CSV · MGZ",
+      "access": "controlled",
+      "link": "https://www.oasis-brains.org/",
+      "plain": {
+        "zh": "纵向脑影像与认知数据，适合复现影像分析。",
+        "en": "Longitudinal brain imaging and cognition for reproducible imaging studies."
+      },
+      "unit": {
+        "zh": "参与者、影像会话和临床访问。",
+        "en": "Participants, imaging sessions and clinical visits."
+      },
+      "join": {
+        "zh": "BIDS / XNAT 标识、相对日期；访问与扫描不一定一一对应。",
+        "en": "BIDS/XNAT IDs and relative dates; visits and scans need not align one-to-one."
+      },
+      "pitfall": {
+        "zh": "需申请与遵守数据协议；对齐相对时间，不拼接错误会话。",
+        "en": "Apply and follow the agreement; align relative times rather than mismatching sessions."
+      }
+    },
+    {
+      "id": "ampad",
+      "name": "ROSMAP / AMP-AD",
+      "domain": "neuro",
+      "format": "FASTQ · TSV · multi-omics",
+      "access": "controlled",
+      "link": "https://help.adknowledgeportal.org/apd/access-data",
+      "plain": {
+        "zh": "脑尸检组学与临床病理，连接供体、组织和检测。",
+        "en": "Postmortem brain omics with clinical pathology, linked across donors, tissue and assays."
+      },
+      "unit": {
+        "zh": "供体 → 标本 → 检测。",
+        "en": "Donor → specimen → assay."
+      },
+      "join": {
+        "zh": "donorID、specimenID、assay 与 Synapse 文件实体。",
+        "en": "donorID, specimenID, assay and Synapse file entities."
+      },
+      "pitfall": {
+        "zh": "2026 年政策更新后，个体级人类原始/处理/衍生数据通常受控；核对具体实体。",
+        "en": "Following 2026 policy changes, individual-level human raw/processed/derived data are generally controlled; check each entity."
+      }
+    },
+    {
+      "id": "seaad",
+      "name": "SEA-AD",
+      "domain": "neuro",
+      "format": "H5AD · XLSX · spatial",
+      "access": "mixed",
+      "link": "https://brain-map.org/consortia/sea-ad/our-data",
+      "plain": {
+        "zh": "AD 脑细胞、空间位置、病理与供体信息。",
+        "en": "AD brain cells, spatial context, pathology and donor information."
+      },
+      "unit": {
+        "zh": "供体、脑区、细胞及组织切片。",
+        "en": "Donors, regions, cells and tissue sections."
+      },
+      "join": {
+        "zh": "donor / region / sample / cell；固定发布版本。",
+        "en": "Donor/region/sample/cell IDs; pin a release."
+      },
+      "pitfall": {
+        "zh": "公开处理资源与受控原始资源分开；不同脑区和版本不要混作同一实验。",
+        "en": "Separate public processed and controlled raw resources; distinguish regions and versions."
+      }
+    },
+    {
+      "id": "psychad",
+      "name": "PsychAD / PASCode resource",
+      "domain": "neuro",
+      "format": "single-nucleus matrices · metadata",
+      "access": "mixed",
+      "link": "https://www.nature.com/articles/s41591-025-04128-1",
+      "plain": {
+        "zh": "大规模脑细胞与供体表型；按论文数据可用性获取。",
+        "en": "Large brain-cell and donor-phenotype resources; follow paper data availability."
+      },
+      "unit": {
+        "zh": "细胞嵌套于供体与脑区。",
+        "en": "Cells nested within donors and regions."
+      },
+      "join": {
+        "zh": "供体、样本、细胞与诊断/认知标签。",
+        "en": "Donor, sample, cell and diagnostic/cognitive labels."
+      },
+      "pitfall": {
+        "zh": "全资源与论文过滤子集规模不同；标签不可直接复制为细胞病因。",
+        "en": "Full-resource and filtered-study sizes differ; labels are not cell-level causal truth."
+      }
+    },
+    {
+      "id": "gage",
+      "name": "AD GAGE-seq multiome",
+      "domain": "neuro",
+      "format": "RNA matrix · Hi-C contacts",
+      "access": "mixed",
+      "link": "https://github.com/ma-compbio/AD-multiome",
+      "plain": {
+        "zh": "同一细胞核的表达与 DNA 三维接触。",
+        "en": "Expression and 3D DNA contacts from the same nuclei."
+      },
+      "unit": {
+        "zh": "供体、细胞核、染色质接触。",
+        "en": "Donors, nuclei and chromatin contacts."
+      },
+      "join": {
+        "zh": "供体/细胞条码、染色体坐标与参考基因组。",
+        "en": "Donor/cell barcodes, chromosome coordinates and reference genome."
+      },
+      "pitfall": {
+        "zh": "配对关系与伪 bulk 汇总层级必须明确；检查仓库数据入口。",
+        "en": "Document pairing and pseudobulk aggregation levels; check repository data routes."
+      }
+    },
+    {
+      "id": "census",
+      "name": "CELLxGENE Census",
+      "domain": "cell",
+      "format": "TileDB-SOMA · source H5AD",
+      "access": "open",
+      "link": "https://chanzuckerberg.github.io/cellxgene-census/cellxgene_census_aws_open_data.html",
+      "plain": {
+        "zh": "跨研究查询细胞，不必先下载整个人类图谱。",
+        "en": "Query cells across studies without downloading an entire atlas."
+      },
+      "unit": {
+        "zh": "细胞 × 基因；研究、组织、供体元数据。",
+        "en": "Cells × genes with study, tissue and donor metadata."
+      },
+      "join": {
+        "zh": "soma_joinid、dataset_id、donor_id、is_primary_data。",
+        "en": "soma_joinid, dataset_id, donor_id and is_primary_data."
+      },
+      "pitfall": {
+        "zh": "固定 Census 版本；重复细胞、标准化标签与训练语料重叠需检查。",
+        "en": "Pin Census versions; inspect duplicate cells, harmonized labels and pretraining overlap."
+      }
+    },
+    {
+      "id": "hca",
+      "name": "Human Cell Atlas",
+      "domain": "cell",
+      "format": "FASTQ · MTX · H5AD · manifests",
+      "access": "mixed",
+      "link": "https://data.humancellatlas.org/",
+      "plain": {
+        "zh": "健康人组织细胞参考，提供原始及处理资源。",
+        "en": "Reference cells from human tissues, with raw and processed resources."
+      },
+      "unit": {
+        "zh": "项目、供体、组织、样本、细胞。",
+        "en": "Project, donor, tissue, sample and cell."
+      },
+      "join": {
+        "zh": "manifest 连接文件和生物样本；记录平台与解剖位置。",
+        "en": "Manifests link files to biosamples; retain platform and anatomical site."
+      },
+      "pitfall": {
+        "zh": "项目格式、许可与模态不统一；“atlas”不是已配对的所有组学。",
+        "en": "Formats, permissions and modalities vary; an atlas is not fully paired multi-omics."
+      }
+    },
+    {
+      "id": "scperturb",
+      "name": "scPerturb",
+      "domain": "perturb",
+      "format": "H5AD",
+      "access": "open",
+      "link": "https://github.com/sanderlab/scPerturb",
+      "plain": {
+        "zh": "统一整理的单细胞干预数据，适合从小样本开始。",
+        "en": "Harmonized single-cell perturbation data for manageable first experiments."
+      },
+      "unit": {
+        "zh": "细胞 × 基因；干预、剂量、时间和批次标签。",
+        "en": "Cells × genes with perturbation, dose, time and batch labels."
+      },
+      "join": {
+        "zh": "obs 条件字段与对照；原论文和版本仍需追踪。",
+        "en": "obs condition fields and controls; retain original studies and versions."
+      },
+      "pitfall": {
+        "zh": "44 个数据集是论文整理规模，不是永远不变的当前计数；原始与归一化值分开。",
+        "en": "44 datasets describes the published collection, not a permanent live count; distinguish raw and normalized values."
+      }
+    },
+    {
+      "id": "replogle-data",
+      "name": "Replogle Perturb-seq",
+      "domain": "perturb",
+      "format": "expression matrices · guide metadata",
+      "access": "open",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9380471/",
+      "plain": {
+        "zh": "用于遗传扰动预测和基因调控网络研究。",
+        "en": "For genetic-perturbation prediction and gene-network studies."
+      },
+      "unit": {
+        "zh": "细胞、靶基因、guide 与非靶向对照。",
+        "en": "Cells, target genes, guides and non-targeting controls."
+      },
+      "join": {
+        "zh": "cell barcode、guide / target、cell line、batch。",
+        "en": "Cell barcode, guide/target, cell line and batch."
+      },
+      "pitfall": {
+        "zh": "敲低并非完全敲除；按基因/条件留出，避免同条件细胞泄漏。",
+        "en": "Knockdown is not full knockout; hold out genes/conditions to avoid same-condition leakage."
+      }
+    },
+    {
+      "id": "norman-data",
+      "name": "Norman combination screen",
+      "domain": "perturb",
+      "format": "expression matrices · perturbation labels",
+      "access": "open",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/6746554/",
+      "plain": {
+        "zh": "比较单基因和双基因改变，测试组合泛化。",
+        "en": "Compare single/double gene changes and test combination generalization."
+      },
+      "unit": {
+        "zh": "K562 细胞与单/双基因条件。",
+        "en": "K562 cells and single/double genetic conditions."
+      },
+      "join": {
+        "zh": "condition / guide pair / control；保存单基因训练关系。",
+        "en": "Condition, guide pair and control; document single-gene training availability."
+      },
+      "pitfall": {
+        "zh": "不同预处理版本分数不可直接比；加性基线很重要。",
+        "en": "Scores across preprocessing versions are not directly comparable; additive baselines matter."
+      }
+    },
+    {
+      "id": "tahoe",
+      "name": "Tahoe-100M",
+      "domain": "perturb",
+      "format": "Parquet · Hugging Face",
+      "access": "open",
+      "link": "https://huggingface.co/datasets/tahoebio/Tahoe-100M",
+      "plain": {
+        "zh": "超过 1 亿细胞、50 个癌细胞系与约 1,100 个小分子。",
+        "en": "Over 100 million cells, 50 cancer cell lines and about 1,100 small molecules."
+      },
+      "unit": {
+        "zh": "单细胞记录，带细胞系、药物、剂量和实验板信息。",
+        "en": "Cell records with cell line, compound, dose and plate information."
+      },
+      "join": {
+        "zh": "行内 genes / counts 对齐；连接 cell line、compound、plate。",
+        "en": "Align row-level genes/counts; link cell line, compound and plate."
+      },
+      "pitfall": {
+        "zh": "Parquet 不是 H5AD；先流式抽子集，细胞系不代表患者人群。",
+        "en": "Parquet is not H5AD; stream a subset first. Cell lines do not represent patient populations."
+      }
+    },
+    {
+      "id": "lincs",
+      "name": "LINCS L1000",
+      "domain": "drug",
+      "format": "GCT · GCTX / HDF5",
+      "access": "open",
+      "link": "https://clue.io/connectopedia/guide_to_geo_l1000_data",
+      "plain": {
+        "zh": "大量药物和基因条件下的表达特征签名。",
+        "en": "Expression signatures across many drug and genetic conditions."
+      },
+      "unit": {
+        "zh": "基因 × 样本/条件签名。",
+        "en": "Genes × samples/condition signatures."
+      },
+      "join": {
+        "zh": "pert_id、cell_id、dose、time 与 signature ID。",
+        "en": "pert_id, cell_id, dose, time and signature ID."
+      },
+      "pitfall": {
+        "zh": "978 个基因为直接测量，其余含推断值；处理层级与重复汇总要分清。",
+        "en": "978 genes are directly measured; additional values include inference. Track processing and replicate aggregation."
+      }
+    },
+    {
+      "id": "jump",
+      "name": "JUMP Cell Painting",
+      "domain": "perturb",
+      "format": "multichannel TIFF · CSV · Parquet",
+      "access": "open",
+      "link": "https://broadinstitute.github.io/jump_hub/explanations/data_description.html",
+      "plain": {
+        "zh": "从细胞形态判断药物或基因干预造成的改变。",
+        "en": "Measure morphological changes after compound or genetic perturbations."
+      },
+      "unit": {
+        "zh": "细胞图像、图像特征、孔与实验板。",
+        "en": "Cell images, features, wells and plates."
+      },
+      "join": {
+        "zh": "source / batch / plate / well + compound / gene ID。",
+        "en": "Source/batch/plate/well with compound/gene IDs."
+      },
+      "pitfall": {
+        "zh": "同板、同孔与重复药物泄漏；图像 TB 级资源先选子集。",
+        "en": "Plate, well and replicate leakage; subset before downloading terabyte-scale images."
+      }
+    },
+    {
+      "id": "gdc",
+      "name": "TCGA / GDC",
+      "domain": "pathology",
+      "format": "SVS · TSV · VCF/MAF · BAM · JSON",
+      "access": "mixed",
+      "link": "https://gdc.cancer.gov/about-data/data-types-and-file-formats",
+      "plain": {
+        "zh": "连接肿瘤基因组、表达、病理和临床结局。",
+        "en": "Connect cancer genomics, expression, pathology and clinical outcomes."
+      },
+      "unit": {
+        "zh": "病例 → 样本 → 分装/分析物 → 文件。",
+        "en": "Case → sample → aliquot/analyte → file."
+      },
+      "join": {
+        "zh": "case_id、sample_id、file_id 与 TCGA barcode。",
+        "en": "case_id, sample_id, file_id and TCGA barcodes."
+      },
+      "pitfall": {
+        "zh": "公开处理数据与受控数据分开；一个患者多张切片不可跨训练测试。",
+        "en": "Separate open processed and controlled files; keep all slides from one patient in one split."
+      }
+    },
+    {
+      "id": "depmap",
+      "name": "DepMap",
+      "domain": "drug",
+      "format": "CSV · portal tables",
+      "access": "open",
+      "link": "https://depmap.org/portal/",
+      "plain": {
+        "zh": "找癌细胞依赖哪些基因，再形成靶点假设。",
+        "en": "Find genes cancer cells depend on and form target hypotheses."
+      },
+      "unit": {
+        "zh": "细胞系 × 基因依赖；配套表达、突变和模型信息。",
+        "en": "Cell lines × gene dependencies, with expression, mutation and model information."
+      },
+      "join": {
+        "zh": "ModelID / DepMap_ID、基因 ID 与 release。",
+        "en": "ModelID/DepMap_ID, gene IDs and release."
+      },
+      "pitfall": {
+        "zh": "依赖分数不是临床药物效果；版本、组织来源和培养条件重要。",
+        "en": "Dependency scores are not clinical drug effects; version, tissue origin and culture conditions matter."
+      }
+    },
+    {
+      "id": "gtex",
+      "name": "GTEx",
+      "domain": "genome",
+      "format": "GCT · TSV · BED",
+      "access": "mixed",
+      "link": "https://gtexportal.org/home/datasets",
+      "plain": {
+        "zh": "连接不同组织的表达和遗传变异。",
+        "en": "Connect gene expression and genetic variation across tissues."
+      },
+      "unit": {
+        "zh": "供体、组织样本、基因与 eQTL 关系。",
+        "en": "Donors, tissue samples, genes and eQTL relationships."
+      },
+      "join": {
+        "zh": "donor / sample、gene、variant、genome build。",
+        "en": "Donor/sample, gene, variant and genome build."
+      },
+      "pitfall": {
+        "zh": "个体基因型受控；bulk 信号混合多种细胞，eQTL 不直接证明病因。",
+        "en": "Individual genotypes are controlled; bulk signals mix cells, and eQTLs do not directly prove disease causation."
+      }
+    },
+    {
+      "id": "encode",
+      "name": "ENCODE",
+      "domain": "genome",
+      "format": "FASTQ · BAM · BED · bigWig",
+      "access": "open",
+      "link": "https://www.encodeproject.org/help/getting-started/",
+      "plain": {
+        "zh": "基因调控的实验轨道：开放染色质、结合与表达。",
+        "en": "Experimental regulatory tracks: accessibility, binding and expression."
+      },
+      "unit": {
+        "zh": "实验、biosample、replicate、genomic track。",
+        "en": "Experiments, biosamples, replicates and genomic tracks."
+      },
+      "join": {
+        "zh": "accession、biosample、assay、assembly、replicate。",
+        "en": "Accession, biosample, assay, assembly and replicate."
+      },
+      "pitfall": {
+        "zh": "参考基因组、坐标约定与实验质量必须一致。",
+        "en": "Match reference genome, coordinate conventions and assay quality."
+      }
+    },
+    {
+      "id": "opentargets",
+      "name": "Open Targets",
+      "domain": "drug",
+      "format": "Parquet · JSON · API",
+      "access": "open",
+      "link": "https://platform.opentargets.org/downloads",
+      "plain": {
+        "zh": "汇总疾病–靶点证据，寻找可追溯候选。",
+        "en": "Aggregate disease–target evidence to find traceable candidates."
+      },
+      "unit": {
+        "zh": "target–disease 关系与分类型证据。",
+        "en": "Target–disease relationships with evidence categories."
+      },
+      "join": {
+        "zh": "Ensembl target ID、疾病 ontology ID、datasource。",
+        "en": "Ensembl target IDs, disease ontology IDs and datasource."
+      },
+      "pitfall": {
+        "zh": "汇总分数不是因果概率；查看证据来源与重复证据。",
+        "en": "Aggregate scores are not causal probabilities; inspect provenance and duplicate evidence."
+      }
+    },
+    {
+      "id": "gwas",
+      "name": "GWAS Catalog",
+      "domain": "genome",
+      "format": "TSV · summary statistics",
+      "access": "open",
+      "link": "https://www.ebi.ac.uk/gwas/docs/file-downloads",
+      "plain": {
+        "zh": "哪些遗传变异与疾病风险有关？",
+        "en": "Which variants are associated with disease risk?"
+      },
+      "unit": {
+        "zh": "研究、变异、性状与统计效应。",
+        "en": "Studies, variants, traits and statistical effects."
+      },
+      "join": {
+        "zh": "variant / allele / build、trait ontology、study ID。",
+        "en": "Variant/allele/build, trait ontology and study ID."
+      },
+      "pitfall": {
+        "zh": "关联位点未必是致病变异；需 LD、精细定位与功能验证。",
+        "en": "Associated loci may not be causal variants; use LD, fine-mapping and functional tests."
+      }
+    },
+    {
+      "id": "pdb",
+      "name": "RCSB PDB",
+      "domain": "protein",
+      "format": "mmCIF · PDB · FASTA",
+      "access": "open",
+      "link": "https://www.rcsb.org/docs/general-help/file-download-services",
+      "plain": {
+        "zh": "实验测得的分子三维结构。",
+        "en": "Experimentally measured molecular structures."
+      },
+      "unit": {
+        "zh": "entry、链、残基、原子与复合物。",
+        "en": "Entries, chains, residues, atoms and complexes."
+      },
+      "join": {
+        "zh": "PDB ID、chain ID、residue 编号与实验方法。",
+        "en": "PDB ID, chain ID, residue numbering and experimental method."
+      },
+      "pitfall": {
+        "zh": "实验结构和预测结构分开；缺失区域与不同构象不可忽略。",
+        "en": "Separate experimental from predicted structures; consider missing regions and conformations."
+      }
+    },
+    {
+      "id": "chembl",
+      "name": "ChEMBL",
+      "domain": "drug",
+      "format": "SQLite · SDF · activity tables",
+      "access": "open",
+      "link": "https://chembl.gitbook.io/chembl-interface-documentation/downloads",
+      "plain": {
+        "zh": "化合物、靶点和实验活性，训练或验证药物模型。",
+        "en": "Compounds, targets and measured activities for drug modeling."
+      },
+      "unit": {
+        "zh": "化合物 → assay → target → activity。",
+        "en": "Compound → assay → target → activity."
+      },
+      "join": {
+        "zh": "molecule / assay / target ID、endpoint、unit、relation。",
+        "en": "Molecule/assay/target IDs, endpoint, unit and relation."
+      },
+      "pitfall": {
+        "zh": "IC50、Kd 等不可直接混合；“>”与“<”是删失信息，单位必须统一。",
+        "en": "Do not freely mix IC50 and Kd; inequality signs encode censoring, and units must match."
+      }
+    },
+    {
+      "id": "mimic",
+      "name": "MIMIC-IV · v3.1",
+      "domain": "clinical",
+      "format": "CSV.gz · relational tables",
+      "access": "controlled",
+      "link": "https://physionet.org/content/mimiciv/3.1/",
+      "plain": {
+        "zh": "真实医院记录，用于临床预测和方法研究。",
+        "en": "Real hospital records for clinical prediction and methodological research."
+      },
+      "unit": {
+        "zh": "患者 → 住院 → ICU 停留 → 事件。",
+        "en": "Patient → admission → ICU stay → event."
+      },
+      "join": {
+        "zh": "subject_id、hadm_id、stay_id、时间与 itemid。",
+        "en": "subject_id, hadm_id, stay_id, timestamps and itemid."
+      },
+      "pitfall": {
+        "zh": "需资质、培训与 DUA；衍生资源仍敏感；医院数据不是随机治疗试验。",
+        "en": "Credentialing, training and DUA required; derivatives remain sensitive, and records are not randomized treatment trials."
+      }
+    },
+    {
+      "id": "xenium",
+      "name": "10x spatial demonstration datasets",
+      "domain": "spatial",
+      "format": "H5/MTX · Parquet · Zarr · TIFF",
+      "access": "open",
+      "link": "https://www.10xgenomics.com/datasets",
+      "plain": {
+        "zh": "用一个可下载样本学习空间分子和细胞的对应。",
+        "en": "Use a downloadable sample to learn spatial molecule–cell mapping."
+      },
+      "unit": {
+        "zh": "transcript、cell、feature、二维位置与组织图像。",
+        "en": "Transcripts, cells, features, coordinates and tissue images."
+      },
+      "join": {
+        "zh": "cell_id、feature_name、x/y、图像坐标变换。",
+        "en": "cell_id, feature_name, x/y and image-coordinate transforms."
+      },
+      "pitfall": {
+        "zh": "输出格式随平台/版本变化；基因 panel、坐标单位和分割质量影响解释。",
+        "en": "Formats vary by platform/version; gene panels, units and segmentation affect interpretation."
+      }
+    }
+  ],
+  "tools": [
+    {
+      "name": "ScienceBuddy",
+      "kind": "agent",
+      "link": "https://github.com/Gen-Verse/ScienceBuddy",
+      "input": {
+        "zh": "研究问题、工具环境与反馈任务。",
+        "en": "Research questions, tools and feedback tasks."
+      },
+      "output": {
+        "zh": "工具执行轨迹；递归改进实验。",
+        "en": "Tool execution traces and recursive-improvement experiments."
+      },
+      "open": {
+        "zh": "公开 SimpleSciBuddy / RSI；完整托管产品未开源。",
+        "en": "SimpleSciBuddy/RSI is public; the complete hosted product is not open."
+      },
+      "limit": {
+        "zh": "官方 RSI 配置 8×A100；不代表使用托管助手也要 8 卡。检查外部任务模型与资产。",
+        "en": "Official RSI uses 8×A100; hosted usage does not imply eight GPUs. Check external task models/assets."
+      }
+    },
+    {
+      "name": "Biomni",
+      "kind": "agent",
+      "link": "https://github.com/snap-stanford/Biomni",
+      "input": {
+        "zh": "自然语言问题、数据、API 模型与工具环境。",
+        "en": "Natural-language questions, data, API model and tools."
+      },
+      "output": {
+        "zh": "分析代码、执行结果与解释。",
+        "en": "Analysis code, execution results and explanations."
+      },
+      "open": {
+        "zh": "公开研究实现与工具；外部服务各有条款。",
+        "en": "Public research implementation/tools; external services have their own terms."
+      },
+      "limit": {
+        "zh": "先做小任务；审查代码与证据，不把答案当医疗建议。",
+        "en": "Start with a small task; audit code/evidence and do not treat answers as medical advice."
+      }
+    },
+    {
+      "name": "CellVoyager",
+      "kind": "agent",
+      "link": "https://github.com/zou-group/CellVoyager",
+      "input": {
+        "zh": "H5AD、数据说明、问题与既有分析。",
+        "en": "H5AD, dataset context, question and prior analysis."
+      },
+      "output": {
+        "zh": "可执行单细胞分析笔记本。",
+        "en": "Executable single-cell analysis notebooks."
+      },
+      "open": {
+        "zh": "公开代码；模型 API 与数据权限独立。",
+        "en": "Public code; model APIs and data permissions are separate."
+      },
+      "limit": {
+        "zh": "看每一步是否合理，而非仅看最终图是否漂亮。",
+        "en": "Inspect each analytical step, not just whether the final plot looks convincing."
+      }
+    },
+    {
+      "name": "BioMedAgent",
+      "kind": "agent",
+      "link": "https://github.com/BOBQWERA/BioMedAgent",
+      "input": {
+        "zh": "生物医学分析任务与工具。",
+        "en": "Biomedical analysis tasks and tools."
+      },
+      "output": {
+        "zh": "分析执行与结构化结果。",
+        "en": "Executed analyses and structured results."
+      },
+      "open": {
+        "zh": "公开项目；以仓库说明为准。",
+        "en": "Public project; follow repository instructions."
+      },
+      "limit": {
+        "zh": "BioMedAQA 成功率不是诊断准确率。",
+        "en": "BioMedAQA success is not diagnostic accuracy."
+      }
+    },
+    {
+      "name": "Paper2Agent",
+      "kind": "agent",
+      "link": "https://github.com/jmiao24/Paper2Agent",
+      "input": {
+        "zh": "论文、代码、数据及依赖。",
+        "en": "Papers, code, data and dependencies."
+      },
+      "output": {
+        "zh": "带测试的 MCP 工具/可调用研究流程。",
+        "en": "Tested MCP tools/callable research workflows."
+      },
+      "open": {
+        "zh": "公开框架；被包装项目的许可单独保留。",
+        "en": "Public framework; wrapped projects retain separate licenses."
+      },
+      "limit": {
+        "zh": "数据不可访问或依赖失效时，论文不能自动完整复现。",
+        "en": "Inaccessible data or broken dependencies prevent automatic full reproduction."
+      }
+    },
+    {
+      "name": "AI co-scientist",
+      "kind": "agent",
+      "link": "https://www.nature.com/articles/s41586-026-10644-y",
+      "input": {
+        "zh": "科学目标、文献与反馈。",
+        "en": "Scientific objectives, literature and feedback."
+      },
+      "output": {
+        "zh": "经过迭代排序的假设。",
+        "en": "Iteratively ranked hypotheses."
+      },
+      "open": {
+        "zh": "论文公开；完整系统不是通用开源下载。",
+        "en": "Public paper; full system is not a generally downloadable open-source package."
+      },
+      "limit": {
+        "zh": "需要领域专家与实验验证；案例结果不可外推到全部假设。",
+        "en": "Requires domain expertise and experiments; case results do not validate all hypotheses."
+      }
+    },
+    {
+      "name": "Virtual Lab",
+      "kind": "agent",
+      "link": "https://github.com/zou-group/virtual-lab",
+      "input": {
+        "zh": "研究目标、角色定义、建模工具。",
+        "en": "Goals, agent roles and modeling tools."
+      },
+      "output": {
+        "zh": "团队讨论、设计与实验候选。",
+        "en": "Team discussions, designs and experimental candidates."
+      },
+      "open": {
+        "zh": "公开研究代码；所调用工具许可各异。",
+        "en": "Public research code; called tools have separate licenses."
+      },
+      "limit": {
+        "zh": "实验执行不由语言模型独立完成。",
+        "en": "Language models do not independently execute the wet-lab experiments."
+      }
+    },
+    {
+      "name": "BioDiscoveryAgent",
+      "kind": "agent",
+      "link": "https://github.com/snap-stanford/BioDiscoveryAgent",
+      "input": {
+        "zh": "已有干预结果与实验目标。",
+        "en": "Existing intervention results and experimental goals."
+      },
+      "output": {
+        "zh": "下一批基因实验建议。",
+        "en": "Suggested next batches of genetic experiments."
+      },
+      "open": {
+        "zh": "公开代码；需要模型 API 与任务数据。",
+        "en": "Public code; requires model APIs and task data."
+      },
+      "limit": {
+        "zh": "是实验设计助手，不是实验机器人。",
+        "en": "An experiment-design assistant, not a laboratory robot."
+      }
+    },
+    {
+      "name": "PaperQA / PaperQA2",
+      "kind": "agent",
+      "link": "https://github.com/Future-House/paper-qa",
+      "input": {
+        "zh": "论文文档与研究问题。",
+        "en": "Paper documents and research questions."
+      },
+      "output": {
+        "zh": "检索支撑的回答与引用。",
+        "en": "Retrieval-supported answers and citations."
+      },
+      "open": {
+        "zh": "公开库；不等于完整 Edison 产品。",
+        "en": "Public library; not the complete Edison product."
+      },
+      "limit": {
+        "zh": "引用存在不代表引用支持结论；核对段落。",
+        "en": "An existing citation does not prove support; inspect the cited passage."
+      }
+    },
+    {
+      "name": "TxAgent",
+      "kind": "agent",
+      "link": "https://github.com/mims-harvard/TxAgent",
+      "input": {
+        "zh": "药物相关问题与生物医学工具。",
+        "en": "Drug-related questions and biomedical tools."
+      },
+      "output": {
+        "zh": "检索、工具推理与有依据的候选回答。",
+        "en": "Retrieval, tool reasoning and grounded candidate answers."
+      },
+      "open": {
+        "zh": "公开研究实现；部分数据/服务有独立限制。",
+        "en": "Public research implementation; some data/services have separate restrictions."
+      },
+      "limit": {
+        "zh": "本地推荐 H100 级大显存；不是临床处方系统。",
+        "en": "Local setup recommends H100-class large memory; not a clinical prescribing system."
+      }
+    },
+    {
+      "name": "ToolUniverse",
+      "kind": "registry",
+      "link": "https://github.com/mims-harvard/ToolUniverse",
+      "input": {
+        "zh": "API / Python / MCP 工具请求。",
+        "en": "API/Python/MCP tool requests."
+      },
+      "output": {
+        "zh": "可检索和调用的科学工具接口。",
+        "en": "Searchable, callable scientific-tool interfaces."
+      },
+      "open": {
+        "zh": "公开工具框架；各服务权限分别配置。",
+        "en": "Public tool framework; configure permissions for each service."
+      },
+      "limit": {
+        "zh": "工具库不是推理模型；记录参数、版本与失败状态。",
+        "en": "A tool registry is not a reasoning model; record parameters, versions and failures."
+      }
+    },
+    {
+      "name": "MedAgentGym",
+      "kind": "benchmark",
+      "link": "https://github.com/wshi83/MedAgentGym",
+      "input": {
+        "zh": "代码式生物医学代理任务。",
+        "en": "Code-based biomedical agent tasks."
+      },
+      "output": {
+        "zh": "环境执行与任务评分。",
+        "en": "Environment execution and task scores."
+      },
+      "open": {
+        "zh": "公开研究环境；依赖与数据许可另查。",
+        "en": "Public research environment; check dependency/data licenses."
+      },
+      "limit": {
+        "zh": "报告 72,413 个实例、129 类任务、12 场景；不是临床诊断评测。",
+        "en": "Reports 72,413 instances, 129 categories and 12 scenarios; not clinical diagnosis evaluation."
+      }
+    },
+    {
+      "name": "Scanpy + AnnData",
+      "kind": "analysis",
+      "link": "https://scanpy.readthedocs.io/",
+      "input": {
+        "zh": "单细胞矩阵与元数据。",
+        "en": "Single-cell matrices and metadata."
+      },
+      "output": {
+        "zh": "QC、聚类、注释与可追溯 H5AD。",
+        "en": "QC, clustering, annotation and traceable H5AD."
+      },
+      "open": {
+        "zh": "开放 Python 工具链。",
+        "en": "Open Python toolchain."
+      },
+      "limit": {
+        "zh": "先学 counts / normalization / obs；默认参数不是统计保证。",
+        "en": "Learn counts, normalization and obs first; defaults are not statistical guarantees."
+      }
+    },
+    {
+      "name": "scvi-tools",
+      "kind": "analysis",
+      "link": "https://scvi-tools.org/",
+      "input": {
+        "zh": "计数、批次、空间/蛋白等任务数据。",
+        "en": "Counts, batches and task-specific spatial/protein data."
+      },
+      "output": {
+        "zh": "整合表示与概率模型结果。",
+        "en": "Integrated representations and probabilistic-model outputs."
+      },
+      "open": {
+        "zh": "开放库；包含 scVI 等多种模型。",
+        "en": "Open library with scVI and other models."
+      },
+      "limit": {
+        "zh": "模型选择须匹配测量分布；不要把归一化值当原始计数。",
+        "en": "Match models to measurement distributions; normalized values are not raw counts."
+      }
+    },
+    {
+      "name": "pertpy",
+      "kind": "analysis",
+      "link": "https://pertpy.readthedocs.io/",
+      "input": {
+        "zh": "扰动表达与条件标签。",
+        "en": "Perturbation expression and condition labels."
+      },
+      "output": {
+        "zh": "响应分析、距离与建模工作流。",
+        "en": "Response analysis, distances and modeling workflows."
+      },
+      "open": {
+        "zh": "开放扰动分析工具。",
+        "en": "Open perturbation-analysis toolkit."
+      },
+      "limit": {
+        "zh": "算法和任务匹配；小样本先跑基线。",
+        "en": "Match algorithms to tasks; start with baselines on small samples."
+      }
+    },
+    {
+      "name": "State + CellEval",
+      "kind": "model",
+      "link": "https://github.com/ArcInstitute/state",
+      "input": {
+        "zh": "细胞上下文和干预信息。",
+        "en": "Cellular context and perturbation information."
+      },
+      "output": {
+        "zh": "响应预测及评测。",
+        "en": "Response predictions and evaluation."
+      },
+      "open": {
+        "zh": "代码 CC BY-NC-SA；权重/输出适用非商业许可与 AUP。",
+        "en": "Code CC BY-NC-SA; weights/outputs have non-commercial licensing and an AUP."
+      },
+      "limit": {
+        "zh": "固定模型与数据版本，检查商业用途；不要默认所有开源都可商用。",
+        "en": "Pin model/data versions and check commercial use; public availability does not imply unrestricted use."
+      }
+    },
+    {
+      "name": "AlphaGenome",
+      "kind": "model",
+      "link": "https://github.com/google-deepmind/alphagenome",
+      "input": {
+        "zh": "DNA 序列、变异与组织/读出设置。",
+        "en": "DNA sequence, variants and tissue/output settings."
+      },
+      "output": {
+        "zh": "调控轨道与变异效应预测。",
+        "en": "Regulatory tracks and predicted variant effects."
+      },
+      "open": {
+        "zh": "官方 API / 代码；学术权重使用有条件。",
+        "en": "Official API/code; academic weight use is conditional."
+      },
+      "limit": {
+        "zh": "固定参考基因组与组织，不把模型分数当确诊。",
+        "en": "Pin genome build and tissue; model scores are not diagnoses."
+      }
+    },
+    {
+      "name": "Evo 2",
+      "kind": "model",
+      "link": "https://github.com/ArcInstitute/evo2",
+      "input": {
+        "zh": "DNA 序列与生成/评分请求。",
+        "en": "DNA sequences and generation/scoring requests."
+      },
+      "output": {
+        "zh": "序列评分、表示与生成。",
+        "en": "Sequence scores, embeddings and generation."
+      },
+      "open": {
+        "zh": "公开代码与模型入口；遵守安全与许可要求。",
+        "en": "Public code/model access; follow safety and licensing requirements."
+      },
+      "limit": {
+        "zh": "7B / 40B 权重与长序列运行开销不同。",
+        "en": "7B/40B weights and long-sequence runtime have different resource costs."
+      }
+    },
+    {
+      "name": "AlphaFold 3",
+      "kind": "model",
+      "link": "https://github.com/google-deepmind/alphafold3",
+      "input": {
+        "zh": "序列、配体、MSA 与模板等。",
+        "en": "Sequences, ligands, MSAs and templates."
+      },
+      "output": {
+        "zh": "复合物结构与置信度。",
+        "en": "Complex structures and confidence."
+      },
+      "open": {
+        "zh": "公开代码；模型参数申请与非商业限制独立。",
+        "en": "Public code; parameter access and non-commercial restrictions are separate."
+      },
+      "limit": {
+        "zh": "数据库搜索、预处理与推理分开预算。",
+        "en": "Budget database search, preprocessing and inference separately."
+      }
+    },
+    {
+      "name": "Boltz",
+      "kind": "model",
+      "link": "https://github.com/jwohlwend/boltz",
+      "input": {
+        "zh": "YAML：序列、SMILES 与预测任务。",
+        "en": "YAML specifying sequences, SMILES and prediction tasks."
+      },
+      "output": {
+        "zh": "mmCIF、置信度与结合相关读出。",
+        "en": "mmCIF, confidence and binding-related outputs."
+      },
+      "open": {
+        "zh": "MIT 代码与权重；核对具体版本。",
+        "en": "MIT code and weights; check the selected version."
+      },
+      "limit": {
+        "zh": "结合概率和 IC50 型预测不是同一种读出。",
+        "en": "Binding probability and IC50-type predictions are different endpoints."
+      }
+    },
+    {
+      "name": "MONAI",
+      "kind": "analysis",
+      "link": "https://monai.io/",
+      "input": {
+        "zh": "医学影像与标注。",
+        "en": "Medical images and annotations."
+      },
+      "output": {
+        "zh": "预处理、训练与影像评估流程。",
+        "en": "Preprocessing, training and imaging-evaluation workflows."
+      },
+      "open": {
+        "zh": "开放医疗影像工程框架。",
+        "en": "Open medical-imaging engineering framework."
+      },
+      "limit": {
+        "zh": "框架不提供临床有效性保证；避免患者泄漏。",
+        "en": "The framework does not guarantee clinical validity; prevent patient leakage."
+      }
+    },
+    {
+      "name": "CellProfiler",
+      "kind": "analysis",
+      "link": "https://cellprofiler.org/",
+      "input": {
+        "zh": "多通道细胞图像与 pipeline。",
+        "en": "Multichannel cell images and a pipeline."
+      },
+      "output": {
+        "zh": "分割、形态与强度特征表。",
+        "en": "Segmentation, morphology and intensity-feature tables."
+      },
+      "open": {
+        "zh": "开放图像分析工具。",
+        "en": "Open image-analysis tool."
+      },
+      "limit": {
+        "zh": "检查分割质量、通道和批次；形态变化不是机制证明。",
+        "en": "Check segmentation, channels and batches; morphological change is not proof of mechanism."
+      }
+    }
+  ],
+  "collections": [
+    {
+      "name": "OmicsML · Single-cell foundation models",
+      "url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers",
+      "coverage": "papers + data + tools",
+      "desc": {
+        "zh": "最接近“论文 + 数据 + 工具”的单细胞入口，含扰动、评测与基础设施。",
+        "en": "The closest single-cell entry point for papers, data and tools, including perturbations, evaluation and infrastructure."
+      }
+    },
+    {
+      "name": "Awesome Virtual Cell",
+      "url": "https://github.com/Boom5426/Awesome-Virtual-Cell",
+      "coverage": "papers + data + benchmarks",
+      "desc": {
+        "zh": "虚拟细胞方向的模型、数据、基准与社区；不是完整临床数据目录。",
+        "en": "Virtual-cell models, data, benchmarks and community; not a complete clinical-data catalog."
+      }
+    },
+    {
+      "name": "Awesome AI for Science",
+      "url": "https://github.com/ai4s-research/awesome-ai-for-science",
+      "coverage": "papers + data + tools",
+      "desc": {
+        "zh": "跨学科资源，适合拓宽视野；生物医学部分需再按任务筛选。",
+        "en": "Cross-disciplinary resources for broader discovery; filter biomedical entries by task."
+      }
+    },
+    {
+      "name": "Awesome Science Agents",
+      "url": "https://github.com/zoedsy/awesome-science-agents",
+      "coverage": "papers + tools",
+      "desc": {
+        "zh": "科学代理论文、工具与双语导读，适合进一步研究代理机制。",
+        "en": "Scientific-agent papers, tools and bilingual guides for deeper agent-mechanism reading."
+      }
+    },
+    {
+      "name": "LLMs for Scientific Discovery",
+      "url": "https://github.com/HKUST-KnowComp/Awesome-LLM-Scientific-Discovery",
+      "coverage": "papers + survey",
+      "desc": {
+        "zh": "从科研自动化到自主发现的综述组织方式。",
+        "en": "A survey-oriented map from research automation to autonomous discovery."
+      }
+    },
+    {
+      "name": "Awesome Single Cell",
+      "url": "https://github.com/seandavi/awesome-single-cell",
+      "coverage": "tools + resources",
+      "desc": {
+        "zh": "单细胞分析的广泛工具与资源导航。",
+        "en": "Broad navigation across single-cell tools and resources."
+      }
+    },
+    {
+      "name": "scRNA-tools",
+      "url": "https://www.scrna-tools.org/",
+      "coverage": "tools catalog",
+      "desc": {
+        "zh": "可按任务查工具；工具收录并不代表最佳性能。",
+        "en": "Find tools by task; inclusion is not proof of superior performance."
+      }
+    }
+  ],
+  "domains": {
+    "neuro": {
+      "zh": "脑疾病 / AD",
+      "en": "Brain disease / AD"
+    },
+    "immune": {
+      "zh": "免疫 / 慢性病",
+      "en": "Immune / chronic disease"
+    },
+    "cell": {
+      "zh": "细胞基础模型",
+      "en": "Cell foundation models"
+    },
+    "perturb": {
+      "zh": "干预响应",
+      "en": "Perturbation response"
+    },
+    "causal": {
+      "zh": "因果 / 实验设计",
+      "en": "Causality / experimental design"
+    },
+    "spatial": {
+      "zh": "空间组织",
+      "en": "Spatial tissues"
+    },
+    "evaluation": {
+      "zh": "评测与可靠性",
+      "en": "Evaluation & reliability"
+    },
+    "genome": {
+      "zh": "基因组 / 变异",
+      "en": "Genomics / variants"
+    },
+    "protein": {
+      "zh": "分子结构",
+      "en": "Molecular structure"
+    },
+    "drug": {
+      "zh": "药物 / 靶点",
+      "en": "Drugs / targets"
+    },
+    "pathology": {
+      "zh": "肿瘤 / 数字病理",
+      "en": "Cancer / digital pathology"
+    },
+    "agent": {
+      "zh": "科研 Agent",
+      "en": "Scientific agents"
+    },
+    "clinical": {
+      "zh": "临床记录",
+      "en": "Clinical records"
+    }
+  },
+  "glossary": [
+    [
+      "Single-cell RNA / scRNA-seq",
+      "单细胞 RNA 测序",
+      "分别读出细胞正在使用哪些基因；不能直接看到所有蛋白或因果关系。",
+      "Measures which genes each cell is using; does not directly measure all proteins or causal relationships."
+    ],
+    [
+      "Single-nucleus / snRNA-seq",
+      "单核测序",
+      "用细胞核而不是完整细胞，常用于冷冻脑组织；与单细胞测量存在系统差异。",
+      "Measures nuclei rather than whole cells, often in frozen brain tissue; differs systematically from whole-cell assays."
+    ],
+    [
+      "Perturb-seq",
+      "带干预的单细胞测序",
+      "先改变基因，再读出表达。通常不能在干预前后测到同一个活细胞。",
+      "Change genes, then measure expression. Typically cannot measure the same living cell before and after treatment."
+    ],
+    [
+      "CRISPRi / CRISPRa",
+      "基因抑制 / 激活",
+      "让基因表达降低或升高；不总是把基因完全删除。",
+      "Reduce or increase gene expression; not always complete gene deletion."
+    ],
+    [
+      "GRN",
+      "基因调控网络",
+      "哪些基因可能调控另一些基因；推断网络里的边不一定已获因果验证。",
+      "A map of possible regulation between genes; inferred edges need not be causally validated."
+    ],
+    [
+      "ATAC-seq",
+      "染色质开放性",
+      "检测 DNA 哪些区域较开放，为调控关系提供线索。",
+      "Measures accessible DNA regions, providing clues about regulation."
+    ],
+    [
+      "Hi-C",
+      "DNA 三维接触",
+      "测量远距离 DNA 区域的空间接近程度；接触不一定发生功能调控。",
+      "Measures spatial proximity between DNA regions; contact need not imply functional regulation."
+    ],
+    [
+      "Spatial transcriptomics",
+      "空间转录组",
+      "把基因表达放回组织位置，连接细胞与邻居。",
+      "Places gene expression in tissue coordinates, connecting cells and neighbors."
+    ],
+    [
+      "Pseudotime",
+      "伪时间",
+      "按状态推测排序，不是真实追踪同一个人或细胞的时间。",
+      "An inferred ordering of states, not measured time for the same person or cell."
+    ],
+    [
+      "Counterfactual",
+      "反事实",
+      "同一对象接受另一种干预会怎样；无法同时观测两种现实。",
+      "What the same unit would do under a different intervention; both realities cannot be observed together."
+    ],
+    [
+      "Batch effect",
+      "批次效应",
+      "实验日期、机器或操作造成的差异，可能被误当疾病差异。",
+      "Differences from date, instrument or procedure that can masquerade as disease effects."
+    ],
+    [
+      "Pseudobulk",
+      "伪 bulk 汇总",
+      "按供体或条件汇总细胞，帮助保持正确统计样本单位。",
+      "Aggregate cells by donor or condition to preserve the appropriate statistical unit."
+    ],
+    [
+      "Foundation model",
+      "基础模型",
+      "先在大数据上学习，再适配多个任务；不自动保证新任务可靠。",
+      "Pretrain on large data, then adapt to multiple tasks; reliability on new tasks is not automatic."
+    ],
+    [
+      "OOD",
+      "分布外泛化",
+      "训练中没见过的供体、细胞、药物或时间，可能更难预测。",
+      "Unseen donors, cells, drugs or timepoints may be harder to predict."
+    ],
+    [
+      "eQTL / GWAS",
+      "表达关联 / 全基因组关联",
+      "连接变异与表达或性状；关联仍需精细定位和实验。",
+      "Link variants to expression or traits; associations still require fine-mapping and experiments."
+    ],
+    [
+      "iPSC / organoid",
+      "诱导干细胞 / 类器官",
+      "实验室中重建人源细胞或部分组织；不能完全替代患者。",
+      "Human-derived cells or partial tissues built in the lab; not complete substitutes for patients."
+    ],
+    [
+      "WSI",
+      "全切片图像",
+      "高分辨率数字病理切片，通常拆成很多图像块处理。",
+      "A high-resolution pathology slide, typically processed as many image patches."
+    ],
+    [
+      "SMILES / mmCIF",
+      "分子字符串 / 结构文件",
+      "SMILES 描述连接关系；mmCIF 记录三维结构与原子信息。",
+      "SMILES represents molecular connectivity; mmCIF records 3D structures and atoms."
+    ],
+    [
+      "MCP / agent",
+      "工具接口 / 代理",
+      "MCP 连接工具；代理规划并调用工具。二者都不保证科学结论正确。",
+      "MCP connects tools; agents plan and call them. Neither guarantees scientific correctness."
+    ],
+    [
+      "DUA",
+      "数据使用协议",
+      "规定谁能用数据、可用于什么、能否分享或发送到外部服务。",
+      "Defines who may use data, permitted purposes, sharing and external-service restrictions."
+    ]
+  ],
+  "guides": {
+    "routes": [
+      {
+        "icon": "01",
+        "title": {
+          "zh": "理解疾病，而不是只预测标签",
+          "en": "Understand disease, not just labels"
+        },
+        "intro": {
+          "zh": "先找出哪些细胞、分子或组织结构与病变有关，再通过干预检验机制。",
+          "en": "First locate disease-associated cells, molecules and tissue structures; then test mechanisms through interventions."
+        },
+        "question": {
+          "zh": "哪个细胞状态是原因，哪个只是结果？",
+          "en": "Which cell state is a cause, and which is a consequence?"
+        },
+        "data": {
+          "zh": "脑/滑膜/肾组织组学 + 病理 + 供体临床信息。",
+          "en": "Brain/synovial/kidney omics + pathology + donor clinical information."
+        },
+        "challenge": {
+          "zh": "供体少、尸检横截面、治疗/年龄/批次混杂。",
+          "en": "Few donors, postmortem snapshots, treatment/age/batch confounding."
+        },
+        "next": {
+          "zh": "用遗传、空间与干预三条证据交叉验证；优先在人源细胞与多个供体验证。",
+          "en": "Triangulate genetic, spatial and intervention evidence; validate in human-derived cells and multiple donors."
+        },
+        "ids": [
+          "mathys19",
+          "mathys24",
+          "beyond",
+          "picalm",
+          "phgdh",
+          "pascode",
+          "hicformer",
+          "ra-atlas",
+          "dkd"
+        ]
+      },
+      {
+        "icon": "02",
+        "title": {
+          "zh": "预测干预后的细胞变化",
+          "en": "Predict cellular responses to interventions"
+        },
+        "intro": {
+          "zh": "回答“改变这个基因或加这个药，会怎样”，是虚拟细胞的重要组成。",
+          "en": "Ask what happens after changing a gene or adding a drug: a core part of virtual-cell research."
+        },
+        "question": {
+          "zh": "能否预测训练中没见过的药物、基因、剂量或供体？",
+          "en": "Can we predict unseen drugs, genes, doses or donors?"
+        },
+        "data": {
+          "zh": "Perturb-seq、药物表达、形态图像，配对条件而非通常配对同一细胞。",
+          "en": "Perturb-seq, drug-response expression and morphology; matched conditions, usually not matched individual cells."
+        },
+        "challenge": {
+          "zh": "干预多、每条件样本少；组合爆炸；指标可能奖励无变化预测。",
+          "en": "Many interventions, limited conditions, combinatorial explosion; metrics can reward no-change predictions."
+        },
+        "next": {
+          "zh": "先做均值/线性/加性基线，再做模型；独立留出供体、靶基因或细胞类型。",
+          "en": "Establish mean/linear/additive baselines before larger models; independently hold out donors, targets or cell types."
+        },
+        "ids": [
+          "norman",
+          "replogle",
+          "scgen",
+          "cpa",
+          "gears",
+          "state",
+          "linear25",
+          "calibration26",
+          "perteval"
+        ]
+      },
+      {
+        "icon": "03",
+        "title": {
+          "zh": "推断因果与选择下一个实验",
+          "en": "Infer causality and choose the next experiment"
+        },
+        "intro": {
+          "zh": "预测回答“可能发生什么”；因果研究还要回答“改变它是否真的造成结果”。",
+          "en": "Prediction asks what may happen; causal research asks whether changing something actually causes the outcome."
+        },
+        "question": {
+          "zh": "哪些调控关系可干预？有限预算应验证哪条？",
+          "en": "Which regulatory relationships are intervenable? Which should limited budgets test?"
+        },
+        "data": {
+          "zh": "观察组学 + CRISPR 干预 + 调控先验 + 实验成本。",
+          "en": "Observational omics + CRISPR interventions + regulatory priors + experimental costs."
+        },
+        "challenge": {
+          "zh": "未知混杂、反馈环、干预不完美，真值网络也常不完整。",
+          "en": "Unobserved confounding, feedback, imperfect interventions and incomplete ground-truth networks."
+        },
+        "next": {
+          "zh": "明确因果假设；做留出干预验证与不确定性估计；评估实际实验收益。",
+          "en": "State causal assumptions; validate on held-out interventions, quantify uncertainty and measure experimental utility."
+        },
+        "ids": [
+          "celloracle",
+          "scprint",
+          "causalbench",
+          "active",
+          "tcell"
+        ]
+      },
+      {
+        "icon": "04",
+        "title": {
+          "zh": "把细胞放回组织空间",
+          "en": "Put cells back into tissue context"
+        },
+        "intro": {
+          "zh": "细胞的邻居、位置与局部环境可能与表达同样重要。",
+          "en": "Neighbors, location and the local environment can matter as much as expression."
+        },
+        "question": {
+          "zh": "组织微环境怎样参与病变，测量误差会改变结论吗？",
+          "en": "How does the tissue environment relate to disease, and can measurement errors change conclusions?"
+        },
+        "data": {
+          "zh": "表达矩阵 + 分子/细胞坐标 + 组织图像 + 分割。",
+          "en": "Expression + molecule/cell coordinates + tissue images + segmentation."
+        },
+        "challenge": {
+          "zh": "分子归属错误、分辨率不一、空间自相关与批次。",
+          "en": "Molecule misassignment, varying resolution, spatial autocorrelation and batches."
+        },
+        "next": {
+          "zh": "显式建模测量误差；用阻断或共培养实验验证通信假设。",
+          "en": "Model measurement error explicitly; test communication hypotheses using blocking or co-culture experiments."
+        },
+        "ids": [
+          "nicheformer",
+          "resolvi",
+          "dkd",
+          "spark"
+        ]
+      },
+      {
+        "icon": "05",
+        "title": {
+          "zh": "从 DNA 变异走到功能机制",
+          "en": "Move from DNA variants to function"
+        },
+        "intro": {
+          "zh": "DNA 风险位点是线索，需要连接调控、细胞状态与可验证功能。",
+          "en": "A risk locus is a clue; connect regulation, cell states and testable function."
+        },
+        "question": {
+          "zh": "哪个变异影响哪个基因，在哪种细胞中产生影响？",
+          "en": "Which variant affects which gene, in which cell type?"
+        },
+        "data": {
+          "zh": "GWAS、eQTL、ATAC/Hi-C、序列与干预读出。",
+          "en": "GWAS, eQTLs, ATAC/Hi-C, sequence and intervention readouts."
+        },
+        "challenge": {
+          "zh": "连锁不平衡、多效性、组织不匹配与基因组坐标。",
+          "en": "Linkage disequilibrium, pleiotropy, tissue mismatch and genome coordinates."
+        },
+        "next": {
+          "zh": "精细定位 + 序列模型排序 + CRISPR/报告基因验证，不仅报告分数。",
+          "en": "Fine-map, prioritize with sequence models, then validate with CRISPR/reporter assays—not just scores."
+        },
+        "ids": [
+          "alphagenome",
+          "evo2",
+          "hicformer",
+          "picalm",
+          "paper2agent"
+        ]
+      },
+      {
+        "icon": "06",
+        "title": {
+          "zh": "发现靶点与药物候选",
+          "en": "Discover targets and drug candidates"
+        },
+        "intro": {
+          "zh": "从疾病–靶点关联到分子结构、活性与实验，分阶段缩小候选范围。",
+          "en": "Narrow candidates in stages: disease–target evidence, structure, activity and experiments."
+        },
+        "question": {
+          "zh": "候选能否结合、改变细胞，并最终对患者有益？",
+          "en": "Can a candidate bind, alter cells and ultimately benefit patients?"
+        },
+        "data": {
+          "zh": "知识图、依赖筛选、SMILES、结构、活性与患者结局。",
+          "en": "Knowledge graphs, dependency screens, SMILES, structures, activity and patient outcomes."
+        },
+        "challenge": {
+          "zh": "不同活性单位、负例偏差、细胞系到患者的差距。",
+          "en": "Different activity units, negative-example bias and the cell-line-to-patient gap."
+        },
+        "next": {
+          "zh": "报告证据链与候选失败；做外部验证、目标试验模拟或前瞻实验。",
+          "en": "Report evidence chains and failures; use external validation, target-trial emulation or prospective experiments."
+        },
+        "ids": [
+          "txgnn",
+          "af2",
+          "af3",
+          "boltz2",
+          "coscientist",
+          "virtuallab"
+        ]
+      },
+      {
+        "icon": "07",
+        "title": {
+          "zh": "从病理图像提取可解释信息",
+          "en": "Extract interpretable information from pathology"
+        },
+        "intro": {
+          "zh": "图像可用于分类，也可帮助形成肿瘤微环境假设；两者证据层级不同。",
+          "en": "Images support classification and tumor-microenvironment hypotheses; these have different evidence requirements."
+        },
+        "question": {
+          "zh": "模型依据真正的病理，还是扫描仪与医院差异？",
+          "en": "Does the model rely on pathology or on scanner and hospital differences?"
+        },
+        "data": {
+          "zh": "全切片、多通道图像、临床结局与必要的区域标注。",
+          "en": "Whole slides, multichannel images, outcomes and relevant region annotations."
+        },
+        "challenge": {
+          "zh": "大文件 I/O、中心偏差、弱标签和解释不稳定。",
+          "en": "Large-file I/O, site bias, weak labels and unstable explanations."
+        },
+        "next": {
+          "zh": "按患者/医院留出，测试可解释特征，尽量连接空间或分子验证。",
+          "en": "Hold out patients/sites, test interpretable features and connect spatial or molecular validation."
+        },
+        "ids": [
+          "uni",
+          "conch",
+          "spark"
+        ]
+      },
+      {
+        "icon": "08",
+        "title": {
+          "zh": "让科研助手可执行、可审计",
+          "en": "Make scientific assistants executable and auditable"
+        },
+        "intro": {
+          "zh": "Agent 的价值不是写出像论文的答案，而是把工具、数据与证据串起来。",
+          "en": "An agent’s value is not paper-like prose, but linking tools, data and evidence."
+        },
+        "question": {
+          "zh": "结论能否被独立复现？助手能否识别无效工具结果？",
+          "en": "Can conclusions be independently reproduced? Can the assistant recognize invalid tool results?"
+        },
+        "data": {
+          "zh": "研究问题、文献、工具 schema、代码、数据和反馈。",
+          "en": "Questions, literature, tool schemas, code, data and feedback."
+        },
+        "challenge": {
+          "zh": "引用不支持结论、代码静默错误、验证器偏差与敏感数据。",
+          "en": "Unsupported citations, silent code errors, verifier bias and sensitive data."
+        },
+        "next": {
+          "zh": "保存执行轨迹和版本；建立任务级及操作级验证；限定权限、隔离代码。",
+          "en": "Preserve execution traces and versions; validate tasks and actions; scope permissions and sandbox code."
+        },
+        "ids": [
+          "biomni",
+          "cellvoyager",
+          "biomedagent",
+          "paper2agent",
+          "sciencebuddy"
+        ]
+      }
+    ],
+    "formats": [
+      {
+        "name": "AnnData / H5AD",
+        "example": "adata.X: cells × genes\nadata.obs: donor_id, cell_type, condition, batch\nadata.var: gene_id, gene_symbol\nadata.layers[\"counts\"]: documented raw counts\nadata.obsm[\"spatial\"]: coordinates (if present)",
+        "meaning": {
+          "zh": "一份细胞矩阵加上行列说明，常用于 Scanpy / scvi-tools。",
+          "en": "A cell matrix with row/column metadata, commonly used by Scanpy/scvi-tools."
+        },
+        "check": {
+          "zh": "X 可能归一化；.raw 不一定是原始计数。查 layers、预处理记录与 ID 唯一性。",
+          "en": "X may be normalized; .raw is not necessarily raw counts. Check layers, preprocessing and unique IDs."
+        },
+        "url": "https://anndata.readthedocs.io/en/stable/generated/anndata.AnnData.html"
+      },
+      {
+        "name": "10x matrix / MTX",
+        "example": "matrix.mtx.gz       # sparse genes × cells\nfeatures.tsv.gz     # feature IDs / names\nbarcodes.tsv.gz     # cell barcodes",
+        "meaning": {
+          "zh": "三个文件共同描述稀疏表达矩阵；导入 AnnData 时通常转成 cells × genes。",
+          "en": "Three files describe a sparse matrix; import commonly transposes to cells × genes."
+        },
+        "check": {
+          "zh": "方向、重复基因名、样本条码前缀和空液滴；不是每个 barcode 都是有效细胞。",
+          "en": "Check orientation, duplicate genes, sample prefixes and empty droplets; not every barcode is a valid cell."
+        },
+        "url": "https://www.10xgenomics.com/support/software/cell-ranger/latest/analysis/outputs/cr-outputs-mex-matrices"
+      },
+      {
+        "name": "FASTQ → BAM → VCF / BED / bigWig",
+        "example": "FASTQ: reads + quality\nBAM: aligned reads\nVCF: variants + alleles\nBED: genomic intervals\nbigWig: genomic signal tracks",
+        "meaning": {
+          "zh": "从测序原始读段，到比对、变异和连续调控轨道。",
+          "en": "From raw reads to alignments, variants and regulatory tracks."
+        },
+        "check": {
+          "zh": "参考基因组 hg19/hg38、0/1 起始坐标、链方向、过滤规则必须记录。",
+          "en": "Record hg19/hg38, zero/one-based coordinates, strand and filtering rules."
+        },
+        "url": "https://www.encodeproject.org/help/getting-started/"
+      },
+      {
+        "name": "Spatial matrix + coordinates + image",
+        "example": "expression: cells/spots × genes\nmetadata: cell_id, x, y, sample_id\nimage: TIFF / pyramidal image\ntransform: image ↔ assay coordinates\nsegmentation: polygons / labels",
+        "meaning": {
+          "zh": "除了表达，还要知道坐标、图像与分割如何对齐。",
+          "en": "Expression needs coordinate, image and segmentation alignment."
+        },
+        "check": {
+          "zh": "spot 不等于单细胞；坐标是像素还是微米？不同切片通常不是同一批细胞。",
+          "en": "A spot is not necessarily one cell; are coordinates pixels or micrometers? Different sections usually contain different cells."
+        },
+        "url": "https://www.10xgenomics.com/datasets"
+      },
+      {
+        "name": "DICOM / NIfTI + BIDS",
+        "example": "sub-001/ses-01/anat/..._T1w.nii.gz\n..._T1w.json: scanner / acquisition\nparticipants.tsv\nsessions.tsv",
+        "meaning": {
+          "zh": "三维医学影像加采集信息。BIDS 是组织规范，不是新的图像文件格式。",
+          "en": "3D imaging plus acquisition metadata. BIDS is an organization standard, not a new image format."
+        },
+        "check": {
+          "zh": "患者、就诊、扫描日期、方向和体素大小；移除身份信息并遵守授权。",
+          "en": "Check participant, visit, scan date, orientation and voxel size; remove identifiers and follow permissions."
+        },
+        "url": "https://bids-specification.readthedocs.io/"
+      },
+      {
+        "name": "Whole-slide images / SVS",
+        "example": "slide.svs: multi-resolution image\npatch_id → slide_id → patient_id\nx, y, magnification, tissue_mask\nembedding: patches × features",
+        "meaning": {
+          "zh": "一张大切片拆成许多小图块；最终统计单位通常仍是患者。",
+          "en": "Large slides are divided into patches; patients usually remain the statistical unit."
+        },
+        "check": {
+          "zh": "同一个患者的图块不要进入不同划分；保留倍率、颜色处理与坐标。",
+          "en": "Keep all patches from a patient in one split; retain magnification, color processing and coordinates."
+        },
+        "url": "https://openslide.org/formats/"
+      },
+      {
+        "name": "FASTA / SMILES / SDF / mmCIF",
+        "example": "FASTA: sequence\nSMILES: molecular connectivity\nSDF: molecule + properties / coordinates\nmmCIF: atoms, chains, residues, structure",
+        "meaning": {
+          "zh": "序列、分子连接关系和三维结构是不同层级的信息。",
+          "en": "Sequence, molecular connectivity and 3D structure are different information levels."
+        },
+        "check": {
+          "zh": "链和残基编号、立体化学、质子化、单位；实验与预测结构分开。",
+          "en": "Check chain/residue numbering, stereochemistry, protonation and units; separate experimental and predicted structures."
+        },
+        "url": "https://www.rcsb.org/docs/general-help/file-download-services"
+      },
+      {
+        "name": "Clinical / assay relational tables",
+        "example": "patients(subject_id, ... )\nadmissions(hadm_id, subject_id, ... )\nevents(hadm_id, time, itemid, value, unit)\nassays(compound_id, target_id, endpoint, unit)",
+        "meaning": {
+          "zh": "不是一个 CSV 就能直接训练；要按对象、时间和测量类型连接。",
+          "en": "A single CSV is not automatically training-ready; join by entity, time and measurement type."
+        },
+        "check": {
+          "zh": "时间泄漏、重复事件、缺失不是零、单位和删失符号；先建数据字典。",
+          "en": "Check time leakage, duplicate events, missingness versus zero, units and censoring; build a data dictionary first."
+        },
+        "url": "https://mimic.mit.edu/docs/iv/"
+      }
+    ],
+    "compute": [
+      {
+        "task": {
+          "zh": "小规模单细胞探索",
+          "en": "Small single-cell exploration"
+        },
+        "mode": "estimate",
+        "gpu": "0",
+        "ram": "32–64 GB",
+        "disk": "100–500 GB",
+        "note": {
+          "zh": "8–16 CPU 核；约 1 万–10 万细胞稀疏子集。密集化或大型邻接图可能超出。",
+          "en": "8–16 CPU cores; roughly 10k–100k sparse cells. Densification/large graphs may exceed this."
+        },
+        "url": "https://scanpy.readthedocs.io/"
+      },
+      {
+        "task": {
+          "zh": "scVI / 小型扰动模型适配",
+          "en": "scVI / small perturbation-model adaptation"
+        },
+        "mode": "estimate",
+        "gpu": "1 × 16–24 GB",
+        "ram": "64–128 GB",
+        "disk": "0.5–2 TB",
+        "note": {
+          "zh": "起步预算，不是最低配置；基因数、batch、邻接图与训练设置决定占用。",
+          "en": "Starting budget, not a minimum specification; genes, batches, graphs and training settings determine usage."
+        },
+        "url": "https://scvi-tools.org/"
+      },
+      {
+        "task": {
+          "zh": "百万细胞整合 / 子集查询",
+          "en": "Million-cell integration / subset queries"
+        },
+        "mode": "estimate",
+        "gpu": {
+          "zh": "按任务选择",
+          "en": "Task-dependent"
+        },
+        "ram": "128–256 GB*",
+        "disk": "1–4 TB*",
+        "note": {
+          "zh": "优先流式查询与稀疏矩阵；*全量下载不是必需。预训练是另一个量级。",
+          "en": "Prefer streaming queries and sparse matrices; *full downloads are optional. Pretraining is a different scale."
+        },
+        "url": "https://chanzuckerberg.github.io/cellxgene-census/"
+      },
+      {
+        "task": {
+          "zh": "病理切片特征提取",
+          "en": "Pathology slide embedding"
+        },
+        "mode": "estimate",
+        "gpu": "1 × 24–48 GB",
+        "ram": "64–128 GB",
+        "disk": "1–5 TB",
+        "note": {
+          "zh": "先限定切片数/倍率；NVMe 与读取速度常与 GPU 同样重要。",
+          "en": "Limit slide count/magnification first; NVMe and I/O often matter as much as GPU capacity."
+        },
+        "url": "https://github.com/mahmoodlab/UNI"
+      },
+      {
+        "task": {
+          "zh": "Boltz 小型复合物推理",
+          "en": "Boltz modest-complex inference"
+        },
+        "mode": "estimate",
+        "gpu": "1 × 24–48 GB",
+        "ram": "32–64 GB",
+        "disk": "100 GB+",
+        "note": {
+          "zh": "按序列长度、MSA、回收次数与采样数做小样本测试；不是官方保证。",
+          "en": "Pilot by sequence length, MSA, recycling and sample count; not an official guarantee."
+        },
+        "url": "https://github.com/jwohlwend/boltz"
+      },
+      {
+        "task": {
+          "zh": "AlphaFold 3 官方性能测试",
+          "en": "AlphaFold 3 official performance tests"
+        },
+        "mode": "reported",
+        "gpu": "1 × A100 / H100 80 GB",
+        "ram": "—",
+        "disk": "—",
+        "note": {
+          "zh": "官方测试硬件，不是最低要求；MSA/数据库流程另计。1,024 token 的纯推理报告约 62s / 34s。",
+          "en": "Official test hardware, not a minimum; MSA/database work is separate. Reported 1,024-token inference is about 62s/34s."
+        },
+        "url": "https://github.com/google-deepmind/alphafold3/blob/main/docs/performance.md"
+      },
+      {
+        "task": {
+          "zh": "API 型分析 Agent",
+          "en": "API-backed analysis agents"
+        },
+        "mode": "estimate",
+        "gpu": "0 (API)",
+        "ram": "16–64 GB",
+        "disk": "10–500 GB",
+        "note": {
+          "zh": "模型在外部运行；本地执行工具仍需 CPU/存储。任务数据可能需要更多资源，且要预算 API 调用。",
+          "en": "The model runs remotely; local tools still need CPU/storage. Tasks may require more resources; budget API calls."
+        },
+        "url": "https://github.com/snap-stanford/Biomni"
+      },
+      {
+        "task": {
+          "zh": "ScienceBuddy RSI 复现实验",
+          "en": "ScienceBuddy RSI reproduction"
+        },
+        "mode": "reported",
+        "gpu": "8 × A100",
+        "ram": "—",
+        "disk": "—",
+        "note": {
+          "zh": "实验文档：Linux、Python 3.12、CUDA 13、Docker 与 8 卡环境。完整托管助手不是该硬件要求。",
+          "en": "Experiment docs: Linux, Python 3.12, CUDA 13, Docker and eight GPUs. This is not a hosted-assistant requirement."
+        },
+        "url": "https://github.com/Gen-Verse/ScienceBuddy/blob/main/docs/experiments.md"
+      },
+      {
+        "task": {
+          "zh": "TxAgent 本地完整设置",
+          "en": "TxAgent complete local setup"
+        },
+        "mode": "reported",
+        "gpu": {
+          "zh": "H100 级大显存推荐",
+          "en": "H100-class large memory recommended"
+        },
+        "ram": "—",
+        "disk": "—",
+        "note": {
+          "zh": "仓库推荐 H100 / >80GB 显存环境；推荐配置不等于所有 8B 模型的最低要求。",
+          "en": "Repository recommends H100/>80GB memory; a recommended configuration is not the minimum for every 8B model."
+        },
+        "url": "https://github.com/mims-harvard/TxAgent"
+      }
+    ],
+    "paths": [
+      {
+        "title": {
+          "zh": "我是第一次接触这个领域",
+          "en": "I am new to this field"
+        },
+        "time": {
+          "zh": "约 30 分钟",
+          "en": "About 30 minutes"
+        },
+        "steps": [
+          {
+            "zh": "先读“细胞≠患者、关联≠机制”与术语表。",
+            "en": "Read “cells ≠ patients, association ≠ mechanism” and the glossary."
+          },
+          {
+            "zh": "看 Mathys 2019 图谱，再看 PICALM 实验：理解证据如何升级。",
+            "en": "Read the Mathys 2019 atlas, then PICALM experiments to see evidence strengthen."
+          },
+          {
+            "zh": "下载一个公开小样本，理解 X、obs、var，而不是直接训练大模型。",
+            "en": "Use one small public sample; learn X, obs and var before training a large model."
+          }
+        ],
+        "ids": [
+          "mathys19",
+          "picalm"
+        ]
+      },
+      {
+        "title": {
+          "zh": "我想做 AD 机制方向",
+          "en": "I want to study AD mechanisms"
+        },
+        "time": {
+          "zh": "研究起步路线",
+          "en": "Research starting route"
+        },
+        "steps": [
+          {
+            "zh": "SEA-AD / ROSMAP 提供细胞与病理线索；GWAS / eQTL 提供遗传线索。",
+            "en": "SEA-AD/ROSMAP provide cellular/pathology clues; GWAS/eQTL provide genetic clues."
+          },
+          {
+            "zh": "AlphaGenome / Hi-C 排序调控候选；明确组织和参考基因组。",
+            "en": "Prioritize regulatory candidates with AlphaGenome/Hi-C; specify tissue and genome build."
+          },
+          {
+            "zh": "在人源微胶质细胞、类器官或多供体干预中验证，报告失败与适用范围。",
+            "en": "Validate in human microglia, organoids or multi-donor interventions; report failures and scope."
+          }
+        ],
+        "ids": [
+          "mathys24",
+          "beyond",
+          "alphagenome",
+          "picalm",
+          "phgdh"
+        ]
+      },
+      {
+        "title": {
+          "zh": "我想做计算模型 / 可靠性",
+          "en": "I want to build models / study reliability"
+        },
+        "time": {
+          "zh": "一块 GPU 可起步",
+          "en": "Start with one GPU"
+        },
+        "steps": [
+          {
+            "zh": "用 scPerturb 小子集，先跑均值/线性/加性模型。",
+            "en": "Use a small scPerturb subset; establish mean/linear/additive baselines."
+          },
+          {
+            "zh": "按新条件与新供体设计留出；用阳性对照校准响应指标。",
+            "en": "Hold out new conditions/donors; calibrate response metrics with positive controls."
+          },
+          {
+            "zh": "再比较 GEARS / State / 基础模型，评估不确定性与真正实验收益。",
+            "en": "Then compare GEARS/State/foundation models; assess uncertainty and real experimental utility."
+          }
+        ],
+        "ids": [
+          "gears",
+          "linear25",
+          "calibration26",
+          "causalbench"
+        ]
+      },
+      {
+        "title": {
+          "zh": "我想做科研 Agent",
+          "en": "I want to build scientific agents"
+        },
+        "time": {
+          "zh": "API + 小任务先行",
+          "en": "Start with APIs and small tasks"
+        },
+        "steps": [
+          {
+            "zh": "先复现一个 CellVoyager / Biomni 小任务，保存全执行轨迹。",
+            "en": "Reproduce a small CellVoyager/Biomni task and retain the full execution trace."
+          },
+          {
+            "zh": "用 Paper2Agent 把已验证工具包装起来；限制代码与数据权限。",
+            "en": "Package validated tools with Paper2Agent; scope code/data permissions."
+          },
+          {
+            "zh": "再研究 ScienceBuddy 改进循环；区分模拟验证器、任务成功与科学发现。",
+            "en": "Then study ScienceBuddy improvement loops; distinguish simulated verification, task success and discovery."
+          }
+        ],
+        "ids": [
+          "cellvoyager",
+          "biomni",
+          "paper2agent",
+          "sciencebuddy"
+        ]
+      }
+    ],
+    "opportunities": [
+      {
+        "title": {
+          "zh": "AD 多证据机制发现",
+          "en": "AD mechanism discovery by triangulation"
+        },
+        "why": {
+          "zh": "表达关联很多，但能直接转化为可验证病因的候选较少。",
+          "en": "Expression associations are abundant, but fewer translate into testable causal candidates."
+        },
+        "design": {
+          "zh": "SEA-AD + GWAS/eQTL + 调控预测 → 多供体 CRISPR → 空间/吞噬等功能读出。",
+          "en": "SEA-AD + GWAS/eQTL + regulatory prediction → multi-donor CRISPR → spatial/phagocytosis readouts."
+        },
+        "test": {
+          "zh": "遗传与细胞证据一致性；留出供体；至少一种正交实验。",
+          "en": "Genetic/cellular consistency, held-out donors and at least one orthogonal experiment."
+        }
+      },
+      {
+        "title": {
+          "zh": "分布外扰动的可靠性",
+          "en": "Reliability of out-of-distribution perturbations"
+        },
+        "why": {
+          "zh": "平均分数不能告诉研究者某一次预测是否值得花钱实验。",
+          "en": "Average scores do not reveal whether an individual prediction is worth an experiment."
+        },
+        "design": {
+          "zh": "按供体/药物/时间留出，预测分布与不确定性，允许拒答或请求新测量。",
+          "en": "Hold out donors/drugs/timepoints; model distributions and uncertainty, allowing abstention or new measurements."
+        },
+        "test": {
+          "zh": "误差–覆盖率、校准、无变化/线性基线及预算内命中率；检查交换性假设。",
+          "en": "Error–coverage, calibration, no-change/linear baselines and budgeted hit rate; check exchangeability assumptions."
+        }
+      },
+      {
+        "title": {
+          "zh": "可验证的空间通信假设",
+          "en": "Verifiable spatial-communication hypotheses"
+        },
+        "why": {
+          "zh": "邻近与配体–受体共表达容易被误写成已证实的细胞通信。",
+          "en": "Proximity and ligand–receptor co-expression are easily overstated as proven communication."
+        },
+        "design": {
+          "zh": "表达 + 空间 + 分割误差 → 候选关系 → 共培养/阻断实验。",
+          "en": "Expression + space + segmentation error → candidate relationships → co-culture/blocking experiments."
+        },
+        "test": {
+          "zh": "跨切片/供体验证、空间空模型、真实干预结果。",
+          "en": "Cross-section/donor validation, spatial null models and intervention results."
+        }
+      },
+      {
+        "title": {
+          "zh": "预算驱动的下一实验选择",
+          "en": "Budget-aware next-experiment selection"
+        },
+        "why": {
+          "zh": "实验是关键瓶颈；重建全部表达并非每个任务的目标。",
+          "en": "Experiments are a bottleneck; reconstructing all expression is not every task’s objective."
+        },
+        "design": {
+          "zh": "用不确定性、低可靠性与多样性选择候选，同时建模实验成本。",
+          "en": "Select candidates by uncertainty, low reliability and diversity while modeling experimental cost."
+        },
+        "test": {
+          "zh": "真实序贯实验命中率，而不是只在固定数据上回放。",
+          "en": "Real sequential-experiment hit rate, not only replay on a fixed dataset."
+        }
+      },
+      {
+        "title": {
+          "zh": "科研代理的操作级验证",
+          "en": "Action-level verification for scientific agents"
+        },
+        "why": {
+          "zh": "代码可以运行却科学上错误，引用可以存在却不支持结论。",
+          "en": "Code can run but be scientifically wrong; citations can exist without supporting the claim."
+        },
+        "design": {
+          "zh": "每步记录工具参数、数据版本、统计前提；检测静默错误与无依据解释。",
+          "en": "Log tool arguments, data versions and statistical assumptions; detect silent errors and unsupported interpretations."
+        },
+        "test": {
+          "zh": "独立复现、错误注入、证据支持率、敏感数据外传测试。",
+          "en": "Independent reproduction, injected faults, evidence-support rates and data-exfiltration tests."
+        }
+      },
+      {
+        "title": {
+          "zh": "从药物候选到患者价值",
+          "en": "From drug candidates to patient value"
+        },
+        "why": {
+          "zh": "结合与细胞活性距离临床获益仍有很长证据链。",
+          "en": "Binding and cellular activity remain far from clinical benefit."
+        },
+        "design": {
+          "zh": "知识图候选 + 结构/活性 + 患者分层；按条件设计功能及前瞻验证。",
+          "en": "Knowledge-graph candidates + structure/activity + patient stratification; design functional and prospective validation."
+        },
+        "test": {
+          "zh": "外部队列、明确终点、毒性与阴性结果；观察研究注明因果假设。",
+          "en": "External cohorts, explicit endpoints, toxicity and negative results; state causal assumptions for observational studies."
+        }
+      }
+    ],
+    "checklist": [
+      {
+        "zh": "定义问题与统计单位：患者、供体、细胞、药物还是实验条件？",
+        "en": "Define the question and statistical unit: patient, donor, cell, drug or condition?"
+      },
+      {
+        "zh": "锁定数据版本、许可、下载清单、参考基因组与预处理。",
+        "en": "Pin data versions, permissions, manifests, genome build and preprocessing."
+      },
+      {
+        "zh": "防止供体、实验板、重复药物、图像块和预训练数据泄漏。",
+        "en": "Prevent leakage across donors, plates, repeated compounds, image patches and pretraining data."
+      },
+      {
+        "zh": "建立无变化、均值、线性与适用的加性基线。",
+        "en": "Establish no-change, mean, linear and applicable additive baselines."
+      },
+      {
+        "zh": "指标匹配真实任务，按效应量、细胞类型、条件分层报告。",
+        "en": "Match metrics to the task; report by effect size, cell type and condition."
+      },
+      {
+        "zh": "记录独立验证与阴性结果，不把归因/关联写成机制。",
+        "en": "Record independent validation and negative results; do not relabel attribution/association as mechanism."
+      },
+      {
+        "zh": "敏感数据留在授权环境；禁止未经许可发送到外部 API。",
+        "en": "Keep sensitive data in authorized environments; do not send it to external APIs without permission."
+      },
+      {
+        "zh": "公开可共享的代码、环境、随机种子与执行轨迹；受控数据只给访问方法。",
+        "en": "Share permitted code, environments, seeds and traces; provide access routes rather than controlled data."
+      }
+    ]
+  }
+}

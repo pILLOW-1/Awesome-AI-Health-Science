@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this curated atlas and cite original papers separately."
+title: "AI Health & Science Atlas"
+type: dataset
+authors:
+  - name: "pILLOW-1"
+version: "2026.10.08"
+date-released: 2026-10-08
+url: "https://github.com/pILLOW-1/Awesome-AI-Health-Science"
+license: MIT
