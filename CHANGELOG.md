@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-23 — Frontier review
+
+- Reviewed primary-source developments posted after the 2026-10-08 snapshot; added five research entries and two executable/search resources.
+- Added a human hippocampal spatial AD preprint while explicitly separating proximity/genotype associations from causal mechanism evidence.
+- Added an imaging spatial-transcriptomics bias audit with its public analysis repository and dataset access boundaries.
+- Added prospective temporal validation of an uncertainty-aware SPMS classifier; retained its author-reported metrics while clarifying that registry-label agreement is not demonstrated patient benefit or a cross-system clinical trial.
+- Added GENOAR's approximately 54-million-cell search workflow and public interface; clarified that indexed cells are not independent donors, uniformly quality-controlled training data or a single-license corpus, and that minimum compute was not reported.
+- Added the AgenticLS biomedical citation-verification study and its reproducible caches/code; noted the 100-claim sample, non-significant realistic-harness comparison and distinction between PMID existence and evidentiary support.
+- Regenerated `CATALOG.md`, `allinone.md` and `dist/catalog.json`; passed repository checks with 53 research items, 24 datasets, 24 tools, seven collections and eight routes.
+
 ## 2026-10-08 — Editorial wording and recurring maintenance
 
 - Removed audience labels from both languages while retaining clear explanations and reading routes.

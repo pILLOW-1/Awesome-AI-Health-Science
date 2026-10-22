@@ -4,7 +4,7 @@ An evidence-first, bilingual atlas of biomedical AI research.
 
 **[Open the interactive atlas / 打开网站](https://ai-health-science-atlas.saxoe.chatgpt.site)** · **[Read the full catalog / 完整目录](CATALOG.md)** · [Structured data](dist/catalog.json)
 
-Snapshot: **2026-10-08**. This is a curated research snapshot, not an exhaustive systematic review or clinical advice. Dates distinguish preprints from journal publication. Original resources retain their licenses. No original private attachments or patient data are hosted.
+Snapshot: **2026-10-23**. This is a curated research snapshot, not an exhaustive systematic review or clinical advice. Dates distinguish preprints from journal publication. Original resources retain their licenses. No original private attachments or patient data are hosted.
 
 ## What you will find / 包含什么
 
@@ -22,9 +22,9 @@ The website has bilingual switching, keyword search, domain/access/evidence filt
 
 ## Evidence rules / 证据规则
 
-All 101 papers, datasets, tools and collections carry a year and a primary-source link for that date. Labels distinguish publication, preprint, dataset version, project/platform launch, repository creation and catalog review. A repository creation date is not a public-release date. Continuously updated catalogs do not have one dataset-wide release year.
+All 108 papers, datasets, tools and collections carry a year and a primary-source link for that date. Labels distinguish publication, preprint, dataset version, project/platform launch, repository creation and catalog review. A repository creation date is not a public-release date. Continuously updated catalogs do not have one dataset-wide release year.
 
-全部 101 项论文、数据集、工具和资源合集均标注年份及其来源，区分正式论文、预印本、数据版本、项目/平台启动、仓库创建与目录核查。仓库创建不等于公开发布；持续更新的目录不具有统一的数据发布年。
+全部 108 项论文、数据集、工具和资源合集均标注年份及其来源，区分正式论文、预印本、数据版本、项目/平台启动、仓库创建与目录核查。仓库创建不等于公开发布；持续更新的目录不具有统一的数据发布年。
 
 - Cells are not independent patients. / 细胞不是独立患者。
 - Association and attribution are not causal mechanism. / 关联与归因不是因果机制。

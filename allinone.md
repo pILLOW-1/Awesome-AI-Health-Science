@@ -4,7 +4,7 @@ The full bilingual report follows. Aggregated paper-search execution was unavail
 
 # AI Health & Science Atlas / 生物医学 AI 研究地图
 
-Verified snapshot / 核查快照：2026-10-08
+Verified snapshot / 核查快照：2026-10-23
 
 Public primary sources only. Not a systematic review or medical advice. / 仅整理公开原始来源；非系统综述或医疗建议。
 
@@ -42,7 +42,7 @@ Few donors, postmortem snapshots, treatment/age/batch confounding.
 
 Triangulate genetic, spatial and intervention evidence; validate in human-derived cells and multiple donors.
 
-Studies: Single-cell AD atlas · Mathys (2019); Multiregion AD atlas · Mathys (2024); BEYOND · Cellular communities (2024); PICALM · Microglial mechanism (2025); PHGDH · Non-enzymatic AD mechanism (2025); PASCode (2026); GAGE-seq / Hicformer (2026); Rheumatoid arthritis synovial atlas (2023); Spatial diabetic kidney atlas (2026)
+Studies: Single-cell AD atlas · Mathys (2019); Multiregion AD atlas · Mathys (2024); BEYOND · Cellular communities (2024); PICALM · Microglial mechanism (2025); PHGDH · Non-enzymatic AD mechanism (2025); PASCode (2026); GAGE-seq / Hicformer (2026); Spatial proximity to AD pathology (2026); Prospective uncertainty-aware SPMS classification (2026); Rheumatoid arthritis synovial atlas (2023); Spatial diabetic kidney atlas (2026)
 
 ### 02 预测干预后的细胞变化 / Predict cellular responses to interventions
 
@@ -144,7 +144,7 @@ Molecule misassignment, varying resolution, spatial autocorrelation and batches.
 
 Model measurement error explicitly; test communication hypotheses using blocking or co-culture experiments.
 
-Studies: Nicheformer (2025); ResolVI (2026); Spatial diabetic kidney atlas (2026); SPARK (2026)
+Studies: Nicheformer (2025); ResolVI (2026); Technical biases in imaging spatial transcriptomics (2026); Spatial proximity to AD pathology (2026); Spatial diabetic kidney atlas (2026); SPARK (2026)
 
 ### 05 从 DNA 变异走到功能机制 / Move from DNA variants to function
 
@@ -280,7 +280,7 @@ Unsupported citations, silent code errors, verifier bias and sensitive data.
 
 Preserve execution traces and versions; validate tasks and actions; scope permissions and sandbox code.
 
-Studies: Biomni (2026); CellVoyager (2026); BioMedAgent (2026); Paper2Agent (2026); ScienceBuddy (2026)
+Studies: Biomni (2026); CellVoyager (2026); BioMedAgent (2026); Paper2Agent (2026); ScienceBuddy (2026); GENOAR · Omnicell navigation (2026); Real PMIDs, Wrong Papers (2026)
 
 ## Papers / 论文
 
@@ -563,6 +563,46 @@ Helps interpret cell-type-specific regulation and AD-associated changes.
 Prediction and attribution are not causality; 20 donors do not become thousands of independent patients.
 
 [Primary source / 原文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13499675/)
+
+### Spatial proximity to AD pathology (2026)
+
+bioRxiv · Oct 16 · Preprint · association
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.64898/2026.10.15.759523v1)
+
+**Question / 问题**
+
+淀粉样蛋白和 tau 病理附近的细胞状态，是否会随细胞类型和基因型而变化？
+
+Do cellular states near amyloid and tau pathology vary by cell type and genotype?
+
+**Data / 数据**
+
+人类死后海马组织；空间转录组、病理位置与供体基因型。
+
+Postmortem human hippocampus with spatial transcriptomics, pathology locations and donor genotypes.
+
+**Method / 方法**
+
+按细胞类型比较与病理距离相关的表达，并分析基因型交互。
+
+Compare distance-associated expression by cell type and analyze genotype interactions.
+
+**Finding / 结论**
+
+作者报告了病理邻近区域中细胞类型与基因型特异的分子特征。
+
+The authors report cell-type- and genotype-specific molecular characteristics near pathology.
+
+**Limitation / 局限**
+
+横断面死后组织中的空间关联不能确定时间顺序或因果机制；这是尚未同行评审的预印本。
+
+Spatial associations in cross-sectional postmortem tissue do not establish temporal order or causal mechanism; this is an unreviewed preprint.
+
+[Primary source / 原文](https://www.biorxiv.org/content/10.64898/2026.10.15.759523v1)
 
 ### Rheumatoid arthritis synovial atlas (2023)
 
@@ -1243,6 +1283,46 @@ Improves the reliability of spatial data for cell analysis.
 Depends on initial segmentation and evaluation proxies; outputs are not unconditional ground truth.
 
 [Primary source / 原文](https://www.nature.com/articles/s41592-026-03212-9)
+
+### Technical biases in imaging spatial transcriptomics (2026)
+
+bioRxiv · Oct 16 · Preprint · benchmark
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.64898/2026.10.16.759529v1)
+
+**Question / 问题**
+
+成像空间转录组里的空间图样，哪些可能来自探针和成像流程？
+
+Which spatial patterns in imaging transcriptomics may come from probes and imaging procedures?
+
+**Data / 数据**
+
+公开 CosMx 扁桃体、需登录的 CosMx 肺癌与 Xenium 结直肠癌数据。
+
+Public CosMx tonsil, login-gated CosMx lung-cancer and Xenium colorectal-cancer data.
+
+**Method / 方法**
+
+检查位置、视野、z 层、GC 含量与异构体探针覆盖对检测率的影响。
+
+Audit detection against position, field of view, z-plane, GC content and isoform probe coverage.
+
+**Finding / 结论**
+
+作者报告多种技术结构可形成看似生物学的差异，并公开了分析代码。
+
+The authors report technical structures that can resemble biology and release analysis code.
+
+**Limitation / 局限**
+
+结论依赖所测平台、面板与样本；该研究诊断测量偏差，不证明新的疾病机制。
+
+Findings depend on the tested platforms, panels and samples; this diagnoses measurement bias rather than establishing a disease mechanism.
+
+[Primary source / 原文](https://www.biorxiv.org/content/10.64898/2026.10.16.759529v1)
 
 ### CytoVI (2026)
 
@@ -2123,6 +2203,126 @@ The paper reports approximately 77% task success.
 Task success is not clinical diagnostic accuracy or universal scientific correctness.
 
 [Primary source / 原文](https://www.nature.com/articles/s41551-026-01634-6)
+
+### GENOAR · Omnicell navigation (2026)
+
+bioRxiv · Oct 22 · Preprint · workflow
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.64898/2026.10.15.759380v1)
+
+**Question / 问题**
+
+如何在数千万个公开单细胞转录组中用自然语言寻找可比较样本？
+
+How can natural language find comparable samples across tens of millions of public single-cell profiles?
+
+**Data / 数据**
+
+约 5,400 万个公开单细胞转录组，来源于 SRA 元数据与表达资源。
+
+Approximately 54 million public single-cell transcriptomes from SRA metadata and expression resources.
+
+**Method / 方法**
+
+两个代理分别标准化非结构化细胞标签并检索数据，结合并行计算支持查询。
+
+Two agents standardize unstructured cell labels and retrieve data, with parallel computing supporting queries.
+
+**Finding / 结论**
+
+作者提供可搜索的 Omnicell 入口，并展示跨数据集检索与下游分析。
+
+The authors provide a searchable Omnicell interface and demonstrate cross-dataset retrieval and downstream analysis.
+
+**Limitation / 局限**
+
+自动标准化的元数据可能有错误；底层数据的许可和质量各异，作者报告的工作流尚未独立复现。
+
+Automated metadata normalization can be wrong; underlying licenses and quality vary, and the author-reported workflow has not been independently reproduced.
+
+[Primary source / 原文](https://www.biorxiv.org/content/10.64898/2026.10.15.759380v1)
+
+### Real PMIDs, Wrong Papers (2026)
+
+AgenticLS @ NeurIPS · Oct 22 · Workshop · benchmark
+
+Year type / 年份类型: 论文发表 / Paper publication
+
+[Year source / 年份来源](https://arxiv.org/abs/2610.29812)
+
+**Question / 问题**
+
+科研代理给出的 PMID 存在时，引用真的支持结论吗？
+
+When an agent cites a real PMID, does that paper actually support the claim?
+
+**Data / 数据**
+
+100 条 SciFact 开发集声明、PubMed 实时检索、两个轻量模型和四种检索配置。
+
+100 SciFact development claims, live PubMed retrieval, two efficient models and four retrieval setups.
+
+**Method / 方法**
+
+固定模型与输出格式，对比闭卷、单次检索、可改写查询的 ReAct 代理和金标准摘要。
+
+Hold models and output format fixed while comparing closed book, single retrieval, a query-writing ReAct agent and gold abstracts.
+
+**Finding / 结论**
+
+作者报告代理查询把金标准文献召回率提升约三倍；最佳现实配置准确率 62%，但组间差异在该样本量下不显著。
+
+The authors report about threefold higher gold-paper recall from agent-written queries; the best realistic setup reached 62% accuracy, but differences were not significant at this sample size.
+
+**Limitation / 局限**
+
+仅 100 条声明且依赖两种模型与一个跨模型引用判定器；真实 PMID、任务准确率和临床可靠性是不同概念。
+
+Only 100 claims, two models and a cross-family citation judge were tested; a real PMID, task accuracy and clinical reliability are different claims.
+
+[Primary source / 原文](https://arxiv.org/abs/2610.29812)
+
+### Prospective uncertainty-aware SPMS classification (2026)
+
+medRxiv · Oct 11 · Preprint · prediction
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://www.medrxiv.org/content/10.64898/2026.10.07.26364939v1)
+
+**Question / 问题**
+
+能否在后续真实登记数据中同时预测多发性硬化病程并表达个体不确定性？
+
+Can disease course and individual uncertainty be predicted on later real-world multiple-sclerosis registry data?
+
+**Data / 数据**
+
+训练/校准：SMSReg-2022 的 10,787 人、85,461 次就诊；前瞻核查：SMSReg-2025 的 15,719 人、45,077 次就诊。
+
+Training/calibration: 10,787 people and 85,461 visits in SMSReg-2022; prospective check: 15,719 people and 45,077 visits in SMSReg-2025.
+
+**Method / 方法**
+
+随机森林结合保形预测，输出 RRMS、SPMS 或不确定集合，并与 Lorscheider 标准比较。
+
+A random forest with conformal prediction outputs RRMS, SPMS or an uncertain set and is compared with Lorscheider criteria.
+
+**Finding / 结论**
+
+作者报告就诊级 RRMS/SPMS 准确率为 92%/95%，个体级敏感度 98%、特异度 89%。
+
+The authors report visit-level RRMS/SPMS accuracy of 92%/95% and person-level sensitivity of 98% with 89% specificity.
+
+**Limitation / 局限**
+
+目标是复现临床登记标签而非证明改善患者结局；同一国家登记体系的时间外验证不是跨医疗系统临床试验，且论文尚未同行评审。
+
+The target reproduces registry labels rather than patient benefit; temporal validation in one national registry is not a cross-system clinical trial, and the paper is not peer reviewed.
+
+[Primary source / 原文](https://www.medrxiv.org/content/10.64898/2026.10.07.26364939v1)
 
 ### Paper2Agent (2026)
 
@@ -3637,6 +3837,70 @@ Public research environment; check dependency/data licenses.
 Reports 72,413 instances, 129 categories and 12 scenarios; not clinical diagnosis evaluation.
 
 [Official project](https://github.com/wshi83/MedAgentGym)
+
+### GENOAR (2026) · agent
+
+Year type / 年份类型: 预印本与公开查询入口 / Preprint and public search interface
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.64898/2026.10.15.759380v1)
+
+**Input / 输入**
+
+自然语言细胞/组织/疾病查询。
+
+Natural-language cell, tissue and disease queries.
+
+**Output / 产出**
+
+标准化样本检索结果及可用于下游分析的数据入口。
+
+Standardized sample-search results and links for downstream analysis.
+
+**Availability / 开放范围**
+
+公开网页可搜索；底层 SRA 记录、原始数据及许可按各项目执行。
+
+A public search interface is available; underlying SRA records, raw data and licenses remain project-specific.
+
+**Boundary / 边界**
+
+约 5,400 万细胞是索引覆盖量，不等于独立供体数或经过统一质控的训练语料；未报告可复现的最低算力。
+
+Approximately 54 million cells is indexed coverage, not independent donors or a uniformly quality-controlled training corpus; no reproducible minimum compute is reported.
+
+[Official project](https://www.genoar.ai/)
+
+### Real PMIDs audit (2026) · benchmark
+
+Year type / 年份类型: 仓库创建 / Repository created
+
+[Year source / 年份来源](https://api.github.com/repos/saqlain2204/real-pmids-wrong-papers)
+
+**Input / 输入**
+
+生物医学声明、PubMed 与可选模型 API。
+
+Biomedical claims, PubMed and optional model APIs.
+
+**Output / 产出**
+
+逐声明判断、检索轨迹、缓存响应与引用审计。
+
+Per-claim verdicts, retrieval traces, cached responses and citation audits.
+
+**Availability / 开放范围**
+
+公开代码、提示、缓存与结果；缓存复算无需 API key，重跑模型需各自密钥。
+
+Public code, prompts, caches and results; cached recomputation needs no API key, while model reruns require provider keys.
+
+**Boundary / 边界**
+
+公开结果支持复算作者表格，不等于独立复现或可推广到全部生物医学问题。
+
+Released results support recomputing author tables, not independent replication or generalization to all biomedical questions.
+
+[Official project](https://github.com/saqlain2204/real-pmids-wrong-papers)
 
 ### Scanpy + AnnData (2018) · analysis
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-23",
   "research": [
     {
       "id": "mathys19",
@@ -265,6 +265,44 @@
       "yearNote": {
         "zh": "论文发表",
         "en": "Paper publication"
+      }
+    },
+    {
+      "id": "adspatial26",
+      "name": "Spatial proximity to AD pathology",
+      "year": 2026,
+      "domain": "neuro",
+      "evidence": "association",
+      "venue": "bioRxiv · Oct 16 · Preprint",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.10.15.759523v1",
+      "plain": {
+        "zh": "淀粉样蛋白和 tau 病理附近的细胞状态，是否会随细胞类型和基因型而变化？",
+        "en": "Do cellular states near amyloid and tau pathology vary by cell type and genotype?"
+      },
+      "data": {
+        "zh": "人类死后海马组织；空间转录组、病理位置与供体基因型。",
+        "en": "Postmortem human hippocampus with spatial transcriptomics, pathology locations and donor genotypes."
+      },
+      "method": {
+        "zh": "按细胞类型比较与病理距离相关的表达，并分析基因型交互。",
+        "en": "Compare distance-associated expression by cell type and analyze genotype interactions."
+      },
+      "result": {
+        "zh": "作者报告了病理邻近区域中细胞类型与基因型特异的分子特征。",
+        "en": "The authors report cell-type- and genotype-specific molecular characteristics near pathology."
+      },
+      "limit": {
+        "zh": "横断面死后组织中的空间关联不能确定时间顺序或因果机制；这是尚未同行评审的预印本。",
+        "en": "Spatial associations in cross-sectional postmortem tissue do not establish temporal order or causal mechanism; this is an unreviewed preprint."
+      },
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.64898/2026.10.15.759523v1",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
       }
     },
     {
@@ -911,6 +949,44 @@
       "yearNote": {
         "zh": "论文发表",
         "en": "Paper publication"
+      }
+    },
+    {
+      "id": "istbiases26",
+      "name": "Technical biases in imaging spatial transcriptomics",
+      "year": 2026,
+      "domain": "spatial",
+      "evidence": "benchmark",
+      "venue": "bioRxiv · Oct 16 · Preprint",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.10.16.759529v1",
+      "plain": {
+        "zh": "成像空间转录组里的空间图样，哪些可能来自探针和成像流程？",
+        "en": "Which spatial patterns in imaging transcriptomics may come from probes and imaging procedures?"
+      },
+      "data": {
+        "zh": "公开 CosMx 扁桃体、需登录的 CosMx 肺癌与 Xenium 结直肠癌数据。",
+        "en": "Public CosMx tonsil, login-gated CosMx lung-cancer and Xenium colorectal-cancer data."
+      },
+      "method": {
+        "zh": "检查位置、视野、z 层、GC 含量与异构体探针覆盖对检测率的影响。",
+        "en": "Audit detection against position, field of view, z-plane, GC content and isoform probe coverage."
+      },
+      "result": {
+        "zh": "作者报告多种技术结构可形成看似生物学的差异，并公开了分析代码。",
+        "en": "The authors report technical structures that can resemble biology and release analysis code."
+      },
+      "limit": {
+        "zh": "结论依赖所测平台、面板与样本；该研究诊断测量偏差，不证明新的疾病机制。",
+        "en": "Findings depend on the tested platforms, panels and samples; this diagnoses measurement bias rather than establishing a disease mechanism."
+      },
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.64898/2026.10.16.759529v1",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
       }
     },
     {
@@ -1747,6 +1823,120 @@
       "yearNote": {
         "zh": "论文发表",
         "en": "Paper publication"
+      }
+    },
+    {
+      "id": "genoar26",
+      "name": "GENOAR · Omnicell navigation",
+      "year": 2026,
+      "domain": "agent",
+      "evidence": "workflow",
+      "venue": "bioRxiv · Oct 22 · Preprint",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.10.15.759380v1",
+      "plain": {
+        "zh": "如何在数千万个公开单细胞转录组中用自然语言寻找可比较样本？",
+        "en": "How can natural language find comparable samples across tens of millions of public single-cell profiles?"
+      },
+      "data": {
+        "zh": "约 5,400 万个公开单细胞转录组，来源于 SRA 元数据与表达资源。",
+        "en": "Approximately 54 million public single-cell transcriptomes from SRA metadata and expression resources."
+      },
+      "method": {
+        "zh": "两个代理分别标准化非结构化细胞标签并检索数据，结合并行计算支持查询。",
+        "en": "Two agents standardize unstructured cell labels and retrieve data, with parallel computing supporting queries."
+      },
+      "result": {
+        "zh": "作者提供可搜索的 Omnicell 入口，并展示跨数据集检索与下游分析。",
+        "en": "The authors provide a searchable Omnicell interface and demonstrate cross-dataset retrieval and downstream analysis."
+      },
+      "limit": {
+        "zh": "自动标准化的元数据可能有错误；底层数据的许可和质量各异，作者报告的工作流尚未独立复现。",
+        "en": "Automated metadata normalization can be wrong; underlying licenses and quality vary, and the author-reported workflow has not been independently reproduced."
+      },
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.64898/2026.10.15.759380v1",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
+      }
+    },
+    {
+      "id": "pmidagent26",
+      "name": "Real PMIDs, Wrong Papers",
+      "year": 2026,
+      "domain": "agent",
+      "evidence": "benchmark",
+      "venue": "AgenticLS @ NeurIPS · Oct 22 · Workshop",
+      "link": "https://arxiv.org/abs/2610.29812",
+      "plain": {
+        "zh": "科研代理给出的 PMID 存在时，引用真的支持结论吗？",
+        "en": "When an agent cites a real PMID, does that paper actually support the claim?"
+      },
+      "data": {
+        "zh": "100 条 SciFact 开发集声明、PubMed 实时检索、两个轻量模型和四种检索配置。",
+        "en": "100 SciFact development claims, live PubMed retrieval, two efficient models and four retrieval setups."
+      },
+      "method": {
+        "zh": "固定模型与输出格式，对比闭卷、单次检索、可改写查询的 ReAct 代理和金标准摘要。",
+        "en": "Hold models and output format fixed while comparing closed book, single retrieval, a query-writing ReAct agent and gold abstracts."
+      },
+      "result": {
+        "zh": "作者报告代理查询把金标准文献召回率提升约三倍；最佳现实配置准确率 62%，但组间差异在该样本量下不显著。",
+        "en": "The authors report about threefold higher gold-paper recall from agent-written queries; the best realistic setup reached 62% accuracy, but differences were not significant at this sample size."
+      },
+      "limit": {
+        "zh": "仅 100 条声明且依赖两种模型与一个跨模型引用判定器；真实 PMID、任务准确率和临床可靠性是不同概念。",
+        "en": "Only 100 claims, two models and a cross-family citation judge were tested; a real PMID, task accuracy and clinical reliability are different claims."
+      },
+      "yearKind": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      },
+      "yearSource": "https://arxiv.org/abs/2610.29812",
+      "yearNote": {
+        "zh": "论文发表",
+        "en": "Paper publication"
+      }
+    },
+    {
+      "id": "spmscp26",
+      "name": "Prospective uncertainty-aware SPMS classification",
+      "year": 2026,
+      "domain": "clinical",
+      "evidence": "prediction",
+      "venue": "medRxiv · Oct 11 · Preprint",
+      "link": "https://www.medrxiv.org/content/10.64898/2026.10.07.26364939v1",
+      "plain": {
+        "zh": "能否在后续真实登记数据中同时预测多发性硬化病程并表达个体不确定性？",
+        "en": "Can disease course and individual uncertainty be predicted on later real-world multiple-sclerosis registry data?"
+      },
+      "data": {
+        "zh": "训练/校准：SMSReg-2022 的 10,787 人、85,461 次就诊；前瞻核查：SMSReg-2025 的 15,719 人、45,077 次就诊。",
+        "en": "Training/calibration: 10,787 people and 85,461 visits in SMSReg-2022; prospective check: 15,719 people and 45,077 visits in SMSReg-2025."
+      },
+      "method": {
+        "zh": "随机森林结合保形预测，输出 RRMS、SPMS 或不确定集合，并与 Lorscheider 标准比较。",
+        "en": "A random forest with conformal prediction outputs RRMS, SPMS or an uncertain set and is compared with Lorscheider criteria."
+      },
+      "result": {
+        "zh": "作者报告就诊级 RRMS/SPMS 准确率为 92%/95%，个体级敏感度 98%、特异度 89%。",
+        "en": "The authors report visit-level RRMS/SPMS accuracy of 92%/95% and person-level sensitivity of 98% with 89% specificity."
+      },
+      "limit": {
+        "zh": "目标是复现临床登记标签而非证明改善患者结局；同一国家登记体系的时间外验证不是跨医疗系统临床试验，且论文尚未同行评审。",
+        "en": "The target reproduces registry labels rather than patient benefit; temporal validation in one national registry is not a cross-system clinical trial, and the paper is not peer reviewed."
+      },
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://www.medrxiv.org/content/10.64898/2026.10.07.26364939v1",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
       }
     },
     {
@@ -3040,6 +3230,70 @@
       "repositoryYearSource": "https://api.github.com/repos/wshi83/MedAgentGym"
     },
     {
+      "name": "GENOAR",
+      "kind": "agent",
+      "link": "https://www.genoar.ai/",
+      "input": {
+        "zh": "自然语言细胞/组织/疾病查询。",
+        "en": "Natural-language cell, tissue and disease queries."
+      },
+      "output": {
+        "zh": "标准化样本检索结果及可用于下游分析的数据入口。",
+        "en": "Standardized sample-search results and links for downstream analysis."
+      },
+      "open": {
+        "zh": "公开网页可搜索；底层 SRA 记录、原始数据及许可按各项目执行。",
+        "en": "A public search interface is available; underlying SRA records, raw data and licenses remain project-specific."
+      },
+      "limit": {
+        "zh": "约 5,400 万细胞是索引覆盖量，不等于独立供体数或经过统一质控的训练语料；未报告可复现的最低算力。",
+        "en": "Approximately 54 million cells is indexed coverage, not independent donors or a uniformly quality-controlled training corpus; no reproducible minimum compute is reported."
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "预印本与公开查询入口",
+        "en": "Preprint and public search interface"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.64898/2026.10.15.759380v1",
+      "yearNote": {
+        "zh": "预印本与公开查询入口",
+        "en": "Preprint and public search interface"
+      }
+    },
+    {
+      "name": "Real PMIDs audit",
+      "kind": "benchmark",
+      "link": "https://github.com/saqlain2204/real-pmids-wrong-papers",
+      "input": {
+        "zh": "生物医学声明、PubMed 与可选模型 API。",
+        "en": "Biomedical claims, PubMed and optional model APIs."
+      },
+      "output": {
+        "zh": "逐声明判断、检索轨迹、缓存响应与引用审计。",
+        "en": "Per-claim verdicts, retrieval traces, cached responses and citation audits."
+      },
+      "open": {
+        "zh": "公开代码、提示、缓存与结果；缓存复算无需 API key，重跑模型需各自密钥。",
+        "en": "Public code, prompts, caches and results; cached recomputation needs no API key, while model reruns require provider keys."
+      },
+      "limit": {
+        "zh": "公开结果支持复算作者表格，不等于独立复现或可推广到全部生物医学问题。",
+        "en": "Released results support recomputing author tables, not independent replication or generalization to all biomedical questions."
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "yearSource": "https://api.github.com/repos/saqlain2204/real-pmids-wrong-papers",
+      "yearNote": {
+        "zh": "仓库创建",
+        "en": "Repository created"
+      },
+      "repositoryYear": 2026,
+      "repositoryYearSource": "https://api.github.com/repos/saqlain2204/real-pmids-wrong-papers"
+    },
+    {
       "name": "Scanpy + AnnData",
       "kind": "analysis",
       "link": "https://scanpy.readthedocs.io/",
@@ -3707,6 +3961,8 @@
           "phgdh",
           "pascode",
           "hicformer",
+          "adspatial26",
+          "spmscp26",
           "ra-atlas",
           "dkd"
         ]
@@ -3812,6 +4068,8 @@
         "ids": [
           "nicheformer",
           "resolvi",
+          "istbiases26",
+          "adspatial26",
           "dkd",
           "spark"
         ]
@@ -3948,7 +4206,9 @@
           "cellvoyager",
           "biomedagent",
           "paper2agent",
-          "sciencebuddy"
+          "sciencebuddy",
+          "genoar26",
+          "pmidagent26"
         ]
       }
     ],
@@ -4256,6 +4516,7 @@
         "ids": [
           "mathys24",
           "beyond",
+          "adspatial26",
           "alphagenome",
           "picalm",
           "phgdh"
@@ -4310,15 +4571,17 @@
             "en": "Package validated tools with Paper2Agent; scope code/data permissions."
           },
           {
-            "zh": "再研究 ScienceBuddy 改进循环；区分模拟验证器、任务成功与科学发现。",
-            "en": "Then study ScienceBuddy improvement loops; distinguish simulated verification, task success and discovery."
+            "zh": "再用引用审计检查检索瓶颈，并区分模拟验证器、任务成功与科学发现。",
+            "en": "Then audit citations for retrieval bottlenecks and distinguish simulated verification, task success and discovery."
           }
         ],
         "ids": [
           "cellvoyager",
           "biomni",
           "paper2agent",
-          "sciencebuddy"
+          "sciencebuddy",
+          "pmidagent26",
+          "genoar26"
         ]
       }
     ],
