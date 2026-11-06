@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-11-07 — Frontier review
+
+- Reviewed primary-source developments posted after the 2026-10-23 snapshot; added six research entries and two public code resources.
+- Added ADVISE with explicit separation between cross-sectional Braak-stage associations, explainable-model prioritization and CRISPRa support for one ROBO2 result in hiPSC-derived neurons; this is not evidence of human treatment benefit.
+- Added CellBridge and its Apache-2.0 code/adapter release; retained the authors’ reported macro-F1 gains while marking external benchmarks as retrospective rather than prospective clinical validation, and recorded separate UNI2-h and dataset-access requirements.
+- Added MUTUAL for RNA–ATAC transfer across 3.0 million paired cells from 400 public multiome datasets; noted that benchmark transfer does not establish regulation and that no accompanying code release was located at review.
+- Added SpaceDX while distinguishing additional differential-expression discoveries from validated true positives or causal mechanisms.
+- Added SMART discovery transfer while distinguishing cross-cancer survival associations from mechanism or clinical utility.
+- Added RAPTORGraph and its readable repository; recorded that the project LICENSE is still a placeholder, minimum hardware is not reported, and a “causal representation” label does not validate biological pathways.
+- Regenerated `CATALOG.md`, `allinone.md` and `dist/catalog.json`; passed repository checks with 59 research items, 24 datasets, 26 tools, seven collections and eight routes.
+
 ## 2026-10-23 — Frontier review
 
 - Reviewed primary-source developments posted after the 2026-10-08 snapshot; added five research entries and two executable/search resources.

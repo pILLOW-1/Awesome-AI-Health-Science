@@ -1,6 +1,6 @@
 # AI Health & Science Atlas / 生物医学 AI 研究地图
 
-Verified snapshot / 核查快照：2026-10-23
+Verified snapshot / 核查快照：2026-11-07
 
 Public primary sources only. Not a systematic review or medical advice. / 仅整理公开原始来源；非系统综述或医疗建议。
 
@@ -38,7 +38,7 @@ Few donors, postmortem snapshots, treatment/age/batch confounding.
 
 Triangulate genetic, spatial and intervention evidence; validate in human-derived cells and multiple donors.
 
-Studies: Single-cell AD atlas · Mathys (2019); Multiregion AD atlas · Mathys (2024); BEYOND · Cellular communities (2024); PICALM · Microglial mechanism (2025); PHGDH · Non-enzymatic AD mechanism (2025); PASCode (2026); GAGE-seq / Hicformer (2026); Spatial proximity to AD pathology (2026); Prospective uncertainty-aware SPMS classification (2026); Rheumatoid arthritis synovial atlas (2023); Spatial diabetic kidney atlas (2026)
+Studies: Single-cell AD atlas · Mathys (2019); Multiregion AD atlas · Mathys (2024); BEYOND · Cellular communities (2024); PICALM · Microglial mechanism (2025); PHGDH · Non-enzymatic AD mechanism (2025); PASCode (2026); GAGE-seq / Hicformer (2026); Spatial proximity to AD pathology (2026); ADVISE · Context-specific AD progression (2026); SpaceDX · Spatial differential expression (2026); Prospective uncertainty-aware SPMS classification (2026); Rheumatoid arthritis synovial atlas (2023); Spatial diabetic kidney atlas (2026)
 
 ### 02 预测干预后的细胞变化 / Predict cellular responses to interventions
 
@@ -106,7 +106,7 @@ Unobserved confounding, feedback, imperfect interventions and incomplete ground-
 
 State causal assumptions; validate on held-out interventions, quantify uncertainty and measure experimental utility.
 
-Studies: CellOracle (2023); scPRINT (2025); CausalBench (2025); Causal active learning (2023); CRISPR activation / inhibition in T cells (2022)
+Studies: CellOracle (2023); scPRINT (2025); RAPTORGraph (2026); CausalBench (2025); Causal active learning (2023); CRISPR activation / inhibition in T cells (2022)
 
 ### 04 把细胞放回组织空间 / Put cells back into tissue context
 
@@ -140,7 +140,7 @@ Molecule misassignment, varying resolution, spatial autocorrelation and batches.
 
 Model measurement error explicitly; test communication hypotheses using blocking or co-culture experiments.
 
-Studies: Nicheformer (2025); ResolVI (2026); Technical biases in imaging spatial transcriptomics (2026); Spatial proximity to AD pathology (2026); Spatial diabetic kidney atlas (2026); SPARK (2026)
+Studies: Nicheformer (2025); ResolVI (2026); Technical biases in imaging spatial transcriptomics (2026); Spatial proximity to AD pathology (2026); SpaceDX · Spatial differential expression (2026); Spatial diabetic kidney atlas (2026); SPARK (2026)
 
 ### 05 从 DNA 变异走到功能机制 / Move from DNA variants to function
 
@@ -242,7 +242,7 @@ Large-file I/O, site bias, weak labels and unstable explanations.
 
 Hold out patients/sites, test interpretable features and connect spatial or molecular validation.
 
-Studies: UNI (2024); CONCH (2024); SPARK (2026)
+Studies: UNI (2024); CONCH (2024); CellBridge (2026); SPARK (2026)
 
 ### 08 让科研助手可执行、可审计 / Make scientific assistants executable and auditable
 
@@ -276,7 +276,7 @@ Unsupported citations, silent code errors, verifier bias and sensitive data.
 
 Preserve execution traces and versions; validate tasks and actions; scope permissions and sandbox code.
 
-Studies: Biomni (2026); CellVoyager (2026); BioMedAgent (2026); Paper2Agent (2026); ScienceBuddy (2026); GENOAR · Omnicell navigation (2026); Real PMIDs, Wrong Papers (2026)
+Studies: Biomni (2026); CellVoyager (2026); BioMedAgent (2026); Paper2Agent (2026); ScienceBuddy (2026); SMART · Agentic discovery transfer (2026); GENOAR · Omnicell navigation (2026); Real PMIDs, Wrong Papers (2026)
 
 ## Papers / 论文
 
@@ -2400,6 +2400,246 @@ The public release is SimpleSciBuddy/RSI, not the complete hosted frontend; simu
 
 [Primary source / 原文](https://arxiv.org/abs/2609.17523)
 
+### ADVISE · Context-specific AD progression (2026)
+
+bioRxiv · Nov 4 · Preprint · experiment
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.64898/2026.11.02.763789v1)
+
+**Question / 问题**
+
+能否从人脑单核数据中分离与 AD 分期相关的信号，并用细胞实验检查候选？
+
+Can AD-stage-associated signals be separated from human brain single-nucleus data and candidate genes checked experimentally?
+
+**Data / 数据**
+
+人类前额叶皮层单核 RNA 数据；另用 hiPSC 来源兴奋性神经元做 CRISPR 激活。
+
+Human prefrontal-cortex single-nucleus RNA data, plus CRISPR activation in hiPSC-derived excitatory neurons.
+
+**Method / 方法**
+
+用分离潜变量的生成模型按 Braak 分期学习表达特征，再以解释方法排序基因并实验检查 ROBO2。
+
+A generative model separates latent factors associated with Braak stage, ranks genes through attribution, then experimentally checks ROBO2.
+
+**Finding / 结论**
+
+作者报告 ROBO2 激活降低了培养神经元中的磷酸化 tau / 总 tau 比值，为该候选提供细胞模型支持。
+
+The authors report that ROBO2 activation reduced the phospho-tau/total-tau ratio in cultured neurons, providing cell-model support for this candidate.
+
+**Limitation / 局限**
+
+分期信号来自横断面死后组织；单一候选的细胞实验不证明人体疾病进程或治疗获益，论文尚未同行评审。
+
+Stage signals come from cross-sectional postmortem tissue; a cell experiment on one candidate does not establish human disease progression or therapeutic benefit, and the paper is not peer reviewed.
+
+[Primary source / 原文](https://www.biorxiv.org/content/10.64898/2026.11.02.763789v1)
+
+### CellBridge (2026)
+
+bioRxiv · Oct 24 · Preprint · benchmark
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.64898/2026.10.20.760347v1)
+
+**Question / 问题**
+
+能否用空间转录组监督 H&E 图像中的细粒度细胞分类，并在证据不足时退回较粗类别？
+
+Can spatial transcriptomics supervise fine-grained cell classification from H&E while falling back to broader labels when evidence is insufficient?
+
+**Data / 数据**
+
+1,600 万个配对 H&E 细胞图像与 Xenium 表达谱；HEST 训练/留出切片及 NuCLS、PanNuke、Lizard、PhenoCell 外部基准。
+
+16 million paired H&E cell images and Xenium profiles; HEST training/held-out sections plus NuCLS, PanNuke, Lizard and PhenoCell external benchmarks.
+
+**Method / 方法**
+
+跨模态对比学习适配图像编码器，并以细胞本体和分支校准保形预测选择标签粒度。
+
+Cross-modal contrastive learning adapts an image encoder; cell-ontology-aware branch-calibrated conformal prediction selects label granularity.
+
+**Finding / 结论**
+
+作者报告在域内和域外基准上宏 F1 最多提升 16 个百分点，并公开代码与适配器。
+
+The authors report gains of up to 16 macro-F1 percentage points on in- and out-of-domain benchmarks and release code and an adapter.
+
+**Limitation / 局限**
+
+这是回顾性基准而非前瞻临床验证；需要患者/中心级划分，UNI2-h 访问和各数据集许可也须分别核查。
+
+This is retrospective benchmarking, not prospective clinical validation; patient/site splits, UNI2-h access and dataset-specific licenses must be checked separately.
+
+[Primary source / 原文](https://www.biorxiv.org/content/10.64898/2026.10.20.760347v1)
+
+### MUTUAL · RNA–ATAC transfer (2026)
+
+bioRxiv · Nov 2 · Preprint · benchmark
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.64898/2026.10.28.762297v1)
+
+**Question / 问题**
+
+能否把公开配对多组学学到的 RNA–ATAC 对应关系转移到只有一种模态的新数据？
+
+Can RNA–ATAC correspondences learned from public paired multiomics transfer to new single-modality data?
+
+**Data / 数据**
+
+来自 400 个公开 multiome 数据集的 300 万个配对细胞；另有 10 个未用于训练的数据集。
+
+Three million paired cells from 400 public multiome datasets, plus ten datasets excluded from training.
+
+**Method / 方法**
+
+冻结 scFoundation 与 EpiAgent，将两种嵌入和线性摘要对齐到共同空间。
+
+Freeze scFoundation and EpiAgent, aligning their embeddings and linear summaries in a shared space.
+
+**Finding / 结论**
+
+作者报告跨模态配对、ATAC 细胞注释和 motif 活性转移优于所比较方法。
+
+The authors report improved cross-modal matching, ATAC-cell annotation and motif-activity transfer over compared methods.
+
+**Limitation / 局限**
+
+作者报告的基准不等于调控机制被实验证实；公开来源数据、基础模型和权重具有各自许可，核查时未找到配套代码发布。
+
+Author-reported benchmarks do not experimentally establish regulatory mechanisms; source datasets, foundation models and weights have separate licenses, and no accompanying code release was located at review.
+
+[Primary source / 原文](https://www.biorxiv.org/content/10.64898/2026.10.28.762297v1)
+
+### SpaceDX · Spatial differential expression (2026)
+
+bioRxiv · Oct 29 · Preprint · benchmark
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.64898/2026.10.28.758685v1)
+
+**Question / 问题**
+
+能否在不先画组织区域的情况下，同时定位并检验条件相关表达？
+
+Can condition-associated expression be localized and tested without predefining tissue regions?
+
+**Data / 数据**
+
+两套多受试者小鼠脑空间数据，覆盖慢性应激与 AD 模型。
+
+Two multi-subject mouse-brain spatial datasets spanning chronic stress and an AD model.
+
+**Method / 方法**
+
+基因特异的注意力空间加权与差异表达检验联合学习。
+
+Jointly learn gene-specific attention-based spatial weights and differential-expression tests.
+
+**Finding / 结论**
+
+作者报告慢性应激中比区域伪 bulk 多检出 45.8% 的差异基因；在 AD 模型中与 DESeq2 联合后多检出 19.1%。
+
+The authors report 45.8% more detected DE genes than regional pseudobulk in chronic stress and 19.1% more discoveries when combined with DESeq2 in the AD model.
+
+**Limitation / 局限**
+
+多检出不等于更高真阳性率或机制证据；注意力图和条件关联仍需独立数据及干预验证。
+
+More discoveries do not automatically mean a higher true-positive rate or mechanistic evidence; attention maps and condition associations require independent data and perturbational validation.
+
+[Primary source / 原文](https://www.biorxiv.org/content/10.64898/2026.10.28.758685v1)
+
+### SMART · Agentic discovery transfer (2026)
+
+bioRxiv · Nov 3 · Preprint · workflow
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.64898/2026.10.28.762506v2)
+
+**Question / 问题**
+
+科研代理能否把一项癌症研究中的可检验结论迁移到另一癌种数据？
+
+Can a scientific agent transfer testable findings from one cancer study to another cancer dataset?
+
+**Data / 数据**
+
+121 项研究、6 种癌症及相应单细胞数据。
+
+121 studies across six cancers with corresponding single-cell data.
+
+**Method / 方法**
+
+多代理从论文提取结论、生成并执行分析，再报告跨癌种是否复现及后续假设。
+
+Multiple agents extract claims, generate and execute analyses, then report cross-cancer transfer and follow-up hypotheses.
+
+**Finding / 结论**
+
+作者报告若干跨癌种关联，包括一个肺癌预后特征在三种其他癌症中的生存关联。
+
+The authors report several cross-cancer associations, including survival associations for a lung-cancer prognostic signature in three other cancers.
+
+**Limitation / 局限**
+
+复现关联不是机制或临床效用；自动提取、分析选择与多重检验可能引入偏差，且公开摘要未提供前瞻实验验证。
+
+Transferred associations are not mechanisms or clinical utility; automated extraction, analysis selection and multiple testing may introduce bias, and the public abstract reports no prospective experimental validation.
+
+[Primary source / 原文](https://www.biorxiv.org/content/10.64898/2026.10.28.762506v2)
+
+### RAPTORGraph (2026)
+
+bioRxiv · Nov 4 · Preprint · benchmark
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.64898/2026.11.03.763980v1)
+
+**Question / 问题**
+
+能否从 Perturb-seq 中学习更稀疏的潜在干预，并预测未见过的组合效应？
+
+Can Perturb-seq yield cleaner latent interventions and predictions for unseen combinations?
+
+**Data / 数据**
+
+Norman 2019 Perturb-seq 等公开干预数据；官方示例使用约 762 MB 的 H5AD。
+
+Public perturbation data including Norman 2019 Perturb-seq; the official example uses an approximately 762 MB H5AD.
+
+**Method / 方法**
+
+图通路编码器、变分自编码器、干预预条件与最优传输对齐。
+
+A graph-pathway encoder, variational autoencoder, intervention preconditioning and optimal-transport alignment.
+
+**Finding / 结论**
+
+作者报告在未见干预和非加性交互等下游任务上优于所比较方法。
+
+The authors report improvements over compared methods on downstream tasks including unseen perturbations and non-additive interactions.
+
+**Limitation / 局限**
+
+模型被称为因果表征不等于潜在通路已获生物因果验证；代码许可仍是占位文本，且未报告可复现的最低硬件。
+
+Calling this a causal representation model does not biologically validate inferred pathways; the code license remains a placeholder and reproducible minimum hardware is not reported.
+
+[Primary source / 原文](https://www.biorxiv.org/content/10.64898/2026.11.03.763980v1)
+
 ## Datasets / 数据集
 
 ### ADNI (2004)
@@ -3897,6 +4137,70 @@ Public code, prompts, caches and results; cached recomputation needs no API key,
 Released results support recomputing author tables, not independent replication or generalization to all biomedical questions.
 
 [Official project](https://github.com/saqlain2204/real-pmids-wrong-papers)
+
+### CellBridge (2026) · model
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.64898/2026.10.20.760347v1)
+
+**Input / 输入**
+
+H&E 细胞图像；训练时还需 Xenium/HEST 及教师嵌入，推理需 UNI2-h 主干访问。
+
+H&E cell images; training also uses Xenium/HEST and teacher embeddings, while inference requires UNI2-h backbone access.
+
+**Output / 产出**
+
+细胞类型、支持的标签粒度、嵌入与保形预测集合。
+
+Cell types, supported label granularity, embeddings and conformal prediction sets.
+
+**Availability / 开放范围**
+
+代码声明 Apache-2.0，适配器公开；UNI2-h、教师模型和各数据集需单独授权。
+
+Code declares Apache-2.0 and the adapter is public; UNI2-h, teacher models and datasets require separate access or licenses.
+
+**Boundary / 边界**
+
+Python 3.11；GPU 运行路径已提供，但未报告可复现的最低显存。先用单个外部数据集核查划分、覆盖率和患者泄漏。
+
+Python 3.11; a GPU workflow is documented but no reproducible minimum VRAM is reported. Start with one external dataset and audit splits, coverage and patient leakage.
+
+[Official project](https://github.com/Lotfollahi-lab/cellbridge)
+
+### RAPTORGraph (2026) · model
+
+Year type / 年份类型: 预印本 / Preprint
+
+[Year source / 年份来源](https://www.biorxiv.org/content/10.64898/2026.11.03.763980v1)
+
+**Input / 输入**
+
+Perturb-seq H5AD、干预标签和配置。
+
+Perturb-seq H5AD, intervention labels and configuration.
+
+**Output / 产出**
+
+潜在干预表示、未见干预预测与交互分析。
+
+Latent intervention representations, unseen-perturbation predictions and interaction analyses.
+
+**Availability / 开放范围**
+
+代码可读取，但 LICENSE 仍为双盲评审占位文本，不能视为已授予开源再利用许可。
+
+Code is readable, but LICENSE remains a double-blind-review placeholder and must not be treated as an open-source reuse grant.
+
+**Boundary / 边界**
+
+Python 3.11；示例支持 CPU/GPU，未报告最低硬件。作者示例的 Norman H5AD 约 762 MB，完整训练占用需实测。
+
+Python 3.11; examples support CPU/GPU, but minimum hardware is not reported. The example Norman H5AD is about 762 MB; profile full training empirically.
+
+[Official project](https://github.com/sXperfect/RAPTORGraph)
 
 ### Scanpy + AnnData (2018) · analysis
 

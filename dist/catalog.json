@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-11-07",
   "research": [
     {
       "id": "mathys19",
@@ -2014,6 +2014,234 @@
         "zh": "预印本",
         "en": "Preprint"
       }
+    },
+    {
+      "id": "advise26",
+      "name": "ADVISE · Context-specific AD progression",
+      "year": 2026,
+      "domain": "neuro",
+      "evidence": "experiment",
+      "venue": "bioRxiv · Nov 4 · Preprint",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.11.02.763789v1",
+      "plain": {
+        "zh": "能否从人脑单核数据中分离与 AD 分期相关的信号，并用细胞实验检查候选？",
+        "en": "Can AD-stage-associated signals be separated from human brain single-nucleus data and candidate genes checked experimentally?"
+      },
+      "data": {
+        "zh": "人类前额叶皮层单核 RNA 数据；另用 hiPSC 来源兴奋性神经元做 CRISPR 激活。",
+        "en": "Human prefrontal-cortex single-nucleus RNA data, plus CRISPR activation in hiPSC-derived excitatory neurons."
+      },
+      "method": {
+        "zh": "用分离潜变量的生成模型按 Braak 分期学习表达特征，再以解释方法排序基因并实验检查 ROBO2。",
+        "en": "A generative model separates latent factors associated with Braak stage, ranks genes through attribution, then experimentally checks ROBO2."
+      },
+      "result": {
+        "zh": "作者报告 ROBO2 激活降低了培养神经元中的磷酸化 tau / 总 tau 比值，为该候选提供细胞模型支持。",
+        "en": "The authors report that ROBO2 activation reduced the phospho-tau/total-tau ratio in cultured neurons, providing cell-model support for this candidate."
+      },
+      "limit": {
+        "zh": "分期信号来自横断面死后组织；单一候选的细胞实验不证明人体疾病进程或治疗获益，论文尚未同行评审。",
+        "en": "Stage signals come from cross-sectional postmortem tissue; a cell experiment on one candidate does not establish human disease progression or therapeutic benefit, and the paper is not peer reviewed."
+      },
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.64898/2026.11.02.763789v1",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
+      }
+    },
+    {
+      "id": "cellbridge26",
+      "name": "CellBridge",
+      "year": 2026,
+      "domain": "pathology",
+      "evidence": "benchmark",
+      "venue": "bioRxiv · Oct 24 · Preprint",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.10.20.760347v1",
+      "plain": {
+        "zh": "能否用空间转录组监督 H&E 图像中的细粒度细胞分类，并在证据不足时退回较粗类别？",
+        "en": "Can spatial transcriptomics supervise fine-grained cell classification from H&E while falling back to broader labels when evidence is insufficient?"
+      },
+      "data": {
+        "zh": "1,600 万个配对 H&E 细胞图像与 Xenium 表达谱；HEST 训练/留出切片及 NuCLS、PanNuke、Lizard、PhenoCell 外部基准。",
+        "en": "16 million paired H&E cell images and Xenium profiles; HEST training/held-out sections plus NuCLS, PanNuke, Lizard and PhenoCell external benchmarks."
+      },
+      "method": {
+        "zh": "跨模态对比学习适配图像编码器，并以细胞本体和分支校准保形预测选择标签粒度。",
+        "en": "Cross-modal contrastive learning adapts an image encoder; cell-ontology-aware branch-calibrated conformal prediction selects label granularity."
+      },
+      "result": {
+        "zh": "作者报告在域内和域外基准上宏 F1 最多提升 16 个百分点，并公开代码与适配器。",
+        "en": "The authors report gains of up to 16 macro-F1 percentage points on in- and out-of-domain benchmarks and release code and an adapter."
+      },
+      "limit": {
+        "zh": "这是回顾性基准而非前瞻临床验证；需要患者/中心级划分，UNI2-h 访问和各数据集许可也须分别核查。",
+        "en": "This is retrospective benchmarking, not prospective clinical validation; patient/site splits, UNI2-h access and dataset-specific licenses must be checked separately."
+      },
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.64898/2026.10.20.760347v1",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
+      }
+    },
+    {
+      "id": "mutual26",
+      "name": "MUTUAL · RNA–ATAC transfer",
+      "year": 2026,
+      "domain": "cell",
+      "evidence": "benchmark",
+      "venue": "bioRxiv · Nov 2 · Preprint",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.10.28.762297v1",
+      "plain": {
+        "zh": "能否把公开配对多组学学到的 RNA–ATAC 对应关系转移到只有一种模态的新数据？",
+        "en": "Can RNA–ATAC correspondences learned from public paired multiomics transfer to new single-modality data?"
+      },
+      "data": {
+        "zh": "来自 400 个公开 multiome 数据集的 300 万个配对细胞；另有 10 个未用于训练的数据集。",
+        "en": "Three million paired cells from 400 public multiome datasets, plus ten datasets excluded from training."
+      },
+      "method": {
+        "zh": "冻结 scFoundation 与 EpiAgent，将两种嵌入和线性摘要对齐到共同空间。",
+        "en": "Freeze scFoundation and EpiAgent, aligning their embeddings and linear summaries in a shared space."
+      },
+      "result": {
+        "zh": "作者报告跨模态配对、ATAC 细胞注释和 motif 活性转移优于所比较方法。",
+        "en": "The authors report improved cross-modal matching, ATAC-cell annotation and motif-activity transfer over compared methods."
+      },
+      "limit": {
+        "zh": "作者报告的基准不等于调控机制被实验证实；公开来源数据、基础模型和权重具有各自许可，核查时未找到配套代码发布。",
+        "en": "Author-reported benchmarks do not experimentally establish regulatory mechanisms; source datasets, foundation models and weights have separate licenses, and no accompanying code release was located at review."
+      },
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.64898/2026.10.28.762297v1",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
+      }
+    },
+    {
+      "id": "spacedx26",
+      "name": "SpaceDX · Spatial differential expression",
+      "year": 2026,
+      "domain": "spatial",
+      "evidence": "benchmark",
+      "venue": "bioRxiv · Oct 29 · Preprint",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.10.28.758685v1",
+      "plain": {
+        "zh": "能否在不先画组织区域的情况下，同时定位并检验条件相关表达？",
+        "en": "Can condition-associated expression be localized and tested without predefining tissue regions?"
+      },
+      "data": {
+        "zh": "两套多受试者小鼠脑空间数据，覆盖慢性应激与 AD 模型。",
+        "en": "Two multi-subject mouse-brain spatial datasets spanning chronic stress and an AD model."
+      },
+      "method": {
+        "zh": "基因特异的注意力空间加权与差异表达检验联合学习。",
+        "en": "Jointly learn gene-specific attention-based spatial weights and differential-expression tests."
+      },
+      "result": {
+        "zh": "作者报告慢性应激中比区域伪 bulk 多检出 45.8% 的差异基因；在 AD 模型中与 DESeq2 联合后多检出 19.1%。",
+        "en": "The authors report 45.8% more detected DE genes than regional pseudobulk in chronic stress and 19.1% more discoveries when combined with DESeq2 in the AD model."
+      },
+      "limit": {
+        "zh": "多检出不等于更高真阳性率或机制证据；注意力图和条件关联仍需独立数据及干预验证。",
+        "en": "More discoveries do not automatically mean a higher true-positive rate or mechanistic evidence; attention maps and condition associations require independent data and perturbational validation."
+      },
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.64898/2026.10.28.758685v1",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
+      }
+    },
+    {
+      "id": "smart26",
+      "name": "SMART · Agentic discovery transfer",
+      "year": 2026,
+      "domain": "agent",
+      "evidence": "workflow",
+      "venue": "bioRxiv · Nov 3 · Preprint",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.10.28.762506v2",
+      "plain": {
+        "zh": "科研代理能否把一项癌症研究中的可检验结论迁移到另一癌种数据？",
+        "en": "Can a scientific agent transfer testable findings from one cancer study to another cancer dataset?"
+      },
+      "data": {
+        "zh": "121 项研究、6 种癌症及相应单细胞数据。",
+        "en": "121 studies across six cancers with corresponding single-cell data."
+      },
+      "method": {
+        "zh": "多代理从论文提取结论、生成并执行分析，再报告跨癌种是否复现及后续假设。",
+        "en": "Multiple agents extract claims, generate and execute analyses, then report cross-cancer transfer and follow-up hypotheses."
+      },
+      "result": {
+        "zh": "作者报告若干跨癌种关联，包括一个肺癌预后特征在三种其他癌症中的生存关联。",
+        "en": "The authors report several cross-cancer associations, including survival associations for a lung-cancer prognostic signature in three other cancers."
+      },
+      "limit": {
+        "zh": "复现关联不是机制或临床效用；自动提取、分析选择与多重检验可能引入偏差，且公开摘要未提供前瞻实验验证。",
+        "en": "Transferred associations are not mechanisms or clinical utility; automated extraction, analysis selection and multiple testing may introduce bias, and the public abstract reports no prospective experimental validation."
+      },
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.64898/2026.10.28.762506v2",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
+      }
+    },
+    {
+      "id": "raptorgraph26",
+      "name": "RAPTORGraph",
+      "year": 2026,
+      "domain": "causal",
+      "evidence": "benchmark",
+      "venue": "bioRxiv · Nov 4 · Preprint",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.11.03.763980v1",
+      "plain": {
+        "zh": "能否从 Perturb-seq 中学习更稀疏的潜在干预，并预测未见过的组合效应？",
+        "en": "Can Perturb-seq yield cleaner latent interventions and predictions for unseen combinations?"
+      },
+      "data": {
+        "zh": "Norman 2019 Perturb-seq 等公开干预数据；官方示例使用约 762 MB 的 H5AD。",
+        "en": "Public perturbation data including Norman 2019 Perturb-seq; the official example uses an approximately 762 MB H5AD."
+      },
+      "method": {
+        "zh": "图通路编码器、变分自编码器、干预预条件与最优传输对齐。",
+        "en": "A graph-pathway encoder, variational autoencoder, intervention preconditioning and optimal-transport alignment."
+      },
+      "result": {
+        "zh": "作者报告在未见干预和非加性交互等下游任务上优于所比较方法。",
+        "en": "The authors report improvements over compared methods on downstream tasks including unseen perturbations and non-additive interactions."
+      },
+      "limit": {
+        "zh": "模型被称为因果表征不等于潜在通路已获生物因果验证；代码许可仍是占位文本，且未报告可复现的最低硬件。",
+        "en": "Calling this a causal representation model does not biologically validate inferred pathways; the code license remains a placeholder and reproducible minimum hardware is not reported."
+      },
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.64898/2026.11.03.763980v1",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
+      }
     }
   ],
   "datasets": [
@@ -3294,6 +3522,68 @@
       "repositoryYearSource": "https://api.github.com/repos/saqlain2204/real-pmids-wrong-papers"
     },
     {
+      "name": "CellBridge",
+      "kind": "model",
+      "link": "https://github.com/Lotfollahi-lab/cellbridge",
+      "input": {
+        "zh": "H&E 细胞图像；训练时还需 Xenium/HEST 及教师嵌入，推理需 UNI2-h 主干访问。",
+        "en": "H&E cell images; training also uses Xenium/HEST and teacher embeddings, while inference requires UNI2-h backbone access."
+      },
+      "output": {
+        "zh": "细胞类型、支持的标签粒度、嵌入与保形预测集合。",
+        "en": "Cell types, supported label granularity, embeddings and conformal prediction sets."
+      },
+      "open": {
+        "zh": "代码声明 Apache-2.0，适配器公开；UNI2-h、教师模型和各数据集需单独授权。",
+        "en": "Code declares Apache-2.0 and the adapter is public; UNI2-h, teacher models and datasets require separate access or licenses."
+      },
+      "limit": {
+        "zh": "Python 3.11；GPU 运行路径已提供，但未报告可复现的最低显存。先用单个外部数据集核查划分、覆盖率和患者泄漏。",
+        "en": "Python 3.11; a GPU workflow is documented but no reproducible minimum VRAM is reported. Start with one external dataset and audit splits, coverage and patient leakage."
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.64898/2026.10.20.760347v1",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
+      }
+    },
+    {
+      "name": "RAPTORGraph",
+      "kind": "model",
+      "link": "https://github.com/sXperfect/RAPTORGraph",
+      "input": {
+        "zh": "Perturb-seq H5AD、干预标签和配置。",
+        "en": "Perturb-seq H5AD, intervention labels and configuration."
+      },
+      "output": {
+        "zh": "潜在干预表示、未见干预预测与交互分析。",
+        "en": "Latent intervention representations, unseen-perturbation predictions and interaction analyses."
+      },
+      "open": {
+        "zh": "代码可读取，但 LICENSE 仍为双盲评审占位文本，不能视为已授予开源再利用许可。",
+        "en": "Code is readable, but LICENSE remains a double-blind-review placeholder and must not be treated as an open-source reuse grant."
+      },
+      "limit": {
+        "zh": "Python 3.11；示例支持 CPU/GPU，未报告最低硬件。作者示例的 Norman H5AD 约 762 MB，完整训练占用需实测。",
+        "en": "Python 3.11; examples support CPU/GPU, but minimum hardware is not reported. The example Norman H5AD is about 762 MB; profile full training empirically."
+      },
+      "year": 2026,
+      "yearKind": {
+        "zh": "预印本",
+        "en": "Preprint"
+      },
+      "yearSource": "https://www.biorxiv.org/content/10.64898/2026.11.03.763980v1",
+      "yearNote": {
+        "zh": "预印本",
+        "en": "Preprint"
+      }
+    },
+    {
       "name": "Scanpy + AnnData",
       "kind": "analysis",
       "link": "https://scanpy.readthedocs.io/",
@@ -3962,6 +4252,8 @@
           "pascode",
           "hicformer",
           "adspatial26",
+          "advise26",
+          "spacedx26",
           "spmscp26",
           "ra-atlas",
           "dkd"
@@ -4034,6 +4326,7 @@
         "ids": [
           "celloracle",
           "scprint",
+          "raptorgraph26",
           "causalbench",
           "active",
           "tcell"
@@ -4070,6 +4363,7 @@
           "resolvi",
           "istbiases26",
           "adspatial26",
+          "spacedx26",
           "dkd",
           "spark"
         ]
@@ -4172,6 +4466,7 @@
         "ids": [
           "uni",
           "conch",
+          "cellbridge26",
           "spark"
         ]
       },
@@ -4207,6 +4502,7 @@
           "biomedagent",
           "paper2agent",
           "sciencebuddy",
+          "smart26",
           "genoar26",
           "pmidagent26"
         ]
@@ -4517,6 +4813,8 @@
           "mathys24",
           "beyond",
           "adspatial26",
+          "spacedx26",
+          "advise26",
           "alphagenome",
           "picalm",
           "phgdh"
@@ -4547,6 +4845,7 @@
         ],
         "ids": [
           "gears",
+          "raptorgraph26",
           "linear25",
           "calibration26",
           "causalbench"
@@ -4580,6 +4879,7 @@
           "biomni",
           "paper2agent",
           "sciencebuddy",
+          "smart26",
           "pmidagent26",
           "genoar26"
         ]
